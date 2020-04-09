@@ -6,10 +6,19 @@
     <description>Recent content in Posts on KeepIt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Markdown checkout</title>
+      <link>https://example.com/2020/markdown/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/2020/markdown/</guid>
+      <description>Code highlighting function readArgs(args) { for (const var in args) { console.log(`args[${var}] = ${args[var]}`) } } class Test(object): def __init__(): pass def foo(): if not bar: return True ls -al </description>
+    </item>
     
     <item>
       <title>Creating a New Theme</title>
