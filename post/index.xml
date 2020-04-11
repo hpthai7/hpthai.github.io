@@ -22,9 +22,9 @@
     </item>
     
     <item>
-      <title>Install a multi-window Linux-like terminal on Windows</title>
+      <title>ConEmu Git Bash</title>
       <link>https://hpthai7.github.io/2020/conemu-git-bash-on-windows/</link>
-      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hpthai7.github.io/2020/conemu-git-bash-on-windows/</guid>
       <description>The frustration of having a Linux-like terminal with bash environment for development purpose has been lingering for a while. There are currently many terminal softwares such as HyperTerminal, ConEmu, Cmder, Cygwin and console application such as git bash, WSL, msys, powershell.
