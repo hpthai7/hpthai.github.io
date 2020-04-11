@@ -6,10 +6,30 @@
     <description>Recent content in Posts on Thai Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hpthai7.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Markdown checkout</title>
+      <link>https://hpthai7.github.io/2020/kubernetes-tips/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hpthai7.github.io/2020/kubernetes-tips/</guid>
+      <description>What is Kubernetes Kubernetes is a sophisticated tool for the orchestration of containers in mass deployment. It provides an effective ways to define the software components, resources and deploy them in a controllable and effective manner. The strongest points of Kubernetes is:
+  The abstraction of infrastructure layer to deployment layer. This allows developers and administrators concentrate on the development stage and less worry about the management of the underlying hardware settings.</description>
+    </item>
+    
+    <item>
+      <title>ConEmu Git Bash</title>
+      <link>https://hpthai7.github.io/2020/conemu-git-bash-on-windows/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hpthai7.github.io/2020/conemu-git-bash-on-windows/</guid>
+      <description>The frustration of having a Linux-like terminal with bash environment for development purpose has been lingering for a while. There are currently many terminal softwares such as HyperTerminal, ConEmu, Cmder, Cygwin and console application such as git bash, WSL, msys, powershell.
+As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switching to Windows. For Windows, WSL provide a real Linux bash environment, however, its integration with oh-my-zsh library has some font and background problems.</description>
+    </item>
     
     <item>
       <title>Markdown checkout</title>
@@ -17,6 +37,15 @@
       <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hpthai7.github.io/2020/markdown/</guid>
+      <description>Code highlighting function readArgs(args) { for (const var in args) { console.log(`args[${var}] = ${args[var]}`) } } class Test(object): def __init__(): pass def foo(): if not bar: return True ls -al </description>
+    </item>
+    
+    <item>
+      <title>Markdown test</title>
+      <link>https://hpthai7.github.io/2019/markdown-test/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hpthai7.github.io/2019/markdown-test/</guid>
       <description>Code highlighting function readArgs(args) { for (const var in args) { console.log(`args[${var}] = ${args[var]}`) } } class Test(object): def __init__(): pass def foo(): if not bar: return True ls -al </description>
     </item>
     
@@ -39,6 +68,16 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>Shortcode Tests</title>
+      <link>https://hpthai7.github.io/2016/shortcode-tests/</link>
+      <pubDate>Thu, 29 Dec 2016 13:39:24 -0500</pubDate>
+      
+      <guid>https://hpthai7.github.io/2016/shortcode-tests/</guid>
+      <description>Hello, Thanks for downloading and testing our my shortcode pack. Below will load all of the shortcodes and display the various options they have. If you like and enjoy these short codes, please post a link on your blog to GeekThis.net, I would really appreciate it.
+Installing New Shortcodes To install shortcodes, copy each HTML file relating to a shortcode you want and place it into the shortcode directory inside of Hugo.</description>
     </item>
     
     <item>
