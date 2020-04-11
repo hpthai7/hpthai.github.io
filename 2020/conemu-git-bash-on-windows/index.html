@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  
+  
+  
+  
+  
+  <link rel="prev" href="https://hpthai7.github.io/2020/markdown/" />
+  <link rel="next" href="https://hpthai7.github.io/2020/kubernetes-tips/" />
+  <link rel="canonical" href="https://hpthai7.github.io/2020/conemu-git-bash-on-windows/" />
+  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Install a multi-window Linux-like terminal on Windows | Thai Ho
+       
+  </title>
+  <meta name="title" content="Install a multi-window Linux-like terminal on Windows | Thai Ho">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Install a multi-window Linux-like terminal on Windows"/>
+<meta name="twitter:description" content="The frustration of having a Linux-like terminal with bash environment for development purpose has been lingering for a while. There are currently many terminal softwares such as HyperTerminal, ConEmu, Cmder, Cygwin and console application such as git bash, WSL, msys, powershell.
+As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switching to Windows. For Windows, WSL provide a real Linux bash environment, however, its integration with oh-my-zsh library has some font and background problems."/>
+
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Install a multi-window Linux-like terminal on Windows",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https:\/\/hpthai7.github.io\/2020\/conemu-git-bash-on-windows\/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https:\/\/hpthai7.github.io\/cover.png",
+    "width":  800 ,
+    "height":  600 
+  },
+  "genre": "posts",
+  "keywords": "Windows, terminal, git bash, conemu",
+  "wordcount":  309 ,
+  "url": "https:\/\/hpthai7.github.io\/2020\/conemu-git-bash-on-windows\/",
+  "datePublished": "2020-04-11T00:00:00\x2b00:00",
+  "dateModified": "2020-04-11T00:00:00\x2b00:00",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Fastbyte01",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https:\/\/hpthai7.github.io\/logo.png",
+      "width":  127 ,
+      "height":  40 
+    }
+  },
+  "author": {
+    "@type": "Person",
+    "name": "map[name:Thai Ho]"
+  },
+  "description": ""
+}
+</script>
+</head>
+
+  
+
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="https://hpthai7.github.io/">Thai Ho</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/about" title="">About</a>
+                
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;<a href="https://hpthai7.github.io/">Thai Ho</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/about" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp">
+    <header class="post-header">
+        <h1 class="post-title">Install a multi-window Linux-like terminal on Windows</h1>
+        <div class="post-meta">
+            Written by <a href="https://hpthai7.github.io/" rel="author">map[name:Thai Ho]</a> with ♥ 
+                <span class="post-time">
+                    on <time datetime=2020-04-11 >11 April 2020</time>
+                </span>
+                in
+                
+                <i class="iconfont icon-timer"></i>
+                2 min
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>The frustration of having a Linux-like terminal with bash environment for development purpose has been lingering for a while.
+There are currently many terminal softwares such as HyperTerminal, ConEmu, Cmder, Cygwin and console application such as git
+bash, WSL, msys, powershell.</p>
+<p>As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switching to Windows. For Windows, WSL provide a real Linux bash
+environment, however, its integration with oh-my-zsh library has some font and background problems. For the moment, I prefer using git bash
+as my favorite console, which satisfies my need for git commands and some vim editing. I particularly like the Ctrl+Insert keyboard shortcut
+for pasting texts.However, it lacks multi-windows functionality and multi-tabs. This moment, ConEmu comes into play.</p>
+<p>This guides provide an instruction on how to integrate git bash with ConEmu to have a multi-view window and a multi-tab environment.</p>
+<h2 id="procedure">Procedure</h2>
+<p>Install ConEmu using <a href="https://chocolatey.org/packages/ConEmu">chocolatey</a>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Run the command in Windows command prompt</span>
+choco install conemu
+</code></pre></div><p>Install git bash:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">choco install git
+</code></pre></div><p>Add configuration to <code>.bashrc</code>: TBD</p>
+<p>Add <code>z</code> for fast navigation: TBD</p>
+<p>ConEmu settings:</p>
+<ul>
+<li>TL-DR: import the <figure><img src="/images/ring.svg" data-sizes="auto" data-src="/static/conemu-git-bash-on-windows/conemu-settings.xml" alt="XML setting file" class="lazyload"><figcaption class="image-caption">XML setting file</figcaption></figure></li>
+<li>General -&gt; Font: choose <code>Consolas</code> size 12 if integrating git bash
+<ul>
+<li>If WSL bash environment is also integrated, install powerline font and choose <code>Droid Sans Mono Slashed for Pow</code></li>
+</ul>
+</li>
+</ul>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/static/conemu-git-bash-on-windows/conemu-general-font-setting.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
+<ul>
+<li>
+<p>General -&gt; Confirm: uncheck all checkboxes in <code>Close confirmations</code> section</p>
+</li>
+<li>
+<p>Startup -&gt; Tasks:</p>
+<ul>
+<li>Add a new task <code>Git Bash</code></li>
+<li>Assign a hotkey <code>Ctrl+Shift+T</code></li>
+<li>Check <code>Default task for new console</code>, check <code>Default shell</code></li>
+<li>Add launch command: <code>&quot;C:\Program Files\Git\bin\sh.exe&quot; --login -i</code></li>
+</ul>
+</li>
+</ul>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/static/conemu-git-bash-on-windows/conemu-task-setting.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
+<ul>
+<li>Startup: ensure <code>Specified named task</code> to be <code>{Git Bash}</code></li>
+</ul>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/static/conemu-git-bash-on-windows/conemu-startup-setting.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
+<ul>
+<li>
+<p>Keys &amp; Macro: keys are expected to comply with Linux&rsquo;s terminator</p>
+<ul>
+<li><code>Ctrl+Shift+W</code>: Close active console</li>
+<li><code>Ctrl+Shift+E</code>: <em>split</em> the view vertically (already default)</li>
+<li><code>Ctrl+Shift+O</code>: <em>split</em> the view horizontally (already default)</li>
+</ul>
+</li>
+<li>
+<p>General:</p>
+<ul>
+<li>Choose <code>{Git Bash}</code> in <code>Choose the startup task or even a shell with arguments</code></li>
+<li>Choose <code>&lt;Babun&gt;</code> color scheme</li>
+</ul>
+</li>
+</ul>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/static/conemu-git-bash-on-windows/conemu-general-setting.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Thai Ho </span>
+                </p>
+            
+           
+            <p class="copyright-item">
+                    <span>Words:</span>
+                   <span>309</span>
+            </p>
+            
+            <p class="copyright-item">
+                
+                <span>Share:</span>
+                <span>
+
+      
+        <a href="//twitter.com/share?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fconemu-git-bash-on-windows%2f&amp;text=Install%20a%20multi-window%20Linux-like%20terminal%20on%20Windows&amp;via=hpthai7" target="_blank" title="Share on Twitter">
+          <i class="iconfont icon-twitter"></i>
+        </a>
+        
+      
+      
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhpthai7.github.io%2f2020%2fconemu-git-bash-on-windows%2f" target="_blank" title="Share on Facebook">
+          <i class="iconfont icon-facebook"></i>
+        </a>
+        
+      
+      
+      
+      
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fconemu-git-bash-on-windows%2f&amp;title=Install%20a%20multi-window%20Linux-like%20terminal%20on%20Windows" target="_blank" title="Share on LinkedIn">
+          <i class="iconfont icon-linkedin"></i>
+        </a>
+        
+      
+      
+        
+      
+        
+      
+
+          
+
+          
+
+          
+
+          
+</span>
+                
+            </p>
+
+             
+            <p class="copyright-item">
+                Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-icon-tag"></i>Tag: 
+            
+            <span class="tag"><a href="https://hpthai7.github.io/tags/windows/">
+                    #Windows</a></span>
+            
+            <span class="tag"><a href="https://hpthai7.github.io/tags/terminal/">
+                    #terminal</a></span>
+            
+            <span class="tag"><a href="https://hpthai7.github.io/tags/git-bash/">
+                    #git bash</a></span>
+            
+            <span class="tag"><a href="https://hpthai7.github.io/tags/conemu/">
+                    #conemu</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">Back</a></span> · 
+                <span><a href="https://hpthai7.github.io/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://hpthai7.github.io/2020/markdown/" class="prev" rel="prev" title="Markdown checkout"><i class="iconfont icon-dajiantou"></i>&nbsp;Markdown checkout</a>
+         
+        
+        <a href="https://hpthai7.github.io/2020/kubernetes-tips/" class="next" rel="next" title="Markdown checkout">Markdown checkout&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+          <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      (function() {
+          
+          
+          if (window.location.hostname == "localhost")
+              return;
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          var disqus_shortname = 'yourdiscussshortname';
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+ 
+
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2012 - 2020</span>
+        
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://hpthai7.github.io/">Thai Ho</a> | </span>
+         
+
+		  <span>Crafted with ❤️ by <a href="https://github.com/Fastbyte01/KeepIt" target="_blank" rel="external nofollow noopener noreffer">KeepIt</a> & <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a></span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <link crossorigin="anonymous" integrity="sha384-yziQACfvCVwLqVFLqkWBYRO3XeA4EqzfXKGwaWnenYn5XzqfJFlFdKEmvutIQdKb" href="https://lib.baomitu.com/lightgallery/1.6.12/css/lightgallery.min.css" rel="stylesheet">
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-163400420-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+     </div>
+  </body>
+</html>
