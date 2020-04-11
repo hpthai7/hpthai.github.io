@@ -10,9 +10,9 @@
   
   
   
-  <link rel="prev" href="https://hpthai7.github.io/2014/creating-a-new-theme/" />
-  <link rel="next" href="https://hpthai7.github.io/2020/kubernetes-tips/" />
-  <link rel="canonical" href="https://hpthai7.github.io/2020/markdown/" />
+  <link rel="prev" href="https://hpthai7.github.io/2020/markdown/" />
+  
+  <link rel="canonical" href="https://hpthai7.github.io/2020/kubernetes-tips/" />
   <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -36,7 +36,8 @@
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Markdown checkout"/>
-<meta name="twitter:description" content="Code highlighting function readArgs(args) { for (const var in args) { console.log(`args[${var}] = ${args[var]}`) } } class Test(object): def __init__(): pass def foo(): if not bar: return True ls -al "/>
+<meta name="twitter:description" content="What is Kubernetes Kubernetes is a sophisticated tool for the orchestration of containers in mass deployment. It provides an effective ways to define the software components, resources and deploy them in a controllable and effective manner. The strongest points of Kubernetes is:
+  The abstraction of infrastructure layer to deployment layer. This allows developers and administrators concentrate on the development stage and less worry about the management of the underlying hardware settings."/>
 
   <script type="application/ld+json">
 {
@@ -45,7 +46,7 @@
   "headline": "Markdown checkout",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https:\/\/hpthai7.github.io\/2020\/markdown\/"
+    "@id": "https:\/\/hpthai7.github.io\/2020\/kubernetes-tips\/"
   },
   "image": {
     "@type": "ImageObject",
@@ -54,11 +55,11 @@
     "height":  600 
   },
   "genre": "posts",
-  
-  "wordcount":  30 ,
-  "url": "https:\/\/hpthai7.github.io\/2020\/markdown\/",
-  "datePublished": "2020-03-10T00:00:00\x2b00:00",
-  "dateModified": "2020-03-10T00:00:00\x2b00:00",
+  "keywords": "kubernetes, microk8s, development, deployment",
+  "wordcount":  186 ,
+  "url": "https:\/\/hpthai7.github.io\/2020\/kubernetes-tips\/",
+  "datePublished": "2020-04-11T00:00:00\x2b00:00",
+  "dateModified": "2020-04-11T00:00:00\x2b00:00",
   
   "publisher": {
     "@type": "Organization",
@@ -72,7 +73,7 @@
   },
   "author": {
     "@type": "Person",
-    "name": "map[name:Thai Ho]"
+    "name": "map[name:Tips for development and deployments with Kubernetes]"
   },
   "description": ""
 }
@@ -132,9 +133,9 @@
     <header class="post-header">
         <h1 class="post-title">Markdown checkout</h1>
         <div class="post-meta">
-            Written by <a href="https://hpthai7.github.io/" rel="author">map[name:Thai Ho]</a> with ♥ 
+            Written by <a href="https://hpthai7.github.io/" rel="author">map[name:Tips for development and deployments with Kubernetes]</a> with ♥ 
                 <span class="post-time">
-                    on <time datetime=2020-03-10 >10 March 2020</time>
+                    on <time datetime=2020-04-11 >11 April 2020</time>
                 </span>
                 in
                 
@@ -158,21 +159,34 @@
           
           
 
-          <h2 id="code-highlighting">Code highlighting</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">readArgs</span>(<span style="color:#a6e22e">args</span>) {
-    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">var</span> <span style="color:#66d9ef">in</span> <span style="color:#a6e22e">args</span>) {
-        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`args[</span><span style="color:#e6db74">${</span><span style="color:#66d9ef">var</span><span style="color:#e6db74">}</span><span style="color:#e6db74">] = </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">args</span>[<span style="color:#66d9ef">var</span>]<span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>)
-    }
-}
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Test</span>(object):
-    <span style="color:#66d9ef">def</span> __init__():
-        <span style="color:#66d9ef">pass</span>
-    
-    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">foo</span>():
-        <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> bar:
-            <span style="color:#66d9ef">return</span> True
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ls -al
-</code></pre></div>
+          <h2 id="what-is-kubernetes">What is Kubernetes</h2>
+<p>Kubernetes is a sophisticated tool for the orchestration of containers in mass deployment. It provides an effective ways
+to define the software components, resources and deploy them in a controllable and effective manner. The strongest points
+of Kubernetes is:</p>
+<ul>
+<li>
+<p>The abstraction of infrastructure layer to deployment layer. This allows developers and administrators concentrate on
+the development stage and less worry about the management of the underlying hardware settings.</p>
+</li>
+<li>
+<p>The ability to maintain the accessibility to services.</p>
+</li>
+</ul>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<p>Normally, a k8s basic production-ready deployment features three main resources: ingresses, deployments and services. Further deployment schemes can include other resources such as daemonsets, jobs, storages&hellip; Due to the complexity of Kubernetes, it&rsquo;s not always simple to find out the problems or errors during the deployment process.</p>
+<p>Some debugging procedures are to the rescue:</p>
+<ul>
+<li>
+<p><a href="https://kubernetes.io/docs/tasks/debug-application-cluster/troubleshooting/">Kubernetes troubleshooting official guideline</a>.
+This is the comprehensive instructions provided by Kubernetes itself.</p>
+</li>
+<li>
+<p><a href="https://learnk8s.io/troubleshooting-deployments">Visual diagram</a>. This efficient diagram was created by the team at learnk8s.io.
+It allows us to debug the deployment in a visual manner. We can easily locate where the problem is in the diagram and find out debugging
+possibilities.</p>
+</li>
+</ul>
+
     </div>
 
     <div class="post-copyright">
@@ -185,7 +199,7 @@
            
             <p class="copyright-item">
                     <span>Words:</span>
-                   <span>30</span>
+                   <span>186</span>
             </p>
             
             <p class="copyright-item">
@@ -194,13 +208,13 @@
                 <span>
 
       
-        <a href="//twitter.com/share?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fmarkdown%2f&amp;text=Markdown%20checkout&amp;via=hpthai7" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fkubernetes-tips%2f&amp;text=Markdown%20checkout&amp;via=hpthai7" target="_blank" title="Share on Twitter">
           <i class="iconfont icon-twitter"></i>
         </a>
         
       
       
-        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhpthai7.github.io%2f2020%2fmarkdown%2f" target="_blank" title="Share on Facebook">
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhpthai7.github.io%2f2020%2fkubernetes-tips%2f" target="_blank" title="Share on Facebook">
           <i class="iconfont icon-facebook"></i>
         </a>
         
@@ -208,7 +222,7 @@
       
       
       
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fmarkdown%2f&amp;title=Markdown%20checkout" target="_blank" title="Share on LinkedIn">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fkubernetes-tips%2f&amp;title=Markdown%20checkout" target="_blank" title="Share on LinkedIn">
           <i class="iconfont icon-linkedin"></i>
         </a>
         
@@ -240,6 +254,23 @@
   
     <div class="post-tags">
         
+            <section>
+            <i class="iconfont icon-icon-tag"></i>Tag: 
+            
+            <span class="tag"><a href="https://hpthai7.github.io/tags/kubernetes/">
+                    #kubernetes</a></span>
+            
+            <span class="tag"><a href="https://hpthai7.github.io/tags/microk8s/">
+                    #microk8s</a></span>
+            
+            <span class="tag"><a href="https://hpthai7.github.io/tags/development/">
+                    #development</a></span>
+            
+            <span class="tag"><a href="https://hpthai7.github.io/tags/deployment/">
+                    #deployment</a></span>
+            
+            </section>
+        
         <section>
                 <a href="javascript:window.history.back();">Back</a></span> · 
                 <span><a href="https://hpthai7.github.io/">Home</a></span>
@@ -248,10 +279,8 @@
 
     <div class="post-nav">
         
-        <a href="https://hpthai7.github.io/2014/creating-a-new-theme/" class="prev" rel="prev" title="Creating a New Theme"><i class="iconfont icon-dajiantou"></i>&nbsp;Creating a New Theme</a>
+        <a href="https://hpthai7.github.io/2020/markdown/" class="prev" rel="prev" title="Markdown checkout"><i class="iconfont icon-dajiantou"></i>&nbsp;Markdown checkout</a>
          
-        
-        <a href="https://hpthai7.github.io/2020/kubernetes-tips/" class="next" rel="next" title="Markdown checkout">Markdown checkout&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
         
     </div>
 

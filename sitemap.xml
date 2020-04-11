@@ -2,6 +2,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
+      <loc>https://hpthai7.github.io/2020/kubernetes-tips/</loc>
+      
+      <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
       <loc>https://hpthai7.github.io/2020/markdown/</loc>
       
       <lastmod>2020-03-10T00:00:00+00:00</lastmod>
@@ -44,6 +58,90 @@
     </url>
   
     <url>
+      <loc>https://hpthai7.github.io/tags/deployment/</loc>
+      
+      <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://hpthai7.github.io/tags/development/</loc>
+      
+      <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://hpthai7.github.io/tags/kubernetes/</loc>
+      
+      <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://hpthai7.github.io/tags/microk8s/</loc>
+      
+      <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://hpthai7.github.io/post/</loc>
+      
+      <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://hpthai7.github.io/tags/</loc>
+      
+      <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
       <loc>https://hpthai7.github.io/about/</loc>
       
       <lastmod>2020-04-10T00:00:00+00:00</lastmod>
@@ -72,9 +170,23 @@
     </url>
   
     <url>
-      <loc>https://hpthai7.github.io/posts/</loc>
+      <loc>https://hpthai7.github.io/post/shortcode-tests/</loc>
       
-      <lastmod>2020-03-10T00:00:00+00:00</lastmod>
+      <lastmod>2016-12-29T13:39:24-05:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://hpthai7.github.io/2016/shortcode-tests/</loc>
+      
+      <lastmod>2016-12-29T13:39:24-05:00</lastmod>
       
       
       <changefreq>monthly</changefreq>
@@ -115,20 +227,6 @@
   
     <url>
       <loc>https://hpthai7.github.io/categories/development/</loc>
-      
-      <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>monthly</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://hpthai7.github.io/tags/development/</loc>
       
       <lastmod>2014-04-02T00:00:00+00:00</lastmod>
       
@@ -227,20 +325,6 @@
   
     <url>
       <loc>https://hpthai7.github.io/2014/goisforlovers.fr/</loc>
-      
-      <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>monthly</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://hpthai7.github.io/tags/</loc>
       
       <lastmod>2014-04-02T00:00:00+00:00</lastmod>
       
