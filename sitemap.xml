@@ -18,7 +18,7 @@
     <url>
       <loc>https://hpthai7.github.io/2020/conemu-git-bash-on-windows/</loc>
       
-      <lastmod>2020-03-10T00:00:00+00:00</lastmod>
+      <lastmod>2020-04-11T00:00:00+00:00</lastmod>
       
       
       <changefreq>monthly</changefreq>
@@ -33,20 +33,6 @@
       <loc>https://hpthai7.github.io/2020/markdown/</loc>
       
       <lastmod>2020-03-10T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>monthly</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://hpthai7.github.io/2019/markdown-test/</loc>
-      
-      <lastmod>2019-03-10T00:00:00+00:00</lastmod>
       
       
       <changefreq>monthly</changefreq>
@@ -86,6 +72,20 @@
     </url>
   
     <url>
+      <loc>https://hpthai7.github.io/tags/conemu/</loc>
+      
+      <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
       <loc>https://hpthai7.github.io/tags/deployment/</loc>
       
       <lastmod>2020-04-11T00:00:00+00:00</lastmod>
@@ -101,6 +101,20 @@
   
     <url>
       <loc>https://hpthai7.github.io/tags/development/</loc>
+      
+      <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://hpthai7.github.io/tags/git-bash/</loc>
       
       <lastmod>2020-04-11T00:00:00+00:00</lastmod>
       
@@ -157,6 +171,34 @@
   
     <url>
       <loc>https://hpthai7.github.io/tags/</loc>
+      
+      <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://hpthai7.github.io/tags/terminal/</loc>
+      
+      <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://hpthai7.github.io/tags/windows/</loc>
       
       <lastmod>2020-04-11T00:00:00+00:00</lastmod>
       

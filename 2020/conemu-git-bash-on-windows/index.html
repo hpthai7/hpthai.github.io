@@ -24,10 +24,10 @@
   <title>
        
        
-           ConEmu Git Bash | Thai Ho
+           Install a multi-window Linux-like terminal on Windows | Thai Ho
        
   </title>
-  <meta name="title" content="ConEmu Git Bash | Thai Ho">
+  <meta name="title" content="Install a multi-window Linux-like terminal on Windows | Thai Ho">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -35,7 +35,7 @@
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="ConEmu Git Bash"/>
+<meta name="twitter:title" content="Install a multi-window Linux-like terminal on Windows"/>
 <meta name="twitter:description" content="The frustration of having a Linux-like terminal with bash environment for development purpose has been lingering for a while. There are currently many terminal softwares such as HyperTerminal, ConEmu, Cmder, Cygwin and console application such as git bash, WSL, msys, powershell.
 As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switching to Windows. For Windows, WSL provide a real Linux bash environment, however, its integration with oh-my-zsh library has some font and background problems."/>
 
@@ -43,7 +43,7 @@ As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switc
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "ConEmu Git Bash",
+  "headline": "Install a multi-window Linux-like terminal on Windows",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https:\/\/hpthai7.github.io\/2020\/conemu-git-bash-on-windows\/"
@@ -55,11 +55,11 @@ As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switc
     "height":  600 
   },
   "genre": "posts",
-  
-  "wordcount":  309 ,
+  "keywords": "Windows, terminal, git bash, conemu",
+  "wordcount":  368 ,
   "url": "https:\/\/hpthai7.github.io\/2020\/conemu-git-bash-on-windows\/",
-  "datePublished": "2020-03-10T00:00:00\x2b00:00",
-  "dateModified": "2020-03-10T00:00:00\x2b00:00",
+  "datePublished": "2020-04-11T00:00:00\x2b00:00",
+  "dateModified": "2020-04-11T00:00:00\x2b00:00",
   
   "publisher": {
     "@type": "Organization",
@@ -131,11 +131,11 @@ As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switc
       		
 <article class="post-warp">
     <header class="post-header">
-        <h1 class="post-title">ConEmu Git Bash</h1>
+        <h1 class="post-title">Install a multi-window Linux-like terminal on Windows</h1>
         <div class="post-meta">
             Written by <a href="https://hpthai7.github.io/" rel="author">map[name:Thai Ho]</a> with ♥ 
                 <span class="post-time">
-                    on <time datetime=2020-03-10 >10 March 2020</time>
+                    on <time datetime=2020-04-11 >11 April 2020</time>
                 </span>
                 in
                 
@@ -161,9 +161,7 @@ As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switc
           
           
 
-          <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>The frustration of having a Linux-like terminal with bash environment for development purpose has been lingering for a while.
+          <p>The frustration of having a Linux-like terminal with bash environment for development purpose has been lingering for a while.
 There are currently many terminal softwares such as HyperTerminal, ConEmu, Cmder, Cygwin and console application such as git
 bash, WSL, msys, powershell.</p>
 <p>As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switching to Windows. For Windows, WSL provide a real Linux bash
@@ -172,23 +170,30 @@ as my favorite console, which satisfies my need for git commands and some vim ed
 for pasting texts.However, it lacks multi-windows functionality and multi-tabs. This moment, ConEmu comes into play.</p>
 <p>This guides provide an instruction on how to integrate git bash with ConEmu to have a multi-view window and a multi-tab environment.</p>
 <h2 id="procedure">Procedure</h2>
-<p>Install ConEmu using <a href="https://chocolatey.org/packages/ConEmu">chocolatey</a>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Run the command in Windows command prompt</span>
-choco install conemu
-</code></pre></div><p>Install git bash:</p>
+<h3 id="install-git-bash">Install git bash</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">choco install git
 </code></pre></div><p>Add configuration to <code>.bashrc</code>: TBD</p>
-<p>Add <code>z</code> for fast navigation: TBD</p>
-<p>ConEmu settings:</p>
+<h3 id="add-z-for-fast-navigation">Add <code>z</code> for fast navigation</h3>
+<p>There are many directory navigation tools around, <a href="https://github.com/clvv/fasd"><code>fasd</code></a>, <a href="https://github.com/rupa/z"><code>z</code></a>, <a href=""><code>autojump</code></a>, <code>wd</code> (oh-my-zsh plugin), <a href="!https://github.com/manojlds/posz">posz</a>.
+Many of them are optimized for Linux environment. In git bash, the appropriate tool for an easy integration is <code>z</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd ~
+git clone https://github.com/rupa/z
+echo <span style="color:#e6db74">&#39;# jump around directories&#39;</span> &gt; ~/.bashrc
+echo <span style="color:#e6db74">&#39;. /c/Users/$(whoami)/z.sh&#39;</span> &gt; ~/.bashrc
+echo <span style="color:#e6db74">&#39;set $_Z_MAX_SCORE 100 # default 9000&#39;</span> &gt; ~/.bashrc
+</code></pre></div><h3 id="install-conemu-using-chocolateyhttpschocolateyorgpackagesconemu">Install ConEmu using <a href="https://chocolatey.org/packages/ConEmu">chocolatey</a></h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Run the command in Windows command prompt</span>
+choco install conemu
+</code></pre></div><p>ConEmu settings:</p>
 <ul>
-<li>TL-DR: import the <figure><img src="/images/ring.svg" data-sizes="auto" data-src="/static/conemu-git-bash-on-windows/conemu-settings.xml" alt="XML setting file" class="lazyload"><figcaption class="image-caption">XML setting file</figcaption></figure></li>
+<li>TL-DR: import the <figure><img src="/images/ring.svg" data-sizes="auto" data-src="/conemu-git-bash-on-windows/conemu-settings.xml" alt="XML setting file" class="lazyload"><figcaption class="image-caption">XML setting file</figcaption></figure></li>
 <li>General -&gt; Font: choose <code>Consolas</code> size 12 if integrating git bash
 <ul>
 <li>If WSL bash environment is also integrated, install powerline font and choose <code>Droid Sans Mono Slashed for Pow</code></li>
 </ul>
 </li>
 </ul>
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/static/conemu-git-bash-on-windows/conemu-general-font-setting.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/conemu-git-bash-on-windows/conemu-general-font-setting.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
 <ul>
 <li>
 <p>General -&gt; Confirm: uncheck all checkboxes in <code>Close confirmations</code> section</p>
@@ -203,11 +208,11 @@ choco install conemu
 </ul>
 </li>
 </ul>
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/static/conemu-git-bash-on-windows/conemu-task-setting.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/conemu-git-bash-on-windows/conemu-task-setting.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
 <ul>
 <li>Startup: ensure <code>Specified named task</code> to be <code>{Git Bash}</code></li>
 </ul>
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/static/conemu-git-bash-on-windows/conemu-startup-setting.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/conemu-git-bash-on-windows/conemu-startup-setting.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
 <ul>
 <li>
 <p>Keys &amp; Macro: keys are expected to comply with Linux&rsquo;s terminator</p>
@@ -225,7 +230,7 @@ choco install conemu
 </ul>
 </li>
 </ul>
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/static/conemu-git-bash-on-windows/conemu-general-setting.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/conemu-git-bash-on-windows/conemu-general-setting.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
 
     </div>
 
@@ -239,7 +244,7 @@ choco install conemu
            
             <p class="copyright-item">
                     <span>Words:</span>
-                   <span>309</span>
+                   <span>368</span>
             </p>
             
             <p class="copyright-item">
@@ -248,7 +253,7 @@ choco install conemu
                 <span>
 
       
-        <a href="//twitter.com/share?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fconemu-git-bash-on-windows%2f&amp;text=ConEmu%20Git%20Bash&amp;via=hpthai7" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fconemu-git-bash-on-windows%2f&amp;text=Install%20a%20multi-window%20Linux-like%20terminal%20on%20Windows&amp;via=hpthai7" target="_blank" title="Share on Twitter">
           <i class="iconfont icon-twitter"></i>
         </a>
         
@@ -262,7 +267,7 @@ choco install conemu
       
       
       
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fconemu-git-bash-on-windows%2f&amp;title=ConEmu%20Git%20Bash" target="_blank" title="Share on LinkedIn">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fconemu-git-bash-on-windows%2f&amp;title=Install%20a%20multi-window%20Linux-like%20terminal%20on%20Windows" target="_blank" title="Share on LinkedIn">
           <i class="iconfont icon-linkedin"></i>
         </a>
         
@@ -293,6 +298,23 @@ choco install conemu
 
   
     <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-icon-tag"></i>Tag: 
+            
+            <span class="tag"><a href="https://hpthai7.github.io/tags/windows/">
+                    #Windows</a></span>
+            
+            <span class="tag"><a href="https://hpthai7.github.io/tags/terminal/">
+                    #terminal</a></span>
+            
+            <span class="tag"><a href="https://hpthai7.github.io/tags/git-bash/">
+                    #git bash</a></span>
+            
+            <span class="tag"><a href="https://hpthai7.github.io/tags/conemu/">
+                    #conemu</a></span>
+            
+            </section>
         
         <section>
                 <a href="javascript:window.history.back();">Back</a></span> · 
