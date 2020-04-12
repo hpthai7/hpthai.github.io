@@ -56,7 +56,7 @@ As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switc
   },
   "genre": "posts",
   "keywords": "Windows, terminal, git bash, conemu",
-  "wordcount":  368 ,
+  "wordcount":  372 ,
   "url": "https:\/\/hpthai7.github.io\/2020\/conemu-git-bash-on-windows\/",
   "datePublished": "2020-04-11T00:00:00\x2b00:00",
   "dateModified": "2020-04-11T00:00:00\x2b00:00",
@@ -165,9 +165,10 @@ As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switc
 There are currently many terminal softwares such as HyperTerminal, ConEmu, Cmder, Cygwin and console application such as git
 bash, WSL, msys, powershell.</p>
 <p>As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switching to Windows. For Windows, WSL provide a real Linux bash
-environment, however, its integration with oh-my-zsh library has some font and background problems. For the moment, I prefer using git bash
-as my favorite console, which satisfies my need for git commands and some vim editing. I particularly like the Ctrl+Insert keyboard shortcut
-for pasting texts.However, it lacks multi-windows functionality and multi-tabs. This moment, ConEmu comes into play.</p>
+environment, however, its integration with oh-my-zsh library has some font and background problems.</p>
+<p>For the moment, I prefer using git bash as my favorite console, which satisfies my need for git commands and some vim editing.
+I particularly like the Ctrl+Insert keyboard shortcut for pasting texts. However, it lacks multi-windows functionality and
+multi-tabs. This moment, ConEmu comes into play.</p>
 <p>This guides provide an instruction on how to integrate git bash with ConEmu to have a multi-view window and a multi-tab environment.</p>
 <h2 id="procedure">Procedure</h2>
 <h3 id="install-git-bash">Install git bash</h3>
@@ -181,12 +182,13 @@ git clone https://github.com/rupa/z
 echo <span style="color:#e6db74">&#39;# jump around directories&#39;</span> &gt; ~/.bashrc
 echo <span style="color:#e6db74">&#39;. /c/Users/$(whoami)/z.sh&#39;</span> &gt; ~/.bashrc
 echo <span style="color:#e6db74">&#39;set $_Z_MAX_SCORE 100 # default 9000&#39;</span> &gt; ~/.bashrc
-</code></pre></div><h3 id="install-conemu-using-chocolateyhttpschocolateyorgpackagesconemu">Install ConEmu using <a href="https://chocolatey.org/packages/ConEmu">chocolatey</a></h3>
+</code></pre></div><p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/conemu-git-bash-on-windows/conemu-git-bashrc.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
+<h3 id="install-conemu-using-chocolateyhttpschocolateyorgpackagesconemu">Install ConEmu using <a href="https://chocolatey.org/packages/ConEmu">chocolatey</a></h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Run the command in Windows command prompt</span>
 choco install conemu
 </code></pre></div><p>ConEmu settings:</p>
 <ul>
-<li>TL-DR: import the <figure><img src="/images/ring.svg" data-sizes="auto" data-src="/conemu-git-bash-on-windows/conemu-settings.xml" alt="XML setting file" class="lazyload"><figcaption class="image-caption">XML setting file</figcaption></figure></li>
+<li>TL-DR: import the <a href="/conemu-git-bash-on-windows/conemu-settings.xml">XML setting file</a></li>
 <li>General -&gt; Font: choose <code>Consolas</code> size 12 if integrating git bash
 <ul>
 <li>If WSL bash environment is also integrated, install powerline font and choose <code>Droid Sans Mono Slashed for Pow</code></li>
@@ -195,11 +197,11 @@ choco install conemu
 </ul>
 <p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/conemu-git-bash-on-windows/conemu-general-font-setting.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
 <ul>
-<li>
-<p>General -&gt; Confirm: uncheck all checkboxes in <code>Close confirmations</code> section</p>
-</li>
-<li>
-<p>Startup -&gt; Tasks:</p>
+<li>General -&gt; Confirm: uncheck all checkboxes in <code>Close confirmations</code> section</li>
+</ul>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/conemu-git-bash-on-windows/conemu-general-confirm.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
+<ul>
+<li>Startup -&gt; Tasks:
 <ul>
 <li>Add a new task <code>Git Bash</code></li>
 <li>Assign a hotkey <code>Ctrl+Shift+T</code></li>
@@ -214,16 +216,17 @@ choco install conemu
 </ul>
 <p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/conemu-git-bash-on-windows/conemu-startup-setting.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
 <ul>
-<li>
-<p>Keys &amp; Macro: keys are expected to comply with Linux&rsquo;s terminator</p>
+<li>Keys &amp; Macro: keys are expected to comply with Linux&rsquo;s terminator
 <ul>
 <li><code>Ctrl+Shift+W</code>: Close active console</li>
 <li><code>Ctrl+Shift+E</code>: <em>split</em> the view vertically (already default)</li>
 <li><code>Ctrl+Shift+O</code>: <em>split</em> the view horizontally (already default)</li>
 </ul>
 </li>
-<li>
-<p>General:</p>
+</ul>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/conemu-git-bash-on-windows/conemu-key-and-macro.png" alt="General settings" class="lazyload"><figcaption class="image-caption">General settings</figcaption></figure></p>
+<ul>
+<li>General:
 <ul>
 <li>Choose <code>{Git Bash}</code> in <code>Choose the startup task or even a shell with arguments</code></li>
 <li>Choose <code>&lt;Babun&gt;</code> color scheme</li>
@@ -244,7 +247,7 @@ choco install conemu
            
             <p class="copyright-item">
                     <span>Words:</span>
-                   <span>368</span>
+                   <span>372</span>
             </p>
             
             <p class="copyright-item">
