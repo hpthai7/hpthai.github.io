@@ -47,7 +47,7 @@ As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switc
       <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hpthai7.github.io/2020/markdown/</guid>
-      <description>H1 H2 H3 H4 H5 H6 Code highlighting function readArgs(args) { for (const var in args) { console.log(`args[${var}] = ${args[var]}`) } } class Test(object): def __init__(): pass def foo(): if not bar: return True ls -al </description>
+      <description> 1. H1  1.1. H2  1.1.1. H3  1.1.1.1. H4  1.1.1.1.1. H5  1.1.1.1.1.1. H6         1.2. Code highlighting    1. H1 1.1. H2 1.1.1. H3 1.1.1.1. H4 1.1.1.1.1. H5 1.1.1.1.1.1. H6 1.2. Code highlighting function readArgs(args) { for (const var in args) { console.log(`args[${var}] = ${args[var]}`) } } class Test(object): def __init__(): pass def foo(): if not bar: return True ls -al </description>
     </item>
     
     <item>
