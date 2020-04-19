@@ -2,20 +2,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://hpthai7.github.io/2020/python-related-stuffs/</loc>
-      
-      <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>monthly</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
       <loc>https://hpthai7.github.io/2020/kubernetes-tips/</loc>
       
       <lastmod>2020-04-13T00:00:00+00:00</lastmod>
@@ -86,62 +72,6 @@
     </url>
   
     <url>
-      <loc>https://hpthai7.github.io/posts/</loc>
-      
-      <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>monthly</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://hpthai7.github.io/tags/programming/</loc>
-      
-      <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>monthly</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://hpthai7.github.io/tags/python/</loc>
-      
-      <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>monthly</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://hpthai7.github.io/tags/</loc>
-      
-      <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>monthly</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
       <loc>https://hpthai7.github.io/tags/deployment/</loc>
       
       <lastmod>2020-04-13T00:00:00+00:00</lastmod>
@@ -185,6 +115,34 @@
   
     <url>
       <loc>https://hpthai7.github.io/tags/microk8s/</loc>
+      
+      <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://hpthai7.github.io/posts/</loc>
+      
+      <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://hpthai7.github.io/tags/</loc>
       
       <lastmod>2020-04-13T00:00:00+00:00</lastmod>
       
