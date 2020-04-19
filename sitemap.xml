@@ -72,7 +72,7 @@
     </url>
   
     <url>
-      <loc>https://hpthai7.github.io/tags/deployment/</loc>
+      <loc>https://hpthai7.github.io/categories/</loc>
       
       <lastmod>2020-04-13T00:00:00+00:00</lastmod>
       
@@ -86,7 +86,21 @@
     </url>
   
     <url>
-      <loc>https://hpthai7.github.io/tags/development/</loc>
+      <loc>https://hpthai7.github.io/categories/deployment/</loc>
+      
+      <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://hpthai7.github.io/tags/deployment/</loc>
       
       <lastmod>2020-04-13T00:00:00+00:00</lastmod>
       
@@ -170,6 +184,20 @@
     </url>
   
     <url>
+      <loc>https://hpthai7.github.io/categories/git/</loc>
+      
+      <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
       <loc>https://hpthai7.github.io/tags/git-bash/</loc>
       
       <lastmod>2020-04-11T00:00:00+00:00</lastmod>
@@ -199,6 +227,20 @@
   
     <url>
       <loc>https://hpthai7.github.io/tags/windows/</loc>
+      
+      <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://hpthai7.github.io/categories/windows/</loc>
       
       <lastmod>2020-04-11T00:00:00+00:00</lastmod>
       
@@ -268,20 +310,6 @@
     </url>
   
     <url>
-      <loc>https://hpthai7.github.io/categories/</loc>
-      
-      <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-      
-      
-      <changefreq>monthly</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
       <loc>https://hpthai7.github.io/categories/development/</loc>
       
       <lastmod>2014-04-02T00:00:00+00:00</lastmod>
@@ -296,7 +324,21 @@
     </url>
   
     <url>
-      <loc>https://hpthai7.github.io/2014/hugoisforlovers/</loc>
+      <loc>https://hpthai7.github.io/tags/development/</loc>
+      
+      <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://hpthai7.github.io/2014/hugo-is-for-lovers/</loc>
       
       <lastmod>2014-04-02T00:00:00+00:00</lastmod>
       
