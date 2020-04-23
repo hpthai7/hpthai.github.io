@@ -10,9 +10,9 @@
   
   
   
-  <link rel="prev" href="https://hpthai7.github.io/2020/conemu-git-bash-on-windows/" />
-  <link rel="next" href="https://hpthai7.github.io/2020/git-flows-overview/" />
-  <link rel="canonical" href="https://hpthai7.github.io/2020/kubernetes-tips/" />
+  <link rel="prev" href="https://hpthai7.github.io/2020/kubernetes-tips/" />
+  
+  <link rel="canonical" href="https://hpthai7.github.io/2020/git-flows-overview/" />
   <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -24,10 +24,10 @@
   <title>
        
        
-           Tips for development and deployment with Kubernetes | Thai Ho
+           Overview of different Git Flows for management of software projects | Thai Ho
        
   </title>
-  <meta name="title" content="Tips for development and deployment with Kubernetes | Thai Ho">
+  <meta name="title" content="Overview of different Git Flows for management of software projects | Thai Ho">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -35,18 +35,18 @@
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tips for development and deployment with Kubernetes"/>
-<meta name="twitter:description" content="What is Kubernetes Kubernetes is a sophisticated tool for the orchestration of containers in mass deployment. It provides an effective ways to define the software components, resources and deploy them in a controllable and effective manner. The strongest points of Kubernetes is:
-  The abstraction of infrastructure layer to deployment layer. This allows developers and administrators concentrate on the development stage and less worry about the management of the underlying hardware settings."/>
+<meta name="twitter:title" content="Overview of different Git Flows for management of software projects"/>
+<meta name="twitter:description" content="This article covers the different git flows tailored for software projects in professional environment. Each flow is adapted to the context of project scale, the number of developers and the expected delivery cycles. Here we feature Git Flow, Github Flow, Gitlab Flow
+Git Flow Github Flow Gitlab Flow Refence  Gitlab tutorial  "/>
 
   <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "Tips for development and deployment with Kubernetes",
+  "headline": "Overview of different Git Flows for management of software projects",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https:\/\/hpthai7.github.io\/2020\/kubernetes-tips\/"
+    "@id": "https:\/\/hpthai7.github.io\/2020\/git-flows-overview\/"
   },
   "image": {
     "@type": "ImageObject",
@@ -55,11 +55,11 @@
     "height":  600 
   },
   "genre": "posts",
-  "keywords": "kubernetes, microk8s, deployment",
-  "wordcount":  223 ,
-  "url": "https:\/\/hpthai7.github.io\/2020\/kubernetes-tips\/",
-  "datePublished": "2020-04-13T00:00:00\x2b00:00",
-  "dateModified": "2020-04-13T00:00:00\x2b00:00",
+  "keywords": "git",
+  "wordcount":  51 ,
+  "url": "https:\/\/hpthai7.github.io\/2020\/git-flows-overview\/",
+  "datePublished": "2020-04-23T00:00:00\x2b00:00",
+  "dateModified": "2020-04-23T00:00:00\x2b00:00",
   
   "publisher": {
     "@type": "Organization",
@@ -131,20 +131,21 @@
       		
 <article class="post-warp">
     <header class="post-header">
-        <h1 class="post-title">Tips for development and deployment with Kubernetes</h1>
+        <h1 class="post-title">Overview of different Git Flows for management of software projects</h1>
         <div class="post-meta">
             Written by <a href="https://hpthai7.github.io/" rel="author">Thai Ho</a> with ♥ 
                 <span class="post-time">
-                    on <time datetime=2020-04-13 >13 April 2020</time>
+                    on <time datetime=2020-04-23 >23 April 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
+                        <a href="https://hpthai7.github.io/categories/development/"> Development </a>
                         <a href="https://hpthai7.github.io/categories/deployment/"> Deployment </a>
                         
                 </span>
                 <i class="iconfont icon-timer"></i>
-                2 min
+                1 min
         </div>
     </header>
     <div class="post-content">
@@ -163,43 +164,14 @@
           
           
 
-          <h2 id="what-is-kubernetes">What is Kubernetes</h2>
-<p>Kubernetes is a sophisticated tool for the orchestration of containers in mass deployment. It provides an effective ways
-to define the software components, resources and deploy them in a controllable and effective manner. The strongest points
-of Kubernetes is:</p>
+          <p>This article covers the different git flows tailored for software projects in professional environment. Each flow is adapted to the context of project scale, the number of developers and the expected delivery cycles. Here we feature Git Flow, Github Flow, Gitlab Flow</p>
+<h2 id="git-flow">Git Flow</h2>
+<h2 id="github-flow">Github Flow</h2>
+<h2 id="gitlab-flow">Gitlab Flow</h2>
+<h2 id="refence">Refence</h2>
 <ul>
-<li>
-<p>The abstraction of infrastructure layer to deployment layer. This allows developers and administrators concentrate on
-the development stage and less worry about the management of the underlying hardware settings.</p>
-</li>
-<li>
-<p>The ability to maintain the accessibility to services</p>
-</li>
+<li><a href="!https://docs.gitlab.com/ee/topics/gitlab_flow.html">Gitlab tutorial</a></li>
 </ul>
-<h1 id="tips">Tips</h1>
-<h2 id="install-microk8s-to-have-an-all-on-one-environment-for-development">Install microk8s to have an all-on-one environment for development</h2>
-<h2 id="use-kubens-and-kubectxhttpsgithubcomahmetbkubectx-to-switch-between-clusters-and-namespaces-in-kubectl">Use <a href="https://github.com/ahmetb/kubectx">kubens and kubectx</a> to switch between clusters and namespaces in kubectl</h2>
-<h2 id="troubleshooting">Troubleshooting</h2>
-<p>Normally, a k8s basic production-ready deployment features three main resources: ingresses, deployments and services. Further deployment schemes can include other resources such as daemonsets, jobs, storages&hellip; Due to the complexity of Kubernetes, it&rsquo;s not always simple to find out the problems or errors during the deployment process.</p>
-<p>Some debugging procedures are to the rescue:</p>
-<ul>
-<li>
-<p><a href="https://kubernetes.io/docs/tasks/debug-application-cluster/troubleshooting/">Kubernetes troubleshooting official guideline</a>.
-This is the comprehensive instructions provided by Kubernetes itself.</p>
-</li>
-<li>
-<p><a href="https://learnk8s.io/troubleshooting-deployments">Visual diagram</a>. This efficient diagram was created by the team at learnk8s.io.
-It allows us to debug the deployment in a visual manner. We can easily locate where the problem is in the diagram and find out debugging
-possibilities.</p>
-</li>
-</ul>
-<div class="shortcode shortcode--pdf-viewer">
-	<object data='https://learnk8s.io/a/troubleshooting-kubernetes.pdf' type="application/pdf" width="750px" height="750px">
-		<embed src='https://learnk8s.io/a/troubleshooting-kubernetes.pdf' type="application/pdf" allowfullscreen>
-			<p>This browser does not support PDFs. Please download the PDF to view it: <a href='https://learnk8s.io/a/troubleshooting-kubernetes.pdf'>Download PDF</a>.</p>
-		</embed>
-	</object>
-</div>
 
     </div>
 
@@ -213,7 +185,7 @@ possibilities.</p>
            
             <p class="copyright-item">
                     <span>Words:</span>
-                   <span>223</span>
+                   <span>51</span>
             </p>
             
             <p class="copyright-item">
@@ -222,13 +194,13 @@ possibilities.</p>
                 <span>
 
       
-        <a href="//twitter.com/share?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fkubernetes-tips%2f&amp;text=Tips%20for%20development%20and%20deployment%20with%20Kubernetes&amp;via=hpthai7" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fgit-flows-overview%2f&amp;text=Overview%20of%20different%20Git%20Flows%20for%20management%20of%20software%20projects&amp;via=hpthai7" target="_blank" title="Share on Twitter">
           <i class="iconfont icon-twitter"></i>
         </a>
         
       
       
-        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhpthai7.github.io%2f2020%2fkubernetes-tips%2f" target="_blank" title="Share on Facebook">
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhpthai7.github.io%2f2020%2fgit-flows-overview%2f" target="_blank" title="Share on Facebook">
           <i class="iconfont icon-facebook"></i>
         </a>
         
@@ -236,7 +208,7 @@ possibilities.</p>
       
       
       
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fkubernetes-tips%2f&amp;title=Tips%20for%20development%20and%20deployment%20with%20Kubernetes" target="_blank" title="Share on LinkedIn">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fgit-flows-overview%2f&amp;title=Overview%20of%20different%20Git%20Flows%20for%20management%20of%20software%20projects" target="_blank" title="Share on LinkedIn">
           <i class="iconfont icon-linkedin"></i>
         </a>
         
@@ -271,14 +243,8 @@ possibilities.</p>
             <section>
             <i class="iconfont icon-icon-tag"></i>Tag: 
             
-            <span class="tag"><a href="https://hpthai7.github.io/tags/kubernetes/">
-                    #kubernetes</a></span>
-            
-            <span class="tag"><a href="https://hpthai7.github.io/tags/microk8s/">
-                    #microk8s</a></span>
-            
-            <span class="tag"><a href="https://hpthai7.github.io/tags/deployment/">
-                    #deployment</a></span>
+            <span class="tag"><a href="https://hpthai7.github.io/tags/git/">
+                    #git</a></span>
             
             </section>
         
@@ -290,10 +256,8 @@ possibilities.</p>
 
     <div class="post-nav">
         
-        <a href="https://hpthai7.github.io/2020/conemu-git-bash-on-windows/" class="prev" rel="prev" title="Install a multi-window Linux-like terminal on Windows"><i class="iconfont icon-dajiantou"></i>&nbsp;Install a multi-window Linux-like terminal on Windows</a>
+        <a href="https://hpthai7.github.io/2020/kubernetes-tips/" class="prev" rel="prev" title="Tips for development and deployment with Kubernetes"><i class="iconfont icon-dajiantou"></i>&nbsp;Tips for development and deployment with Kubernetes</a>
          
-        
-        <a href="https://hpthai7.github.io/2020/git-flows-overview/" class="next" rel="next" title="Overview of different Git Flows for management of software projects">Overview of different Git Flows for management of software projects&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
         
     </div>
 

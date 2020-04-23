@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Thai Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hpthai7.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Deployment</title>
       <link>https://hpthai7.github.io/categories/deployment/</link>
-      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hpthai7.github.io/categories/deployment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://hpthai7.github.io/categories/development/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hpthai7.github.io/categories/development/</guid>
       <description></description>
     </item>
     
@@ -35,15 +44,6 @@
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hpthai7.github.io/categories/windows/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Development</title>
-      <link>https://hpthai7.github.io/categories/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/categories/development/</guid>
       <description></description>
     </item>
     
