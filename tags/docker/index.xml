@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on Thai Ho</title>
+    <link>https://hpthai7.github.io/tags/docker/</link>
+    <description>Recent content in docker on Thai Ho</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hpthai7.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker in development and deployment</title>
+      <link>https://hpthai7.github.io/2020/docker-in-development-and-deployment/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hpthai7.github.io/2020/docker-in-development-and-deployment/</guid>
+      <description>Semantic versioning The versioning of docker images, as per Docker Hub, does not respect the rules of semantic versioning. A single image can share different tags as demonstrated in the photo. The tags feature a Major release, a Major.minor release, and a Major.minor.patch release.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>microk8s on Thai Ho</title>
+    <link>https://hpthai7.github.io/tags/microk8s/</link>
+    <description>Recent content in microk8s on Thai Ho</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hpthai7.github.io/tags/microk8s/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tips for development and deployment with Kubernetes</title>
+      <link>https://hpthai7.github.io/2020/kubernetes-tips/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hpthai7.github.io/2020/kubernetes-tips/</guid>
+      <description>What is Kubernetes Kubernetes is a sophisticated tool for the orchestration of containers in mass deployment. It provides an effective ways to define the software components, resources and deploy them in a controllable and effective manner. The strongest points of Kubernetes is:
+  The abstraction of infrastructure layer to deployment layer. This allows developers and administrators concentrate on the development stage and less worry about the management of the underlying hardware settings.</description>
+    </item>
+    
+  </channel>
+</rss>

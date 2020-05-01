@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git bash on Thai Ho</title>
+    <link>https://hpthai7.github.io/tags/git-bash/</link>
+    <description>Recent content in git bash on Thai Ho</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hpthai7.github.io/tags/git-bash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install a multi-window Linux-like terminal on Windows</title>
+      <link>https://hpthai7.github.io/2020/conemu-git-bash-on-windows/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hpthai7.github.io/2020/conemu-git-bash-on-windows/</guid>
+      <description>The frustration of having a Linux-like terminal with bash environment for development purpose has been lingering for a while. There are currently many terminal softwares such as HyperTerminal, ConEmu, Cmder, Cygwin and console application such as git bash, WSL, msys, powershell.
+As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switching to Windows. For Windows, WSL provide a real Linux bash environment, however, its integration with oh-my-zsh library has some font and background problems.</description>
+    </item>
+    
+  </channel>
+</rss>
