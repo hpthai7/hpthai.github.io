@@ -17,9 +17,10 @@
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hpthai7.github.io/2020/git-cheat-sheet/</guid>
-      <description>GitLab In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks.
- Check if other executors like ssh can consume the image keyword
- The services keyword defines just another Docker image that is run during your job and is linked to the Docker image that the image keyword defines. This allows you to access the service image during build time.</description>
+      <description>GitLab Gitlab CI-CD Pay attention that the correct file for gitlab ci-cd pipeline .gitlab-ci.yml ends with .yml, not .yaml.
+Choose which executor for gitlab runner? Increase concurrent jobs Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.
+The limit of concurrent jobs are tunable in config.toml.
+Job image vs docker executor In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks.</description>
     </item>
     
     <item>

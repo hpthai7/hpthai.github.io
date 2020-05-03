@@ -36,9 +36,10 @@
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Git Cheat Sheets, Tips and Tricks"/>
-<meta name="twitter:description" content="GitLab In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks.
- Check if other executors like ssh can consume the image keyword
- The services keyword defines just another Docker image that is run during your job and is linked to the Docker image that the image keyword defines. This allows you to access the service image during build time."/>
+<meta name="twitter:description" content="GitLab Gitlab CI-CD Pay attention that the correct file for gitlab ci-cd pipeline .gitlab-ci.yml ends with .yml, not .yaml.
+Choose which executor for gitlab runner? Increase concurrent jobs Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.
+The limit of concurrent jobs are tunable in config.toml.
+Job image vs docker executor In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks."/>
 
   <script type="application/ld+json">
 {
@@ -57,7 +58,7 @@
   },
   "genre": "posts",
   "keywords": "git",
-  "wordcount":  102 ,
+  "wordcount":  167 ,
   "url": "https:\/\/hpthai7.github.io\/2020\/git-cheat-sheet\/",
   "datePublished": "2020-05-01T00:00:00\x2b00:00",
   "dateModified": "2020-05-01T00:00:00\x2b00:00",
@@ -165,10 +166,18 @@
           
 
           <h2 id="gitlab">GitLab</h2>
+<h3 id="gitlab-ci-cd">Gitlab CI-CD</h3>
+<p>Pay attention that the correct file for gitlab ci-cd pipeline <code>.gitlab-ci.yml</code> ends with <code>.yml</code>, not <code>.yaml</code>.</p>
+<h3 id="choose-which-executor-for-gitlab-runner">Choose which executor for gitlab runner?</h3>
+<h3 id="increase-concurrent-jobs">Increase concurrent jobs</h3>
+<p>Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.</p>
+<p>The limit of concurrent jobs are tunable in <a href="!https://docs.gitlab.com/runner/configuration/advanced-configuration.html">config.toml</a>.</p>
+<h3 id="job-image-vs-docker-executor">Job image vs docker executor</h3>
 <p>In the definition of jobs, the <code>image</code> keyword is the name of the Docker image the <strong>Docker executor</strong> will run to perform the CI tasks.</p>
 <blockquote>
 <p>Check if other executors like ssh can consume the <code>image</code> keyword</p>
 </blockquote>
+<h3 id="services-in-jobs">Services in jobs</h3>
 <p>The <code>services</code> keyword defines just another Docker image that is run during your job and is linked to the Docker image that the image keyword defines. This allows you to access the service image during build time. This feature is designed to provide network accessible services. A database is the simplest example of such a service. <a href="!https://docs.gitlab.com/ee/ci/docker/using_docker_images.html#what-services-are-not-for">Do not use services as tools for the jobs</a>.</p>
 
     </div>
@@ -183,7 +192,7 @@
            
             <p class="copyright-item">
                     <span>Words:</span>
-                   <span>102</span>
+                   <span>167</span>
             </p>
             
             <p class="copyright-item">
