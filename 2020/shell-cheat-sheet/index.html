@@ -10,9 +10,9 @@
   
   
   
-  <link rel="prev" href="https://hpthai7.github.io/2020/git-flows-overview/" />
-  <link rel="next" href="https://hpthai7.github.io/2020/shell-cheat-sheet/" />
-  <link rel="canonical" href="https://hpthai7.github.io/2020/git-cheat-sheet/" />
+  <link rel="prev" href="https://hpthai7.github.io/2020/git-cheat-sheet/" />
+  
+  <link rel="canonical" href="https://hpthai7.github.io/2020/shell-cheat-sheet/" />
   <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -24,10 +24,10 @@
   <title>
        
        
-           Git Cheat Sheets, Tips and Tricks | Thai Ho
+           Bash Cheat Sheets, Tips and Tricks | Thai Ho
        
   </title>
-  <meta name="title" content="Git Cheat Sheets, Tips and Tricks | Thai Ho">
+  <meta name="title" content="Bash Cheat Sheets, Tips and Tricks | Thai Ho">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -35,20 +35,19 @@
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Git Cheat Sheets, Tips and Tricks"/>
-<meta name="twitter:description" content="GitLab Gitlab CI-CD Reference Pay attention that the correct file for gitlab ci-cd pipeline .gitlab-ci.yml ends with .yml, not .yaml.
-Choose which executor for gitlab runner? Increase concurrent jobs Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.
-The limit of concurrent jobs are tunable in config.toml.
-Job image vs docker executor In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks."/>
+<meta name="twitter:title" content="Bash Cheat Sheets, Tips and Tricks"/>
+<meta name="twitter:description" content="References  Bash reference manual Cheat sheet Google style convention  Shell scripting Exit when any commands return a non-zero exit code:
+# exit when any command fails set -e Further advanced exit strategies are available here
+Troubleshooting Return values in functions Bash can&rsquo;t pass around data structures as return values in functions. A return value must be a numeric exit status between 0-255. It&rsquo;s not recommended to return structured data like below:"/>
 
   <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "Git Cheat Sheets, Tips and Tricks",
+  "headline": "Bash Cheat Sheets, Tips and Tricks",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https:\/\/hpthai7.github.io\/2020\/git-cheat-sheet\/"
+    "@id": "https:\/\/hpthai7.github.io\/2020\/shell-cheat-sheet\/"
   },
   "image": {
     "@type": "ImageObject",
@@ -57,11 +56,11 @@ Job image vs docker executor In the definition of jobs, the image keyword is the
     "height":  600 
   },
   "genre": "posts",
-  "keywords": "git",
-  "wordcount":  371 ,
-  "url": "https:\/\/hpthai7.github.io\/2020\/git-cheat-sheet\/",
-  "datePublished": "2020-05-01T00:00:00\x2b00:00",
-  "dateModified": "2020-05-01T00:00:00\x2b00:00",
+  "keywords": "bash",
+  "wordcount":  146 ,
+  "url": "https:\/\/hpthai7.github.io\/2020\/shell-cheat-sheet\/",
+  "datePublished": "2020-05-05T00:00:00\x2b00:00",
+  "dateModified": "2020-05-05T00:00:00\x2b00:00",
   
   "publisher": {
     "@type": "Organization",
@@ -133,11 +132,11 @@ Job image vs docker executor In the definition of jobs, the image keyword is the
       		
 <article class="post-warp">
     <header class="post-header">
-        <h1 class="post-title">Git Cheat Sheets, Tips and Tricks</h1>
+        <h1 class="post-title">Bash Cheat Sheets, Tips and Tricks</h1>
         <div class="post-meta">
             Written by <a href="https://hpthai7.github.io/" rel="author">Thai Ho</a> with ♥ 
                 <span class="post-time">
-                    on <time datetime=2020-05-01 >1 May 2020</time>
+                    on <time datetime=2020-05-05 >5 May 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -146,7 +145,7 @@ Job image vs docker executor In the definition of jobs, the image keyword is the
                         
                 </span>
                 <i class="iconfont icon-timer"></i>
-                2 min
+                1 min
         </div>
     </header>
     <div class="post-content">
@@ -165,71 +164,50 @@ Job image vs docker executor In the definition of jobs, the image keyword is the
           
           
 
-          <h2 id="gitlab">GitLab</h2>
-<h3 id="gitlab-ci-cd">Gitlab CI-CD</h3>
-<h3 id="reference">Reference</h3>
-<p>Pay attention that the correct file for gitlab ci-cd pipeline <code>.gitlab-ci.yml</code> ends with <code>.yml</code>, not <code>.yaml</code>.</p>
-<h3 id="choose-which-executor-for-gitlab-runner">Choose which executor for gitlab runner?</h3>
-<h3 id="increase-concurrent-jobs">Increase concurrent jobs</h3>
-<p>Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.</p>
-<p>The limit of concurrent jobs are tunable in <a href="https://docs.gitlab.com/runner/configuration/advanced-configuration.html">config.toml</a>.</p>
-<h3 id="job-image-vs-docker-executor">Job image vs docker executor</h3>
-<p>In the definition of jobs, the <code>image</code> keyword is the name of the Docker image the <strong>Docker executor</strong> will run to perform the CI tasks.</p>
-<blockquote>
-<p>Check if other executors like ssh can consume the <code>image</code> keyword</p>
-</blockquote>
-<h3 id="services-in-jobs">Services in jobs</h3>
-<p>The <code>services</code> keyword defines just another Docker image that is run during your job and is linked to the Docker image that the image keyword defines. This allows you to access the service image during build time. This feature is designed to provide network accessible services. A database is the simplest example of such a service. <a href="https://docs.gitlab.com/ee/ci/docker/using_docker_images.html#what-services-are-not-for">Do not use services as tools for the jobs</a>.</p>
-<h3 id="semantic-versioning">Semantic versioning</h3>
-<p><a href="https://github.com/semantic-release/semantic-release">Semantic release</a> allows automatic versioning and package publishing. How does it work?</p>
+          <h2 id="references">References</h2>
 <ul>
-<li>Follow <a href="https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines">Angular commit message convention</a> during development phase</li>
-<li>Host code in a git repository</li>
-<li>Create a working CI pipeline, i.e. add a working .gitlab-ci.yml file to project</li>
-<li>Install git 2.7.1 minimum, node.js 10.18 minimum and semantic-release in CI environment. These tools can be installed in a job of Jenkins runner, or be ready with a Jenkins runner based of node.js image</li>
-<li>Configure CI service to expose the access token in the environment variable and run semantic-release during the versioning job</li>
-<li>Add configuration file
-<ul>
-<li>include branches</li>
-<li>include plugins (depending on CI environment)</li>
+<li><a href="https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#index-trap-125">Bash reference manual</a></li>
+<li><a href="https://gist.github.com/LeCoupa/122b12050f5fb267e75f">Cheat sheet</a></li>
+<li><a href="https://google.github.io/styleguide/shellguide.html">Google style convention</a></li>
 </ul>
-</li>
-<li>Trigger the CI pipeline</li>
-</ul>
-<h3 id="debugging-in-gitlab-runners">Debugging in gitlab runners</h3>
-<ul>
-<li>
-<p>Run gitlab-runner in <a href="https://docs.gitlab.com/runner/faq/#run-in---debug-mode">debug mode</a>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gitlab-runner --debug run
-</code></pre></div></li>
-<li>
-<p><a href="https://docs.gitlab.com/ee/ci/interactive_web_terminal/">Use Interactive Web Terminals</a></p>
-<ul>
-<li>Support for Docker executor is <a href="!https://gitlab.com/gitlab-org/gitlab-runner/issues/3605">underway</a></li>
-</ul>
-</li>
-<li>
-<p>Gitlab has numerous <a href="https://docs.gitlab.com/ee/ci/variables/predefined_variables.html">built-in environment variables</a> for the pipeline runtime. Take advantage of them.</p>
-</li>
-</ul>
-<h3 id="troubleshooting">Troubleshooting</h3>
-<p>Nested reference of variables is not working in <code>gitlab-ci.yml</code>.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cat .gitlab-ci.yml
+<h2 id="shell-scripting">Shell scripting</h2>
+<p>Exit when any commands return a non-zero exit code:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># exit when any command fails</span>
+set -e
+</code></pre></div><p>Further advanced exit strategies are available <a href="https://intoli.com/blog/exit-on-errors-in-bash-scripts/">here</a></p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<h3 id="return-values-in-functions">Return values in functions</h3>
+<p>Bash can&rsquo;t pass around data structures as return values in functions. A return value must be a numeric exit status between 0-255. It&rsquo;s not recommended to return structured data like below:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Don&#39;t</span>
+get_users<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    user<span style="color:#f92672">=(</span>John Dave Amy<span style="color:#f92672">)</span>
+    echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>user[@]<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+<span style="color:#f92672">}</span>
 
-variables:
-  PROJECT_NAME: $CI_PROJECT_NAME <span style="color:#75715e"># default CI variable of gitlab</span>
+give_gifts<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    local users<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>get_users<span style="color:#66d9ef">)</span>
 
-job-sample:
-  stage: stage-sample
-  image: docker
-  variables:
-    BUILD_PROJECT_NAME: $PROJECT_NAME <span style="color:#75715e"># Don&#39;t. $CI_PROJECT_NAME will not be evaluated here</span>
-  services:
-    - docker:dind
-  script:
-    - echo $BUILD_PROJECT_NAME <span style="color:#75715e"># Don&#39;t. Output result: $PROJECT_NAME</span>
-    - echo $PROJECT_NAME <span style="color:#75715e"># Do. Output result: git-cheat-sheet-and-tricks</span>
+    <span style="color:#66d9ef">for</span> user in <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>users[@]<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+    <span style="color:#66d9ef">do</span>
+        echo <span style="color:#e6db74">&#34;Give </span><span style="color:#e6db74">${</span>user<span style="color:#e6db74">}</span><span style="color:#e6db74"> a gift&#34;</span>
+    <span style="color:#66d9ef">done</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>With Bash version 4.3 and above, we can make use of a nameref to pass return data.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Do</span>
+get_userz<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    local -n arr<span style="color:#f92672">=</span>$1 <span style="color:#75715e"># use nameref for indirection</span>
+    arr<span style="color:#f92672">=(</span>John Dave Amy<span style="color:#f92672">)</span>
+<span style="color:#f92672">}</span>
 
+give_gifts<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    local userz
+    get_userz userz
+
+    <span style="color:#66d9ef">for</span> user in <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>users[@]<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+    <span style="color:#66d9ef">do</span>
+        echo <span style="color:#e6db74">&#34;Give </span><span style="color:#e6db74">${</span>user<span style="color:#e6db74">}</span><span style="color:#e6db74"> a gift&#34;</span>
+    <span style="color:#66d9ef">done</span>
+<span style="color:#f92672">}</span>
 </code></pre></div>
     </div>
 
@@ -243,7 +221,7 @@ job-sample:
            
             <p class="copyright-item">
                     <span>Words:</span>
-                   <span>371</span>
+                   <span>146</span>
             </p>
             
             <p class="copyright-item">
@@ -252,13 +230,13 @@ job-sample:
                 <span>
 
       
-        <a href="//twitter.com/share?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fgit-cheat-sheet%2f&amp;text=Git%20Cheat%20Sheets%2c%20Tips%20and%20Tricks&amp;via=hpthai7" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fshell-cheat-sheet%2f&amp;text=Bash%20Cheat%20Sheets%2c%20Tips%20and%20Tricks&amp;via=hpthai7" target="_blank" title="Share on Twitter">
           <i class="iconfont icon-twitter"></i>
         </a>
         
       
       
-        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhpthai7.github.io%2f2020%2fgit-cheat-sheet%2f" target="_blank" title="Share on Facebook">
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhpthai7.github.io%2f2020%2fshell-cheat-sheet%2f" target="_blank" title="Share on Facebook">
           <i class="iconfont icon-facebook"></i>
         </a>
         
@@ -266,7 +244,7 @@ job-sample:
       
       
       
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fgit-cheat-sheet%2f&amp;title=Git%20Cheat%20Sheets%2c%20Tips%20and%20Tricks" target="_blank" title="Share on LinkedIn">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fhpthai7.github.io%2f2020%2fshell-cheat-sheet%2f&amp;title=Bash%20Cheat%20Sheets%2c%20Tips%20and%20Tricks" target="_blank" title="Share on LinkedIn">
           <i class="iconfont icon-linkedin"></i>
         </a>
         
@@ -301,8 +279,8 @@ job-sample:
             <section>
             <i class="iconfont icon-icon-tag"></i>Tag: 
             
-            <span class="tag"><a href="https://hpthai7.github.io/tags/git/">
-                    #git</a></span>
+            <span class="tag"><a href="https://hpthai7.github.io/tags/bash/">
+                    #bash</a></span>
             
             </section>
         
@@ -314,10 +292,8 @@ job-sample:
 
     <div class="post-nav">
         
-        <a href="https://hpthai7.github.io/2020/git-flows-overview/" class="prev" rel="prev" title="Overview of different Git Flows for management of software projects"><i class="iconfont icon-dajiantou"></i>&nbsp;Overview of different Git Flows for management of software projects</a>
+        <a href="https://hpthai7.github.io/2020/git-cheat-sheet/" class="prev" rel="prev" title="Git Cheat Sheets, Tips and Tricks"><i class="iconfont icon-dajiantou"></i>&nbsp;Git Cheat Sheets, Tips and Tricks</a>
          
-        
-        <a href="https://hpthai7.github.io/2020/shell-cheat-sheet/" class="next" rel="next" title="Bash Cheat Sheets, Tips and Tricks">Bash Cheat Sheets, Tips and Tricks&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
         
     </div>
 
