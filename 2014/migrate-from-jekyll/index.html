@@ -33,7 +33,6 @@
   <link rel="stylesheet" href="/font/iconfont.css">
   <link rel="stylesheet" href="/css/main.min.css">
 
-
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Migrate to Hugo from Jekyll"/>
 <meta name="twitter:description" content="Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
@@ -87,7 +86,7 @@
 
   <body class="">
     <div class="wrapper">
-        <nav class="navbar">
+        <nav class="header navbar">
     <div class="container">
         <div class="navbar-header header-logo">
         	<a href="https://hpthai7.github.io/">Thai Ho</a>
@@ -105,7 +104,7 @@
         </div>
     </div>
 </nav>
-<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+<nav class="header navbar-mobile" id="nav-mobile" style="display: none">
      <div class="container">
         <div class="navbar-header">
             <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;<a href="https://hpthai7.github.io/">Thai Ho</a></div>
@@ -113,7 +112,7 @@
                 <span></span><span></span><span></span>
             </div>
         </div>
-     
+
           <div class="menu" id="mobile-menu">
                 
                 
@@ -130,37 +129,42 @@
     	 <main class="main">
           <div class="container">
       		
-<article class="post-warp">
-    <header class="post-header">
-        <h1 class="post-title">Migrate to Hugo from Jekyll</h1>
-        <div class="post-meta">
-            Written by <a href="https://hpthai7.github.io/" rel="author">map[name:Hugo Authors]</a> with ♥ 
+
+<div class="blog-post">
+    <div class="left-sidebar"></div>
+    <article class="post-warp">
+        <header class="post-header">
+            <h1 class="post-title">Migrate to Hugo from Jekyll</h1>
+            <div class="post-meta">
+                Written by <a href="https://hpthai7.github.io/"
+                    rel="author">map[name:Hugo Authors]</a>
+                with ♥
                 <span class="post-time">
-                    on <time datetime=2014-03-10 >10 March 2014</time>
+                    on <time
+                        datetime=2014-03-10>10 March 2014</time>
                 </span>
                 in
                 
                 <i class="iconfont icon-timer"></i>
                 4 min
-        </div>
-    </header>
-    <div class="post-content">
-        
+            </div>
+        </header>
+        <div class="post-content">
+            
+            
 
-        
+            
+            
 
-        
-        
-     
-          
-          
-          
+            
+            
+            
 
-          
-          
-          
+            
+            
+            
 
-          <h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
+            <h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
 <p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
 With Jekyll, something that looked like</p>
 <pre><code>▾ &lt;root&gt;/
@@ -294,21 +298,21 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 <h2 id="a-practical-example-in-a-diff">A practical example in a diff</h2>
 <p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
 
-    </div>
+        </div>
 
-    <div class="post-copyright">
-             
+        <div class="post-copyright">
+            
             <p class="copyright-item">
                 <span>Author:</span>
                 <span>Thai Ho </span>
-                </p>
-            
-           
-            <p class="copyright-item">
-                    <span>Words:</span>
-                   <span>813</span>
             </p>
             
+
+            <p class="copyright-item">
+                <span>Words:</span>
+                <span>813</span>
+            </p>
+
             <p class="copyright-item">
                 
                 <span>Share:</span>
@@ -351,34 +355,37 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
                 
             </p>
 
-             
+            
             <p class="copyright-item">
                 Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
             </p>
             
-    </div>
+        </div>
 
-  
-    <div class="post-tags">
-        
-        <section>
-                <a href="javascript:window.history.back();">Back</a></span> · 
+
+        <div class="post-tags">
+            
+            <section>
+                <a href="javascript:window.history.back();">Back</a></span> ·
                 <span><a href="https://hpthai7.github.io/">Home</a></span>
-        </section>
-    </div>
+            </section>
+        </div>
 
-    <div class="post-nav">
-        
-        <a href="https://hpthai7.github.io/2016/shortcode-tests/" class="prev" rel="prev" title="Shortcode Tests"><i class="iconfont icon-dajiantou"></i>&nbsp;Shortcode Tests</a>
-         
-        
-        <a href="https://hpthai7.github.io/2014/creating-a-new-theme/" class="next" rel="next" title="Creating a New Theme">Creating a New Theme&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
-        
-    </div>
+        <div class="post-nav">
+            
+            <a href="https://hpthai7.github.io/2016/shortcode-tests/" class="prev" rel="prev" title="Shortcode Tests"><i
+                    class="iconfont icon-dajiantou"></i>&nbsp;Shortcode Tests</a>
+            
+            
+            <a href="https://hpthai7.github.io/2014/creating-a-new-theme/" class="next" rel="next"
+                title="Creating a New Theme">Creating a New Theme&nbsp;<i
+                    class="iconfont icon-xiaojiantou"></i></a>
+            
+        </div>
 
-    <div class="post-comment">
-          
-          <div id="disqus_thread"></div>
+        <div class="post-comment">
+            
+            <div id="disqus_thread"></div>
   <script type="text/javascript">
       (function() {
           
@@ -396,9 +403,34 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 
  
 
-          
-    </div>
-</article>
+            
+        </div>
+    </article>
+
+    <aside class="right-sidebar">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#move-static-content-to-static">Move static content to <code>static</code></a></li>
+    <li><a href="#create-your-hugo-configuration-file">Create your Hugo configuration file</a></li>
+    <li><a href="#set-your-configuration-publish-folder-to-_site">Set your configuration publish folder to <code>_site</code></a></li>
+    <li><a href="#convert-jekyll-templates-to-hugo-templates">Convert Jekyll templates to Hugo templates</a></li>
+    <li><a href="#convert-jekyll-plugins-to-hugo-shortcodes">Convert Jekyll plugins to Hugo shortcodes</a>
+      <ul>
+        <li><a href="#implementation">Implementation</a></li>
+        <li><a href="#usage">Usage</a></li>
+      </ul>
+    </li>
+    <li><a href="#finishing-touches">Finishing touches</a>
+      <ul>
+        <li><a href="#fix-content">Fix content</a></li>
+        <li><a href="#clean-up">Clean up</a></li>
+      </ul>
+    </li>
+    <li><a href="#a-practical-example-in-a-diff">A practical example in a diff</a></li>
+  </ul>
+</nav>
+    </aside>
+</div>
           </div>
 		   </main>
       <footer class="footer">
@@ -430,7 +462,7 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
     
     <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
-  
+
 
 
 
