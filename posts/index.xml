@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Thai Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hpthai7.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Static Web Engines</title>
+      <link>https://hpthai7.github.io/2020/static-web-engines/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hpthai7.github.io/2020/static-web-engines/</guid>
+      <description>For personal blogs  Hugo Jekyll  For documentations  Docusaurus: open-sourced, good support by Facebook, good UI for navigation Readthedocs: ideal for books, like this Python book Gitbook: appropriate for team documentations Bookstack: idem, open-sourced and self-hosting Docsify: lightweight team documentation Sphinx: API docs with simplified themes, i.e. Alabaster  For APIs  Swagger [Doxygen]: for example, DBus [Redoc]: for example, Docker Postman  </description>
+    </item>
     
     <item>
       <title>Bash Cheat Sheets, Tips and Tricks</title>
