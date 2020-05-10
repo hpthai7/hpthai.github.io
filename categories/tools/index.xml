@@ -20,7 +20,7 @@
       <description>This features a non-exhaustive list of my Essential Softwares for PC.
 Windows 10   Chocolatey: command-line-based package manager
 # Open cmd or powershell in Administrative mode Get-ExecutionPolicy # If it returns Restricted, then run Set-ExecutionPolicy AllSigned # or Set-ExecutionPolicy Bypass -Scope Process # Install choco Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&amp;#39;https://chocolatey.org/install.ps1&amp;#39;)) # check choco   7zip
-choco install -y 7zip   Dictionaries:</description>
+choco install -y 7zip   LockHunter: find and kill processes occupying certain files.</description>
     </item>
     
   </channel>
