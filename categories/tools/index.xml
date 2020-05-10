@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Thai Ho</title>
+    <link>https://hpthai7.github.io/categories/tools/</link>
+    <description>Recent content in Tools on Thai Ho</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hpthai7.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Essential Softwares</title>
+      <link>https://hpthai7.github.io/2020/softwares/</link>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hpthai7.github.io/2020/softwares/</guid>
+      <description>This features a non-exhaustive list of my Essential Softwares for PC.
+Windows 10   Chocolatey: command-line-based package manager
+# Open cmd or powershell in Administrative mode Get-ExecutionPolicy # If it returns Restricted, then run Set-ExecutionPolicy AllSigned # or Set-ExecutionPolicy Bypass -Scope Process # Install choco Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&amp;#39;https://chocolatey.org/install.ps1&amp;#39;)) # check choco   Dictionaries:
+  Lingoes: a dictionary reader</description>
+    </item>
+    
+  </channel>
+</rss>
