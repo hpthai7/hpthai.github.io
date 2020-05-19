@@ -215,7 +215,7 @@ type de page vous rendez. Plus de détails sont disponibles sur la page des
 <h2 id="functions">Functions</h2>
 <p>Go templace est livré avec quelques fonctions qui fournissent des
 fonctionnalités basiques. Le système de Go template fourni également un
-mécanisme permettant aux applications d'étendre les fonctions disponible. Les
+mécanisme permettant aux applications d&rsquo;étendre les fonctions disponible. Les
 <a href="/layout/functions">fonctions de modèle Hugo</a> fourni quelques fonctionnalités
 supplémentaires que nous espérons qu&rsquo;elles seront utiles pour vos sites web.
 Les functions sont appelées en utilisant leur nom suivi par les paramètres
@@ -278,7 +278,7 @@ avec <code>end</code>.</p>
 <pre><code>{{ if and (or (isset .Params &quot;title&quot;) (isset .Params &quot;caption&quot;))
     (isset .Params &quot;attr&quot;)}}
 </code></pre><p><strong>Exemple 4: With</strong></p>
-<p>Une manière alternative d'écrire un &ldquo;if&rdquo; et de référencer cette même valeur est
+<p>Une manière alternative d&rsquo;écrire un &ldquo;if&rdquo; et de référencer cette même valeur est
 d&rsquo;utiliser &ldquo;with&rdquo;. Cela permet de remplacer le contexte <code>.</code> par cet valeur et
 saute le bloc si la variable est absente.</p>
 <p>Le premier exemple peut être simplifié à ceci :</p>
@@ -328,7 +328,7 @@ Stuff Here
 <p>Le concept le plus facilement négligé pour comprendre les modèles go est que
 {{ . }} fait toujours référence au contexte actuel. Dans le plus haut niveau de
 votre modèle, ce sera l&rsquo;ensemble des données mis à votre disposition. Dans une
-itération, ce sera la valeur de l'élément actuel. Enfin, dans une boucle, le
+itération, ce sera la valeur de l&rsquo;élément actuel. Enfin, dans une boucle, le
 contexte change. . ne fera plus référence aux données disponibles dans la page
 entière. Si vous avez besoin y d&rsquo;accèder depuis l&rsquo;intérieur d&rsquo;une boucle, il est
 judicieux d&rsquo;y définir comme variable au lieu de dépendre du contexte.</p>
@@ -383,7 +383,7 @@ définir des paramètres de site, dont les valeurs vous seront accessibles.</p>
   <span style="color:#66d9ef">SidebarRecentLimit</span>: <span style="color:#ae81ff">5</span>
 </code></pre></div><p>Avec un pied de page, vous devriez déclarer un <code>&lt;footer&gt;</code> qui est affiché
 seulement si le paramètre <code>CopyrightHTML</code> est déclaré, et si il l&rsquo;est, vous
-devriez le déclarer comme HTML-safe, afin d'éviter d'échapper les entités HTML.
+devriez le déclarer comme HTML-safe, afin d&rsquo;éviter d&rsquo;échapper les entités HTML.
 Cela vous permettra de le modifier facilement dans votre configuration au lieu
 de le chercher dans votre modèle.</p>
 <pre><code>{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
