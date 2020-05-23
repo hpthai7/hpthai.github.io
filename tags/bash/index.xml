@@ -1,26 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>bash on Thai Ho</title>
-    <link>https://hpthai7.github.io/tags/bash/</link>
-    <description>Recent content in bash on Thai Ho</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://hpthai7.github.io/tags/bash/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Bash Cheat Sheets, Tips and Tricks</title>
-      <link>https://hpthai7.github.io/2020/shell-cheat-sheet/</link>
-      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2020/shell-cheat-sheet/</guid>
-      <description>References  Bash reference manual Cheat sheet Google style convention  Shell scripting Exit when any commands return a non-zero exit code:
-# exit when any command fails set -e Further advanced exit strategies are available here
-Troubleshooting Return values in functions Bash can&amp;rsquo;t pass around data structures as return values in functions. A return value must be a numeric exit status between 0-255. It&amp;rsquo;s not recommended to return structured data like below:</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>bash - Tag - LoveIt</title>
+        <link>https://example.com/tags/bash/</link>
+        <description>bash - Tag - LoveIt</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>th3ho@yahoo.com (Thai Ho)</managingEditor>
+            <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 05 May 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://example.com/tags/bash/" rel="self" type="application/rss+xml" /><item>
+    <title>Bash Cheat Sheets, Tips and Tricks</title>
+    <link>https://example.com/shell-cheat-sheet/</link>
+    <pubDate>Tue, 05 May 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/shell-cheat-sheet/</guid>
+    <description><![CDATA[References  Bash reference manual Cheat sheet Google style convention  Shell scripting Exit when any commands return a non-zero exit code:
+1 2  # exit when any command fails set -e   Further advanced exit strategies are available here
+Troubleshooting Return values in functions Bash can&rsquo;t pass around data structures as return values in functions. A return value must be a numeric exit status between 0-255. It&rsquo;s not recommended to return structured data like below:]]></description>
+</item><item>
+    <title>Install a multi-window Linux-like terminal on Windows</title>
+    <link>https://example.com/conemu-git-bash-on-windows/</link>
+    <pubDate>Sat, 11 Apr 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/conemu-git-bash-on-windows/</guid>
+    <description><![CDATA[The frustration of having a Linux-like terminal with bash environment for development purpose has been lingering for a while. There are currently many terminal softwares such as HyperTerminal, ConEmu, Cmder, Cygwin and console application such as git bash, WSL, msys, powershell.
+As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switching to Windows. For Windows, WSL provide a real Linux bash environment, however, its integration with oh-my-zsh library has some font and background problems.]]></description>
+</item></channel>
 </rss>

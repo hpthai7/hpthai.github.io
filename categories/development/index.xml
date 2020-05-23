@@ -1,70 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Development on Thai Ho</title>
-    <link>https://hpthai7.github.io/categories/development/</link>
-    <description>Recent content in Development on Thai Ho</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://hpthai7.github.io/categories/development/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Bash Cheat Sheets, Tips and Tricks</title>
-      <link>https://hpthai7.github.io/2020/shell-cheat-sheet/</link>
-      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2020/shell-cheat-sheet/</guid>
-      <description>References  Bash reference manual Cheat sheet Google style convention  Shell scripting Exit when any commands return a non-zero exit code:
-# exit when any command fails set -e Further advanced exit strategies are available here
-Troubleshooting Return values in functions Bash can&amp;rsquo;t pass around data structures as return values in functions. A return value must be a numeric exit status between 0-255. It&amp;rsquo;s not recommended to return structured data like below:</description>
-    </item>
-    
-    <item>
-      <title>Git Cheat Sheets</title>
-      <link>https://hpthai7.github.io/2020/git-cheat-sheet/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2020/git-cheat-sheet/</guid>
-      <description>GitLab Gitlab CI-CD Reference Pay attention that the correct file for gitlab ci-cd pipeline .gitlab-ci.yml ends with .yml, not .yaml.
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Development - Category - LoveIt</title>
+        <link>https://example.com/categories/development/</link>
+        <description>Development - Category - LoveIt</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>th3ho@yahoo.com (Thai Ho)</managingEditor>
+            <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 05 May 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://example.com/categories/development/" rel="self" type="application/rss+xml" /><item>
+    <title>Bash Cheat Sheets, Tips and Tricks</title>
+    <link>https://example.com/shell-cheat-sheet/</link>
+    <pubDate>Tue, 05 May 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/shell-cheat-sheet/</guid>
+    <description><![CDATA[References  Bash reference manual Cheat sheet Google style convention  Shell scripting Exit when any commands return a non-zero exit code:
+1 2  # exit when any command fails set -e   Further advanced exit strategies are available here
+Troubleshooting Return values in functions Bash can&rsquo;t pass around data structures as return values in functions. A return value must be a numeric exit status between 0-255. It&rsquo;s not recommended to return structured data like below:]]></description>
+</item><item>
+    <title>Git Cheat Sheets</title>
+    <link>https://example.com/git-cheat-sheet/</link>
+    <pubDate>Fri, 01 May 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/git-cheat-sheet/</guid>
+    <description><![CDATA[GitLab Gitlab CI-CD Reference Pay attention that the correct file for gitlab ci-cd pipeline .gitlab-ci.yml ends with .yml, not .yaml.
 Choose which executor for gitlab runner? Increase concurrent jobs Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.
 The limit of concurrent jobs are tunable in config.toml.
-Job image vs docker executor In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks.</description>
-    </item>
-    
-    <item>
-      <title>Overview of different Git Flows for management of software projects</title>
-      <link>https://hpthai7.github.io/2020/git-flows-overview/</link>
-      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2020/git-flows-overview/</guid>
-      <description>This article covers the different git flows tailored for software projects in professional environment. Each flow is adapted to the context of project scale, the number of developers and the expected delivery cycles. Here we feature Git Flow, Github Flow, Gitlab Flow
-Git Flow Github Flow Gitlab Flow Refence  Gitlab tutorial Stackoverflow Semantic release   </description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://hpthai7.github.io/2014/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2014/goisforlovers/</guid>
-      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
-This document is a brief primer on using Go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://hpthai7.github.io/2014/hugo-is-for-lovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2014/hugo-is-for-lovers/</guid>
-      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-In Windows The handy way favors chocolatey. For the theme KeepIt, it&amp;rsquo;s recommended to install the extended version of hugo with SCSS/SASS support. It allows better rendering of the website thanks to the generation of CSS in resources directory from SCSS/SASS styles.</description>
-    </item>
-    
-  </channel>
+Job image vs docker executor In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks.]]></description>
+</item><item>
+    <title>Overview of different Git Flows for management of software projects</title>
+    <link>https://example.com/git-flows-overview/</link>
+    <pubDate>Thu, 23 Apr 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/git-flows-overview/</guid>
+    <description><![CDATA[This article covers the different git flows tailored for software projects in professional environment. Each flow is adapted to the context of project scale, the number of developers and the expected delivery cycles. Here we feature Git Flow, Github Flow, Gitlab Flow
+Git Flow Github Flow Gitlab Flow Refence  Gitlab tutorial Stackoverflow Semantic release   ]]></description>
+</item></channel>
 </rss>

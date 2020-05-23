@@ -1,36 +1,100 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Thai Ho on Thai Ho</title>
-    <link>https://hpthai7.github.io/</link>
-    <description>Recent content in Thai Ho on Thai Ho</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://hpthai7.github.io/" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Posts</title>
-      <link>https://hpthai7.github.io/posts/</link>
-      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://hpthai7.github.io/about/</link>
-      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/about/</guid>
-      <description>&lt;p&gt;Hello. I originated from &lt;a href=&#34;https://www.google.fr/search?q=da+nang&#34;&gt;Da Nang, Vietnam&lt;/a&gt; as a student in electrical engineering, majoring in telecommunications and currently is a software engineer in &lt;a href=&#34;https://www.google.fr/search?q=il+de+france&#34;&gt;Île-de-France, France&lt;/a&gt;.
-My works revolve around software development and deployment. I have an avid interest in designing and implementing large
-scale softwares, and distributed systems, which I am learning and discovering progressively, though I have not had very much
-relevant experience. Machine learning and project management are also under my umbrella of things I&amp;rsquo;d like to hone.&lt;/p&gt;
-&lt;p&gt;Join me to learn from experimentation, from mistakes and from everybody. Together make a better self more than one of yesterday.&lt;/p&gt;
-&lt;p&gt;Feel free to drop me a message to hophuthai {at} gmail.com if you want to invite me a coffee.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>LoveIt</title>
+        <link>https://example.com/</link>
+        <description>About LoveIt Theme</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>th3ho@yahoo.com (Thai Ho)</managingEditor>
+            <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 10 Apr 2020 00:00:00 &#43;0000</lastBuildDate>
+            <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Theme Documentation - Basics</title>
+    <link>https://example.com/theme-documentation-basics/</link>
+    <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/theme-documentation-basics/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/theme-documentation-basics/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>Discover what the Hugo - <strong>LoveIt</strong> theme is all about and the core-concepts behind it.</p>]]></description>
+</item><item>
+    <title>Theme Documentation - Content</title>
+    <link>https://example.com/theme-documentation-content/</link>
+    <pubDate>Thu, 05 Mar 2020 15:58:26 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/theme-documentation-content/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/theme-documentation-content/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>Find out how to create and organize your content quickly and intuitively in <strong>LoveIt</strong> theme.</p>]]></description>
+</item><item>
+    <title>Theme Documentation - Built-in Shortcodes</title>
+    <link>https://example.com/theme-documentation-built-in-shortcodes/</link>
+    <pubDate>Wed, 04 Mar 2020 16:29:41 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/theme-documentation-built-in-shortcodes/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/theme-documentation-built-in-shortcodes/featured-image.png" referrerpolicy="no-referrer">
+            </div><p><strong>Hugo</strong> provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.</p>]]></description>
+</item><item>
+    <title>Theme Documentation - Extended Shortcodes</title>
+    <link>https://example.com/theme-documentation-extended-shortcodes/</link>
+    <pubDate>Tue, 03 Mar 2020 16:29:41 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/theme-documentation-extended-shortcodes/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/theme-documentation-extended-shortcodes/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p><strong>LoveIt</strong> theme provides multiple shortcodes on top of built-in ones in Hugo.</p>]]></description>
+</item><item>
+    <title>Basic Markdown Syntax</title>
+    <link>https://example.com/basic-markdown-syntax/</link>
+    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/basic-markdown-syntax/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/basic-markdown-syntax/featured-image.png" referrerpolicy="no-referrer">
+            </div><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
+</item><item>
+    <title>Emoji Support</title>
+    <link>https://example.com/emoji-support/</link>
+    <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/emoji-support/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/emoji-support/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>Emoji can be enabled in a Hugo project in a number of ways.</p>]]></description>
+</item><item>
+    <title>Essential Softwares</title>
+    <link>https://example.com/essential-softwares/</link>
+    <pubDate>Sun, 10 May 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/essential-softwares/</guid>
+    <description><![CDATA[This features a non-exhaustive list of my Essential Softwares for PC.
+Common Coding Visual Studio Code: general-purpose IDE for Linux or Windows:
+1  choco install -y vscode   Windows 10 General tools Chocolatey: command-line-based package manager
+1 2 3 4 5 6 7 8 9 10  # Open cmd or powershell in Administrative mode Get-ExecutionPolicy # If it returns Restricted, then run Set-ExecutionPolicy AllSigned # or Set-ExecutionPolicy Bypass -Scope Process # Install choco Set-ExecutionPolicy Bypass -Scope Process -Force; [System.]]></description>
+</item><item>
+    <title>Static Web Engines</title>
+    <link>https://example.com/static-web-engines/</link>
+    <pubDate>Sat, 09 May 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/static-web-engines/</guid>
+    <description><![CDATA[For personal blogs  Hugo Jekyll  For documentations  Docusaurus: open-sourced, good support by Facebook, good UI for navigation Readthedocs: ideal for books, like this Python book Gitbook: appropriate for team documentations Bookstack: idem, open-sourced and self-hosting Docsify: lightweight team documentation Sphinx: API docs with simplified themes, i.e. Alabaster  For APIs  Swagger [Doxygen]: for example, DBus [Redoc]: for example, Docker Postman  ]]></description>
+</item><item>
+    <title>Bash Cheat Sheets, Tips and Tricks</title>
+    <link>https://example.com/shell-cheat-sheet/</link>
+    <pubDate>Tue, 05 May 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/shell-cheat-sheet/</guid>
+    <description><![CDATA[References  Bash reference manual Cheat sheet Google style convention  Shell scripting Exit when any commands return a non-zero exit code:
+1 2  # exit when any command fails set -e   Further advanced exit strategies are available here
+Troubleshooting Return values in functions Bash can&rsquo;t pass around data structures as return values in functions. A return value must be a numeric exit status between 0-255. It&rsquo;s not recommended to return structured data like below:]]></description>
+</item><item>
+    <title>Git Cheat Sheets</title>
+    <link>https://example.com/git-cheat-sheet/</link>
+    <pubDate>Fri, 01 May 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/git-cheat-sheet/</guid>
+    <description><![CDATA[GitLab Gitlab CI-CD Reference Pay attention that the correct file for gitlab ci-cd pipeline .gitlab-ci.yml ends with .yml, not .yaml.
+Choose which executor for gitlab runner? Increase concurrent jobs Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.
+The limit of concurrent jobs are tunable in config.toml.
+Job image vs docker executor In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks.]]></description>
+</item></channel>
 </rss>

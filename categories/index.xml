@@ -1,85 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Thai Ho</title>
-    <link>https://hpthai7.github.io/categories/</link>
-    <description>Recent content in Categories on Thai Ho</description>
+    <title>Categories on LoveIt</title>
+    <link>https://example.com/categories/</link>
+    <description>Recent content in Categories on LoveIt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>th3ho@yahoo.com (Thai Ho)</managingEditor>
+    <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://hpthai7.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Tools</title>
-      <link>https://hpthai7.github.io/categories/tools/</link>
-      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/categories/tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Development</title>
-      <link>https://hpthai7.github.io/categories/web-development/</link>
-      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/categories/web-development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Development</title>
-      <link>https://hpthai7.github.io/categories/development/</link>
-      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deployment</title>
-      <link>https://hpthai7.github.io/categories/deployment/</link>
-      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/categories/deployment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://hpthai7.github.io/categories/git/</link>
-      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/categories/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Windows</title>
-      <link>https://hpthai7.github.io/categories/windows/</link>
-      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/categories/windows/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go</title>
-      <link>https://hpthai7.github.io/categories/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/categories/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://hpthai7.github.io/categories/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/categories/golang/</guid>
+      <title>Documentation</title>
+      <link>https://example.com/categories/documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>th3ho@yahoo.com (Thai Ho)</author>
+      <guid>https://example.com/categories/documentation/</guid>
       <description></description>
     </item>
     

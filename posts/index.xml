@@ -1,171 +1,187 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Thai Ho</title>
-    <link>https://hpthai7.github.io/posts/</link>
-    <description>Recent content in Posts on Thai Ho</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://hpthai7.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Essential Softwares</title>
-      <link>https://hpthai7.github.io/2020/essential-softwares/</link>
-      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2020/essential-softwares/</guid>
-      <description>This features a non-exhaustive list of my Essential Softwares for PC.
-Common  Coding  Visual Studio Code   For Linux
-  For Windows:
-choco install -y vscode       Windows 10   Chocolatey: command-line-based package manager
-# Open cmd or powershell in Administrative mode Get-ExecutionPolicy # If it returns Restricted, then run Set-ExecutionPolicy AllSigned # or Set-ExecutionPolicy Bypass -Scope Process # Install choco Set-ExecutionPolicy Bypass -Scope Process -Force; [System.</description>
-    </item>
-    
-    <item>
-      <title>Static Web Engines</title>
-      <link>https://hpthai7.github.io/2020/static-web-engines/</link>
-      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2020/static-web-engines/</guid>
-      <description>For personal blogs  Hugo Jekyll  For documentations  Docusaurus: open-sourced, good support by Facebook, good UI for navigation Readthedocs: ideal for books, like this Python book Gitbook: appropriate for team documentations Bookstack: idem, open-sourced and self-hosting Docsify: lightweight team documentation Sphinx: API docs with simplified themes, i.e. Alabaster  For APIs  Swagger [Doxygen]: for example, DBus [Redoc]: for example, Docker Postman  </description>
-    </item>
-    
-    <item>
-      <title>Bash Cheat Sheets, Tips and Tricks</title>
-      <link>https://hpthai7.github.io/2020/shell-cheat-sheet/</link>
-      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2020/shell-cheat-sheet/</guid>
-      <description>References  Bash reference manual Cheat sheet Google style convention  Shell scripting Exit when any commands return a non-zero exit code:
-# exit when any command fails set -e Further advanced exit strategies are available here
-Troubleshooting Return values in functions Bash can&amp;rsquo;t pass around data structures as return values in functions. A return value must be a numeric exit status between 0-255. It&amp;rsquo;s not recommended to return structured data like below:</description>
-    </item>
-    
-    <item>
-      <title>Git Cheat Sheets</title>
-      <link>https://hpthai7.github.io/2020/git-cheat-sheet/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2020/git-cheat-sheet/</guid>
-      <description>GitLab Gitlab CI-CD Reference Pay attention that the correct file for gitlab ci-cd pipeline .gitlab-ci.yml ends with .yml, not .yaml.
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - LoveIt</title>
+        <link>https://example.com/posts/</link>
+        <description>All Posts | LoveIt</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>th3ho@yahoo.com (Thai Ho)</managingEditor>
+            <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 10 May 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://example.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Theme Documentation - Basics</title>
+    <link>https://example.com/theme-documentation-basics/</link>
+    <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/theme-documentation-basics/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/theme-documentation-basics/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>Discover what the Hugo - <strong>LoveIt</strong> theme is all about and the core-concepts behind it.</p>]]></description>
+</item><item>
+    <title>Theme Documentation - Content</title>
+    <link>https://example.com/theme-documentation-content/</link>
+    <pubDate>Thu, 05 Mar 2020 15:58:26 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/theme-documentation-content/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/theme-documentation-content/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>Find out how to create and organize your content quickly and intuitively in <strong>LoveIt</strong> theme.</p>]]></description>
+</item><item>
+    <title>Theme Documentation - Built-in Shortcodes</title>
+    <link>https://example.com/theme-documentation-built-in-shortcodes/</link>
+    <pubDate>Wed, 04 Mar 2020 16:29:41 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/theme-documentation-built-in-shortcodes/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/theme-documentation-built-in-shortcodes/featured-image.png" referrerpolicy="no-referrer">
+            </div><p><strong>Hugo</strong> provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.</p>]]></description>
+</item><item>
+    <title>Theme Documentation - Extended Shortcodes</title>
+    <link>https://example.com/theme-documentation-extended-shortcodes/</link>
+    <pubDate>Tue, 03 Mar 2020 16:29:41 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/theme-documentation-extended-shortcodes/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/theme-documentation-extended-shortcodes/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p><strong>LoveIt</strong> theme provides multiple shortcodes on top of built-in ones in Hugo.</p>]]></description>
+</item><item>
+    <title>Basic Markdown Syntax</title>
+    <link>https://example.com/basic-markdown-syntax/</link>
+    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/basic-markdown-syntax/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/basic-markdown-syntax/featured-image.png" referrerpolicy="no-referrer">
+            </div><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
+</item><item>
+    <title>Emoji Support</title>
+    <link>https://example.com/emoji-support/</link>
+    <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/emoji-support/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/emoji-support/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>Emoji can be enabled in a Hugo project in a number of ways.</p>]]></description>
+</item><item>
+    <title>Essential Softwares</title>
+    <link>https://example.com/essential-softwares/</link>
+    <pubDate>Sun, 10 May 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/essential-softwares/</guid>
+    <description><![CDATA[This features a non-exhaustive list of my Essential Softwares for PC.
+Common Coding Visual Studio Code: general-purpose IDE for Linux or Windows:
+1  choco install -y vscode   Windows 10 General tools Chocolatey: command-line-based package manager
+1 2 3 4 5 6 7 8 9 10  # Open cmd or powershell in Administrative mode Get-ExecutionPolicy # If it returns Restricted, then run Set-ExecutionPolicy AllSigned # or Set-ExecutionPolicy Bypass -Scope Process # Install choco Set-ExecutionPolicy Bypass -Scope Process -Force; [System.]]></description>
+</item><item>
+    <title>Static Web Engines</title>
+    <link>https://example.com/static-web-engines/</link>
+    <pubDate>Sat, 09 May 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/static-web-engines/</guid>
+    <description><![CDATA[For personal blogs  Hugo Jekyll  For documentations  Docusaurus: open-sourced, good support by Facebook, good UI for navigation Readthedocs: ideal for books, like this Python book Gitbook: appropriate for team documentations Bookstack: idem, open-sourced and self-hosting Docsify: lightweight team documentation Sphinx: API docs with simplified themes, i.e. Alabaster  For APIs  Swagger [Doxygen]: for example, DBus [Redoc]: for example, Docker Postman  ]]></description>
+</item><item>
+    <title>Bash Cheat Sheets, Tips and Tricks</title>
+    <link>https://example.com/shell-cheat-sheet/</link>
+    <pubDate>Tue, 05 May 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/shell-cheat-sheet/</guid>
+    <description><![CDATA[References  Bash reference manual Cheat sheet Google style convention  Shell scripting Exit when any commands return a non-zero exit code:
+1 2  # exit when any command fails set -e   Further advanced exit strategies are available here
+Troubleshooting Return values in functions Bash can&rsquo;t pass around data structures as return values in functions. A return value must be a numeric exit status between 0-255. It&rsquo;s not recommended to return structured data like below:]]></description>
+</item><item>
+    <title>Git Cheat Sheets</title>
+    <link>https://example.com/git-cheat-sheet/</link>
+    <pubDate>Fri, 01 May 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/git-cheat-sheet/</guid>
+    <description><![CDATA[GitLab Gitlab CI-CD Reference Pay attention that the correct file for gitlab ci-cd pipeline .gitlab-ci.yml ends with .yml, not .yaml.
 Choose which executor for gitlab runner? Increase concurrent jobs Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.
 The limit of concurrent jobs are tunable in config.toml.
-Job image vs docker executor In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks.</description>
-    </item>
-    
-    <item>
-      <title>Overview of different Git Flows for management of software projects</title>
-      <link>https://hpthai7.github.io/2020/git-flows-overview/</link>
-      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2020/git-flows-overview/</guid>
-      <description>This article covers the different git flows tailored for software projects in professional environment. Each flow is adapted to the context of project scale, the number of developers and the expected delivery cycles. Here we feature Git Flow, Github Flow, Gitlab Flow
-Git Flow Github Flow Gitlab Flow Refence  Gitlab tutorial Stackoverflow Semantic release   </description>
-    </item>
-    
-    <item>
-      <title>Docker in development and deployment</title>
-      <link>https://hpthai7.github.io/2020/docker-in-development-and-deployment/</link>
-      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2020/docker-in-development-and-deployment/</guid>
-      <description>Semantic versioning The versioning of docker images, as per Docker Hub, does not respect the rules of semantic versioning. A single image can share different tags as demonstrated in the photo. The tags feature a Major release, a Major.minor release, and a Major.minor.patch release.</description>
-    </item>
-    
-    <item>
-      <title>Tips for development and deployment with Kubernetes</title>
-      <link>https://hpthai7.github.io/2020/kubernetes-tips/</link>
-      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2020/kubernetes-tips/</guid>
-      <description>What is Kubernetes Kubernetes is a sophisticated tool for the orchestration of containers in mass deployment. It provides an effective ways to define the software components, resources and deploy them in a controllable and effective manner. The strongest points of Kubernetes is:
-  The abstraction of infrastructure layer to deployment layer. This allows developers and administrators concentrate on the development stage and less worry about the management of the underlying hardware settings.</description>
-    </item>
-    
-    <item>
-      <title>Install a multi-window Linux-like terminal on Windows</title>
-      <link>https://hpthai7.github.io/2020/conemu-git-bash-on-windows/</link>
-      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2020/conemu-git-bash-on-windows/</guid>
-      <description>The frustration of having a Linux-like terminal with bash environment for development purpose has been lingering for a while. There are currently many terminal softwares such as HyperTerminal, ConEmu, Cmder, Cygwin and console application such as git bash, WSL, msys, powershell.
-As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switching to Windows. For Windows, WSL provide a real Linux bash environment, however, its integration with oh-my-zsh library has some font and background problems.</description>
-    </item>
-    
-    <item>
-      <title>Markdown checkout</title>
-      <link>https://hpthai7.github.io/2020/markdown/</link>
-      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2020/markdown/</guid>
-      <description>1. Intro 1.1. Code highlighting function readArgs(args) { for (const var in args) { console.log(`args[${var}] = ${args[var]}`) } } class Test(object): def __init__(): pass def foo(): if not bar: return True ls -al </description>
-    </item>
-    
-    <item>
-      <title>Creating a New Theme</title>
-      <link>https://hpthai7.github.io/2014/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2014/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://hpthai7.github.io/2014/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2014/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
-      <title>Shortcode Tests</title>
-      <link>https://hpthai7.github.io/2016/shortcode-tests/</link>
-      <pubDate>Thu, 29 Dec 2016 13:39:24 -0500</pubDate>
-      
-      <guid>https://hpthai7.github.io/2016/shortcode-tests/</guid>
-      <description>Hello, Thanks for downloading and testing our my shortcode pack. Below will load all of the shortcodes and display the various options they have. If you like and enjoy these short codes, please post a link on your blog to GeekThis.net, I would really appreciate it.
-Installing New Shortcodes To install shortcodes, copy each HTML file relating to a shortcode you want and place it into the shortcode directory inside of Hugo.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://hpthai7.github.io/2014/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2014/goisforlovers/</guid>
-      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
-This document is a brief primer on using Go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://hpthai7.github.io/2014/hugo-is-for-lovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2014/hugo-is-for-lovers/</guid>
-      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Job image vs docker executor In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks.]]></description>
+</item><item>
+    <title>Overview of different Git Flows for management of software projects</title>
+    <link>https://example.com/git-flows-overview/</link>
+    <pubDate>Thu, 23 Apr 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/git-flows-overview/</guid>
+    <description><![CDATA[This article covers the different git flows tailored for software projects in professional environment. Each flow is adapted to the context of project scale, the number of developers and the expected delivery cycles. Here we feature Git Flow, Github Flow, Gitlab Flow
+Git Flow Github Flow Gitlab Flow Refence  Gitlab tutorial Stackoverflow Semantic release   ]]></description>
+</item><item>
+    <title>Docker in development and deployment</title>
+    <link>https://example.com/docker-in-development-and-deployment/</link>
+    <pubDate>Mon, 13 Apr 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/docker-in-development-and-deployment/</guid>
+    <description><![CDATA[Semantic versioning The versioning of docker images, as per Docker Hub, does not respect the rules of semantic versioning. A single image can share different tags as demonstrated in the photo. The tags feature a Major release, a Major.minor release, and a Major.minor.patch release.]]></description>
+</item><item>
+    <title>Tips for development and deployment with Kubernetes</title>
+    <link>https://example.com/kubernetes-tips/</link>
+    <pubDate>Mon, 13 Apr 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/kubernetes-tips/</guid>
+    <description><![CDATA[What is Kubernetes Kubernetes is a sophisticated tool for the orchestration of containers in mass deployment. It provides an effective ways to define the software components, resources and deploy them in a controllable and effective manner. The strongest points of Kubernetes is:
+  The abstraction of infrastructure layer to deployment layer. This allows developers and administrators concentrate on the development stage and less worry about the management of the underlying hardware settings.]]></description>
+</item><item>
+    <title>Install a multi-window Linux-like terminal on Windows</title>
+    <link>https://example.com/conemu-git-bash-on-windows/</link>
+    <pubDate>Sat, 11 Apr 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/conemu-git-bash-on-windows/</guid>
+    <description><![CDATA[The frustration of having a Linux-like terminal with bash environment for development purpose has been lingering for a while. There are currently many terminal softwares such as HyperTerminal, ConEmu, Cmder, Cygwin and console application such as git bash, WSL, msys, powershell.
+As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switching to Windows. For Windows, WSL provide a real Linux bash environment, however, its integration with oh-my-zsh library has some font and background problems.]]></description>
+</item><item>
+    <title>Markdown checkout</title>
+    <link>https://example.com/markdown/</link>
+    <pubDate>Tue, 10 Mar 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/markdown/</guid>
+    <description><![CDATA[1. Intro 1.1. Code highlighting 1 2 3 4 5  function readArgs(args) { for (const var in args) { console.log(`args[${var}] = ${args[var]}`) } }   1 2 3 4 5 6 7  class Test(object): def __init__(): pass def foo(): if not bar: return True   1  ls -al   ]]></description>
+</item><item>
+    <title>Creating a New Theme</title>
+    <link>https://example.com/creating-a-new-theme/</link>
+    <pubDate>Sun, 28 Sep 2014 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/creating-a-new-theme/</guid>
+    <description><![CDATA[Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template.]]></description>
+</item><item>
+    <title>Migrate to Hugo from Jekyll</title>
+    <link>https://example.com/migrate-from-jekyll/</link>
+    <pubDate>Mon, 10 Mar 2014 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/migrate-from-jekyll/</guid>
+    <description><![CDATA[Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.]]></description>
+</item><item>
+    <title>Shortcode Tests</title>
+    <link>https://example.com/shortcode-tests/</link>
+    <pubDate>Thu, 29 Dec 2016 13:39:24 -0500</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/shortcode-tests/</guid>
+    <description><![CDATA[Hello, Thanks for downloading and testing our my shortcode pack. Below will load all of the shortcodes and display the various options they have. If you like and enjoy these short codes, please post a link on your blog to GeekThis.net, I would really appreciate it.
+Installing New Shortcodes To install shortcodes, copy each HTML file relating to a shortcode you want and place it into the shortcode directory inside of Hugo.]]></description>
+</item><item>
+    <title>(Hu)go Template Primer</title>
+    <link>https://example.com/goisforlovers/</link>
+    <pubDate>Wed, 02 Apr 2014 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/goisforlovers/</guid>
+    <description><![CDATA[Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+This document is a brief primer on using Go templates.]]></description>
+</item><item>
+    <title>Getting Started with Hugo</title>
+    <link>https://example.com/hugo-is-for-lovers/</link>
+    <pubDate>Wed, 02 Apr 2014 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/hugo-is-for-lovers/</guid>
+    <description><![CDATA[Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
-In Windows The handy way favors chocolatey. For the theme KeepIt, it&amp;rsquo;s recommended to install the extended version of hugo with SCSS/SASS support. It allows better rendering of the website thanks to the generation of CSS in resources directory from SCSS/SASS styles.</description>
-    </item>
-    
-    <item>
-      <title>Introduction aux modèles (Hu)go</title>
-      <link>https://hpthai7.github.io/2014/goisforlovers.fr/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hpthai7.github.io/2014/goisforlovers.fr/</guid>
-      <description>Hugo utilise l&amp;rsquo;excellente librairie go html/template pour son moteur de modèles. c&amp;rsquo;est un moteur extrêmement léger qui offre un très petit nombre de fonctions logiques. À notre expérience, c&amp;rsquo;est juste ce qu&amp;rsquo;il faut pour créer un bon site web statique. Si vous avez déjà utilisé d&amp;rsquo;autre moteurs de modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de similitudes avec les modèles go.
-Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates.</description>
-    </item>
-    
-  </channel>
+In Windows The handy way favors chocolatey. For the theme KeepIt, it&rsquo;s recommended to install the extended version of hugo with SCSS/SASS support. It allows better rendering of the website thanks to the generation of CSS in resources directory from SCSS/SASS styles.]]></description>
+</item><item>
+    <title>Introduction aux modèles (Hu)go</title>
+    <link>https://example.com/goisforlovers.fr/</link>
+    <pubDate>Wed, 02 Apr 2014 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/goisforlovers.fr/</guid>
+    <description><![CDATA[Hugo utilise l&rsquo;excellente librairie go html/template pour son moteur de modèles. c&rsquo;est un moteur extrêmement léger qui offre un très petit nombre de fonctions logiques. À notre expérience, c&rsquo;est juste ce qu&rsquo;il faut pour créer un bon site web statique. Si vous avez déjà utilisé d&rsquo;autre moteurs de modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de similitudes avec les modèles go.
+Ce document est une introduction sur l&rsquo;utilisation de Go templates.]]></description>
+</item></channel>
 </rss>
