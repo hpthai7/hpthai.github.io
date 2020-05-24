@@ -35,6 +35,16 @@ choco install -y vscode
 
 [**DeepL Linguee**](https://www.linguee.com/): translation database from DeepL available for [Web](https://www.linguee.com/), [iOS](https://itunes.apple.com/en/app/id338225335?mt=8), [Android](https://play.google.com/store/apps/details?id=com.linguee.linguee&referrer=utm_source%3Dlinguee%26utm_medium%3Dunknown%26utm_campaign%3DaboutClosure).
 
+## Utilities
+
+### Screen capturing
+
+[**ShareX**](https://getsharex.com/): free and open-source available for [Windows](https://getsharex.com/)
+
+[**Greenshot**](https://getgreenshot.org/): free and open-source for [Windows](https://getgreenshot.org/downloads/) and 1.99$ for [MacOS](https://getgreenshot.org/downloads/)
+
+[**Faststone**](https://www.faststone.org/download.htm): powerful, not-free, lightweight, available for [Windows](https://www.faststone.org/download.htm)
+
 ## Windows 10
 
 ### General tools
