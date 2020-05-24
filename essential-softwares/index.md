@@ -15,7 +15,7 @@ choco install -y vscode
 
 ### Languages
 
-### Learning
+#### Learning
 
 [**BBC Learning English**](https://www.bbc.co.uk/learningenglish/): beautiful English tutorials at beginner and intermediate level available for [Web](https://www.bbc.co.uk/learningenglish/app), [iOS](https://itunes.apple.com/us/app/bbc-learning-english/id1416610731), [Android](https://play.google.com/store/apps/details?id=uk.co.bbc.learningenglish).
 
@@ -34,7 +34,6 @@ choco install -y vscode
 [**DeepL Translator**](https://www.deepl.com/home): AI Assistance for Language available for [Windows](https://www.deepl.com/app), [MacOS](https://www.deepl.com/app), [Linux](https://www.deepl.com/app).
 
 [**DeepL Linguee**](https://www.linguee.com/): translation database from DeepL available for [Web](https://www.linguee.com/), [iOS](https://itunes.apple.com/en/app/id338225335?mt=8), [Android](https://play.google.com/store/apps/details?id=com.linguee.linguee&referrer=utm_source%3Dlinguee%26utm_medium%3Dunknown%26utm_campaign%3DaboutClosure).
-
 
 ## Windows 10
 
