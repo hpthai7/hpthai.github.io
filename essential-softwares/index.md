@@ -7,17 +7,40 @@ This features a non-exhaustive list of my Essential Softwares for PC.
 
 ### Coding
 
-[**Visual Studio Code**](https://code.visualstudio.com/): general-purpose IDE for [Linux](https://code.visualstudio.com/docs/setup/linux) or Windows:
+[**Visual Studio Code**](https://code.visualstudio.com/): general-purpose IDE for [Linux](https://code.visualstudio.com/docs/setup/linux), Windows and MacOS:
 
 ```shell
 choco install -y vscode
 ```
 
+### Languages
+
+### Learning
+
+[**BBC Learning English**](https://www.bbc.co.uk/learningenglish/): beautiful English tutorials at beginner and intermediate level available for [Web](https://www.bbc.co.uk/learningenglish/app), [iOS](https://itunes.apple.com/us/app/bbc-learning-english/id1416610731), [Android](https://play.google.com/store/apps/details?id=uk.co.bbc.learningenglish).
+
+#### Dictionaries
+
+[**Lingoes**](http://www.lingoes.net/): a dictionary reader available for [Windows](http://www.lingoes.net/en/translator/download.htm) only.
+
+[**GoldenDict**](http://goldendict.org/): another dictionary reader available for [Windows](https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Windows), [Linux](https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Linux-Portable) or [MacOS](https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Mac-OS-X).
+
+#### Flashcards
+
+[**Anki**](https://apps.ankiweb.net/): powerful, intelligent flash cards available for [Windows](https://apps.ankiweb.net/), [Linux](https://apps.ankiweb.net/), [MacOS](https://apps.ankiweb.net/), [iOS](https://itunes.apple.com/us/app/ankimobile-flashcards/id373493387) (non-free), [Android](https://play.google.com/store/apps/details?id=com.ichi2.anki).
+
+#### Others
+
+[**DeepL Translator**](https://www.deepl.com/home): AI Assistance for Language available for [Windows](https://www.deepl.com/app), [MacOS](https://www.deepl.com/app), [Linux](https://www.deepl.com/app).
+
+[**DeepL Linguee**](https://www.linguee.com/): translation database from DeepL available for [Web](https://www.linguee.com/), [iOS](https://itunes.apple.com/en/app/id338225335?mt=8), [Android](https://play.google.com/store/apps/details?id=com.linguee.linguee&referrer=utm_source%3Dlinguee%26utm_medium%3Dunknown%26utm_campaign%3DaboutClosure).
+
+
 ## Windows 10
 
 ### General tools
 
-[**Chocolatey**](https://chocolatey.org/install): command-line-based package manager
+[**Chocolatey**](https://chocolatey.org/): command-line-based package manager for [Windows](https://chocolatey.org/install)
 
 ```powershell
 # Open cmd or powershell in Administrative mode
@@ -43,12 +66,6 @@ choco install -y 7zip
 ```shell
 choco install -y lockhunter
 ```
-
-### Dictionaries
-
-[**Lingoes**](http://www.lingoes.net/en/translator/download.htm): a dictionary reader
-
-[**GoldenDict**](https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Windows): another dictionary reader
 
 ### Remote working
 
@@ -112,8 +129,3 @@ cat package.json | jq . -C | less -R
 
 [**tldr**](https://github.com/tldr-pages/tldr): JS-based simplified and community-driven man pages
 
-## iOS
-
-### Languages
-
-[**BBC Learning English**](https://www.bbc.co.uk/learningenglish/): beautiful English tutorials at beginner and intermediate level

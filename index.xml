@@ -74,9 +74,11 @@
     <author>Author</author>
     <guid>https://hpthai7.github.io/essential-softwares/</guid>
     <description><![CDATA[This features a non-exhaustive list of my Essential Softwares for PC.
-Common Coding Visual Studio Code: general-purpose IDE for Linux or Windows:
-1  choco install -y vscode   Windows 10 General tools Chocolatey: command-line-based package manager
-1 2 3 4 5 6 7 8 9 10  # Open cmd or powershell in Administrative mode Get-ExecutionPolicy # If it returns Restricted, then run Set-ExecutionPolicy AllSigned # or Set-ExecutionPolicy Bypass -Scope Process # Install choco Set-ExecutionPolicy Bypass -Scope Process -Force; [System.]]></description>
+Common Coding Visual Studio Code: general-purpose IDE for Linux, Windows and MacOS:
+1  choco install -y vscode   Languages Learning BBC Learning English: beautiful English tutorials at beginner and intermediate level available for Web, iOS, Android.
+Dictionaries Lingoes: a dictionary reader available for Windows only.
+GoldenDict: another dictionary reader available for Windows, Linux or MacOS.
+Flashcards Anki: powerful, intelligent flash cards available for Windows, Linux, MacOS, iOS (non-free), Android.]]></description>
 </item><item>
     <title>Static Web Engines</title>
     <link>https://hpthai7.github.io/static-web-engines/</link>
