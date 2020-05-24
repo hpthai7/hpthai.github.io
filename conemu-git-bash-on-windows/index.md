@@ -1,4 +1,4 @@
-# Install a multi-window Linux-like terminal on Windows
+# Multi-windows Linux-like terminal on Windows
 
 
 The frustration of having a Linux-like terminal with bash environment for development purpose has been lingering for a while.
@@ -46,6 +46,7 @@ choco install conemu
 ```
 
 ConEmu settings:
+
 - TL-DR: import the [XML setting file](/conemu-git-bash-on-windows/conemu-settings.xml)
 - General -> Font: choose `Consolas` size 12 if integrating git bash
   - If WSL bash environment is also integrated, install powerline font and choose `Droid Sans Mono Slashed for Pow`

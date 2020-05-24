@@ -15,20 +15,12 @@ Choose which executor for gitlab runner? Increase concurrent jobs Jobs are execu
 The limit of concurrent jobs are tunable in config.toml.
 Job image vs docker executor In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks.]]></description>
 </item><item>
-    <title>Overview of different Git Flows for management of software projects</title>
+    <title>Git Flows for Management of Software Projects</title>
     <link>https://example.com/git-flows-overview/</link>
     <pubDate>Thu, 23 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://example.com/git-flows-overview/</guid>
     <description><![CDATA[This article covers the different git flows tailored for software projects in professional environment. Each flow is adapted to the context of project scale, the number of developers and the expected delivery cycles. Here we feature Git Flow, Github Flow, Gitlab Flow
 Git Flow Github Flow Gitlab Flow Refence  Gitlab tutorial Stackoverflow Semantic release   ]]></description>
-</item><item>
-    <title>Install a multi-window Linux-like terminal on Windows</title>
-    <link>https://example.com/conemu-git-bash-on-windows/</link>
-    <pubDate>Sat, 11 Apr 2020 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://example.com/conemu-git-bash-on-windows/</guid>
-    <description><![CDATA[The frustration of having a Linux-like terminal with bash environment for development purpose has been lingering for a while. There are currently many terminal softwares such as HyperTerminal, ConEmu, Cmder, Cygwin and console application such as git bash, WSL, msys, powershell.
-As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switching to Windows. For Windows, WSL provide a real Linux bash environment, however, its integration with oh-my-zsh library has some font and background problems.]]></description>
 </item></channel>
 </rss>

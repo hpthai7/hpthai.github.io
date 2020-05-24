@@ -50,6 +50,13 @@
                 <img src="/images/basic-markdown-syntax/featured-image.png" referrerpolicy="no-referrer">
             </div><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
 </item><item>
+    <title>Common Utilities for Linux Terminal</title>
+    <link>https://example.com/common-utilities-for-linux-terminal/</link>
+    <pubDate>Fri, 08 Sep 2017 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/common-utilities-for-linux-terminal/</guid>
+    <description><![CDATA[Navigation Autojump Navigation in terminals using command cd is a real hassle when we have to switch back and forth between multiple directories. Autojump is a convenient tool to jump to a visited directory. While cd is handy to jump to a near relative location, i.e. a children or the parent, autojump complements cd when users jumps to farly different locations. It is not necessarily meant to be a complete replacement of cd.]]></description>
+</item><item>
     <title>Emoji Support</title>
     <link>https://example.com/emoji-support/</link>
     <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
@@ -76,7 +83,7 @@ Common Coding Visual Studio Code: general-purpose IDE for Linux or Windows:
     <guid>https://example.com/static-web-engines/</guid>
     <description><![CDATA[For personal blogs  Hugo Jekyll  For documentations  Docusaurus: open-sourced, good support by Facebook, good UI for navigation Readthedocs: ideal for books, like this Python book Gitbook: appropriate for team documentations Bookstack: idem, open-sourced and self-hosting Docsify: lightweight team documentation Sphinx: API docs with simplified themes, i.e. Alabaster  For APIs  Swagger [Doxygen]: for example, DBus [Redoc]: for example, Docker Postman  ]]></description>
 </item><item>
-    <title>Bash Cheat Sheets, Tips and Tricks</title>
+    <title>Shell Cheat Sheets</title>
     <link>https://example.com/shell-cheat-sheet/</link>
     <pubDate>Tue, 05 May 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
@@ -95,7 +102,7 @@ Choose which executor for gitlab runner? Increase concurrent jobs Jobs are execu
 The limit of concurrent jobs are tunable in config.toml.
 Job image vs docker executor In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks.]]></description>
 </item><item>
-    <title>Overview of different Git Flows for management of software projects</title>
+    <title>Git Flows for Management of Software Projects</title>
     <link>https://example.com/git-flows-overview/</link>
     <pubDate>Thu, 23 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
@@ -103,35 +110,28 @@ Job image vs docker executor In the definition of jobs, the image keyword is the
     <description><![CDATA[This article covers the different git flows tailored for software projects in professional environment. Each flow is adapted to the context of project scale, the number of developers and the expected delivery cycles. Here we feature Git Flow, Github Flow, Gitlab Flow
 Git Flow Github Flow Gitlab Flow Refence  Gitlab tutorial Stackoverflow Semantic release   ]]></description>
 </item><item>
-    <title>Docker in development and deployment</title>
-    <link>https://example.com/docker-in-development-and-deployment/</link>
+    <title>Kubernetes Cheat Sheet</title>
+    <link>https://example.com/kubernetes-cheat-sheet/</link>
     <pubDate>Mon, 13 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://example.com/docker-in-development-and-deployment/</guid>
-    <description><![CDATA[Semantic versioning The versioning of docker images, as per Docker Hub, does not respect the rules of semantic versioning. A single image can share different tags as demonstrated in the photo. The tags feature a Major release, a Major.minor release, and a Major.minor.patch release.]]></description>
-</item><item>
-    <title>Tips for development and deployment with Kubernetes</title>
-    <link>https://example.com/kubernetes-tips/</link>
-    <pubDate>Mon, 13 Apr 2020 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://example.com/kubernetes-tips/</guid>
+    <guid>https://example.com/kubernetes-cheat-sheet/</guid>
     <description><![CDATA[What is Kubernetes Kubernetes is a sophisticated tool for the orchestration of containers in mass deployment. It provides an effective ways to define the software components, resources and deploy them in a controllable and effective manner. The strongest points of Kubernetes is:
   The abstraction of infrastructure layer to deployment layer. This allows developers and administrators concentrate on the development stage and less worry about the management of the underlying hardware settings.]]></description>
 </item><item>
-    <title>Install a multi-window Linux-like terminal on Windows</title>
+    <title>Virtualization vs Containerization</title>
+    <link>https://example.com/virtualization-vs-containerization/</link>
+    <pubDate>Mon, 13 Apr 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/virtualization-vs-containerization/</guid>
+    <description><![CDATA[Semantic versioning The versioning of docker images, as per Docker Hub, does not respect the rules of semantic versioning. A single image can share different tags as demonstrated in the photo. The tags feature a Major release, a Major.minor release, and a Major.minor.patch release.]]></description>
+</item><item>
+    <title>Multi-windows Linux-like terminal on Windows</title>
     <link>https://example.com/conemu-git-bash-on-windows/</link>
     <pubDate>Sat, 11 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://example.com/conemu-git-bash-on-windows/</guid>
     <description><![CDATA[The frustration of having a Linux-like terminal with bash environment for development purpose has been lingering for a while. There are currently many terminal softwares such as HyperTerminal, ConEmu, Cmder, Cygwin and console application such as git bash, WSL, msys, powershell.
 As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switching to Windows. For Windows, WSL provide a real Linux bash environment, however, its integration with oh-my-zsh library has some font and background problems.]]></description>
-</item><item>
-    <title>Markdown checkout</title>
-    <link>https://example.com/markdown/</link>
-    <pubDate>Tue, 10 Mar 2020 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://example.com/markdown/</guid>
-    <description><![CDATA[1. Intro 1.1. Code highlighting 1 2 3 4 5  function readArgs(args) { for (const var in args) { console.log(`args[${var}] = ${args[var]}`) } }   1 2 3 4 5 6 7  class Test(object): def __init__(): pass def foo(): if not bar: return True   1  ls -al   ]]></description>
 </item><item>
     <title>Creating a New Theme</title>
     <link>https://example.com/creating-a-new-theme/</link>
@@ -150,6 +150,27 @@ We&rsquo;ll start with creating a new site with a very basic template.]]></descr
 ▾ &lt;root&gt;/ ▾ images/ logo.png  should become
 ▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.]]></description>
 </item><item>
+    <title>Clean Code - A Handbook of Agile Software Craftsmanship</title>
+    <link>https://example.com/clean-code-a-handbook-of-agile-software-craftmanship/</link>
+    <pubDate>Wed, 08 Nov 2017 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/clean-code-a-handbook-of-agile-software-craftmanship/</guid>
+    <description><![CDATA[During an internship, I inherited a big project in insurance, featuring the processing and visualization of natural-phenomenon-related risk data and decision making of insurance contracts. The big words of contracts, forewriting,
+Quotes:
+&ldquo;If I don’t do what my manager says, I’ll be fired.&rdquo; Probably not. Most managers want the truth, even when they don’t act like it. Most managers want good code, even when they are obsessing about the schedule. They may defend the schedule and requirements with passion; but that’s their job.]]></description>
+</item><item>
+    <title>Test-Driven Development By Example</title>
+    <link>https://example.com/test-driven-development/</link>
+    <pubDate>Sun, 08 Oct 2017 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/test-driven-development/</guid>
+    <description><![CDATA[Introduction
+From the mantra of Test-Driven Development: writing failed tests before writing codes, and eliminating duplication, the three-step rule is put forth:
+ Write a test at first Correct the code to make the test work Refactor  Why test-driven development?
+Where test-driven development not primarily viable?
+ Security Concurrency User interface  Organization of the book:
+ Examples of test-driven programming Examples of more complicated programming Design patterns  ]]></description>
+</item><item>
     <title>Shortcode Tests</title>
     <link>https://example.com/shortcode-tests/</link>
     <pubDate>Thu, 29 Dec 2016 13:39:24 -0500</pubDate>
@@ -159,28 +180,28 @@ We&rsquo;ll start with creating a new site with a very basic template.]]></descr
 Installing New Shortcodes To install shortcodes, copy each HTML file relating to a shortcode you want and place it into the shortcode directory inside of Hugo.]]></description>
 </item><item>
     <title>(Hu)go Template Primer</title>
-    <link>https://example.com/goisforlovers/</link>
+    <link>https://example.com/hugo-template-primer/</link>
     <pubDate>Wed, 02 Apr 2014 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://example.com/goisforlovers/</guid>
+    <guid>https://example.com/hugo-template-primer/</guid>
     <description><![CDATA[Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates.]]></description>
 </item><item>
     <title>Getting Started with Hugo</title>
-    <link>https://example.com/hugo-is-for-lovers/</link>
+    <link>https://example.com/getting-started-with-hugo/</link>
     <pubDate>Wed, 02 Apr 2014 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://example.com/hugo-is-for-lovers/</guid>
+    <guid>https://example.com/getting-started-with-hugo/</guid>
     <description><![CDATA[Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
 In Windows The handy way favors chocolatey. For the theme KeepIt, it&rsquo;s recommended to install the extended version of hugo with SCSS/SASS support. It allows better rendering of the website thanks to the generation of CSS in resources directory from SCSS/SASS styles.]]></description>
 </item><item>
-    <title>Introduction aux modèles (Hu)go</title>
-    <link>https://example.com/goisforlovers.fr/</link>
+    <title>Introduction aux Modèles (Hu)go</title>
+    <link>https://example.com/introduction-aux-modeles-hugo/</link>
     <pubDate>Wed, 02 Apr 2014 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://example.com/goisforlovers.fr/</guid>
+    <guid>https://example.com/introduction-aux-modeles-hugo/</guid>
     <description><![CDATA[Hugo utilise l&rsquo;excellente librairie go html/template pour son moteur de modèles. c&rsquo;est un moteur extrêmement léger qui offre un très petit nombre de fonctions logiques. À notre expérience, c&rsquo;est juste ce qu&rsquo;il faut pour créer un bon site web statique. Si vous avez déjà utilisé d&rsquo;autre moteurs de modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de similitudes avec les modèles go.
 Ce document est une introduction sur l&rsquo;utilisation de Go templates.]]></description>
 </item></channel>

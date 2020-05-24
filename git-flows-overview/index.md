@@ -1,4 +1,4 @@
-# Overview of different Git Flows for management of software projects
+# Git Flows for Management of Software Projects
 
 
 This article covers the different git flows tailored for software projects in professional environment. Each flow is adapted to the context of project scale, the number of developers and the expected delivery cycles. Here we feature Git Flow, Github Flow, Gitlab Flow

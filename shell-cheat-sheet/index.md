@@ -1,4 +1,4 @@
-# Bash Cheat Sheets, Tips and Tricks
+# Shell Cheat Sheets
 
 
 ## References

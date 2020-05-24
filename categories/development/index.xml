@@ -1,11 +1,11 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Development - Category - LoveIt</title>
+        <title>development - Category - LoveIt</title>
         <link>https://example.com/categories/development/</link>
-        <description>Development - Category - LoveIt</description>
+        <description>development - Category - LoveIt</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>th3ho@yahoo.com (Thai Ho)</managingEditor>
             <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 05 May 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://example.com/categories/development/" rel="self" type="application/rss+xml" /><item>
-    <title>Bash Cheat Sheets, Tips and Tricks</title>
+    <title>Shell Cheat Sheets</title>
     <link>https://example.com/shell-cheat-sheet/</link>
     <pubDate>Tue, 05 May 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
@@ -24,12 +24,33 @@ Choose which executor for gitlab runner? Increase concurrent jobs Jobs are execu
 The limit of concurrent jobs are tunable in config.toml.
 Job image vs docker executor In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks.]]></description>
 </item><item>
-    <title>Overview of different Git Flows for management of software projects</title>
+    <title>Git Flows for Management of Software Projects</title>
     <link>https://example.com/git-flows-overview/</link>
     <pubDate>Thu, 23 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://example.com/git-flows-overview/</guid>
     <description><![CDATA[This article covers the different git flows tailored for software projects in professional environment. Each flow is adapted to the context of project scale, the number of developers and the expected delivery cycles. Here we feature Git Flow, Github Flow, Gitlab Flow
 Git Flow Github Flow Gitlab Flow Refence  Gitlab tutorial Stackoverflow Semantic release   ]]></description>
+</item><item>
+    <title>Clean Code - A Handbook of Agile Software Craftsmanship</title>
+    <link>https://example.com/clean-code-a-handbook-of-agile-software-craftmanship/</link>
+    <pubDate>Wed, 08 Nov 2017 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/clean-code-a-handbook-of-agile-software-craftmanship/</guid>
+    <description><![CDATA[During an internship, I inherited a big project in insurance, featuring the processing and visualization of natural-phenomenon-related risk data and decision making of insurance contracts. The big words of contracts, forewriting,
+Quotes:
+&ldquo;If I don’t do what my manager says, I’ll be fired.&rdquo; Probably not. Most managers want the truth, even when they don’t act like it. Most managers want good code, even when they are obsessing about the schedule. They may defend the schedule and requirements with passion; but that’s their job.]]></description>
+</item><item>
+    <title>Test-Driven Development By Example</title>
+    <link>https://example.com/test-driven-development/</link>
+    <pubDate>Sun, 08 Oct 2017 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/test-driven-development/</guid>
+    <description><![CDATA[Introduction
+From the mantra of Test-Driven Development: writing failed tests before writing codes, and eliminating duplication, the three-step rule is put forth:
+ Write a test at first Correct the code to make the test work Refactor  Why test-driven development?
+Where test-driven development not primarily viable?
+ Security Concurrency User interface  Organization of the book:
+ Examples of test-driven programming Examples of more complicated programming Design patterns  ]]></description>
 </item></channel>
 </rss>

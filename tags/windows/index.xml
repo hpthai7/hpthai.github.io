@@ -5,7 +5,7 @@
         <description>Windows - Tag - LoveIt</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>th3ho@yahoo.com (Thai Ho)</managingEditor>
             <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 11 Apr 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://example.com/tags/windows/" rel="self" type="application/rss+xml" /><item>
-    <title>Install a multi-window Linux-like terminal on Windows</title>
+    <title>Multi-windows Linux-like terminal on Windows</title>
     <link>https://example.com/conemu-git-bash-on-windows/</link>
     <pubDate>Sat, 11 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>

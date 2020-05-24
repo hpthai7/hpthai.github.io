@@ -5,11 +5,11 @@
         <description>microk8s - Tag - LoveIt</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>th3ho@yahoo.com (Thai Ho)</managingEditor>
             <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 13 Apr 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://example.com/tags/microk8s/" rel="self" type="application/rss+xml" /><item>
-    <title>Tips for development and deployment with Kubernetes</title>
-    <link>https://example.com/kubernetes-tips/</link>
+    <title>Kubernetes Cheat Sheet</title>
+    <link>https://example.com/kubernetes-cheat-sheet/</link>
     <pubDate>Mon, 13 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://example.com/kubernetes-tips/</guid>
+    <guid>https://example.com/kubernetes-cheat-sheet/</guid>
     <description><![CDATA[What is Kubernetes Kubernetes is a sophisticated tool for the orchestration of containers in mass deployment. It provides an effective ways to define the software components, resources and deploy them in a controllable and effective manner. The strongest points of Kubernetes is:
   The abstraction of infrastructure layer to deployment layer. This allows developers and administrators concentrate on the development stage and less worry about the management of the underlying hardware settings.]]></description>
 </item></channel>

@@ -162,7 +162,7 @@ A shortcode is a simple snippet that can generate reasonable HTML code and confo
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{<span class="p">&lt;</span> <span class="nt">figure</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;/images/theme-documentation-built-in-shortcodes/lighthouse.jpg&#34;</span> <span class="na">title</span><span class="o">=</span><span class="s">&#34;Lighthouse (figure)&#34;</span> <span class="p">&gt;</span>}}
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{&lt; figure src=&#34;/images/theme-documentation-built-in-shortcodes/lighthouse.jpg&#34; title=&#34;Lighthouse (figure)&#34; &gt;}}
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
@@ -199,7 +199,7 @@ A shortcode is a simple snippet that can generate reasonable HTML code and confo
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{<span class="p">&lt;</span> <span class="nt">gist</span> <span class="na">spf13</span> <span class="na">7896402</span> <span class="p">&gt;</span>}}
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{&lt; gist spf13 7896402 &gt;}}
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
@@ -231,16 +231,16 @@ A shortcode is a simple snippet that can generate reasonable HTML code and confo
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{<span class="p">&lt;</span> <span class="nt">highlight</span> <span class="na">html</span> <span class="p">&gt;</span>}}
-<span class="p">&lt;</span><span class="nt">section</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;main&#34;</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">h1</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;title&#34;</span><span class="p">&gt;</span>{{ .Title }}<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{&lt; highlight html &gt;}}
+&lt;section id=&#34;main&#34;&gt;
+    &lt;div&gt;
+        &lt;h1 id=&#34;title&#34;&gt;{{ .Title }}&lt;/h1&gt;
         {{ range .Pages }}
             {{ .Render &#34;summary&#34;}}
         {{ end }}
-    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
-{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">highlight</span> <span class="p">&gt;</span>}}
+    &lt;/div&gt;
+&lt;/section&gt;
+{{&lt; /highlight &gt;}}
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
@@ -274,7 +274,7 @@ A shortcode is a simple snippet that can generate reasonable HTML code and confo
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{<span class="p">&lt;</span> <span class="nt">instagram</span> <span class="na">BWNjjyYFxVx</span> <span class="na">hidecaption</span> <span class="p">&gt;</span>}}
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{&lt; instagram BWNjjyYFxVx hidecaption &gt;}}
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
@@ -290,7 +290,7 @@ A shortcode is a simple snippet that can generate reasonable HTML code and confo
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{<span class="p">&lt;</span> <span class="nt">param</span> <span class="na">description</span> <span class="p">&gt;</span>}}
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{&lt; param description &gt;}}
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
@@ -305,7 +305,7 @@ Hugo provides multiple built-in shortcodes for author convenience and to keep yo
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{<span class="p">&lt;</span> <span class="nt">tweet</span> <span class="na">877500564405444608</span> <span class="p">&gt;</span>}}
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{&lt; tweet 877500564405444608 &gt;}}
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
@@ -320,7 +320,7 @@ Hugo provides multiple built-in shortcodes for author convenience and to keep yo
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{<span class="p">&lt;</span> <span class="nt">vimeo</span> <span class="na">146022717</span> <span class="p">&gt;</span>}}
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{&lt; vimeo 146022717 &gt;}}
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
@@ -337,7 +337,7 @@ Hugo provides multiple built-in shortcodes for author convenience and to keep yo
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{<span class="p">&lt;</span> <span class="nt">youtube</span> <span class="na">w7Ft2ymGmfc</span> <span class="p">&gt;</span>}}
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{&lt; youtube w7Ft2ymGmfc &gt;}}
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>

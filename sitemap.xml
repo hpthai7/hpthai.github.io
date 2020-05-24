@@ -7,16 +7,16 @@
             <loc>https://example.com/theme-documentation-built-in-shortcodes/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/theme-documentation-extended-shortcodes/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/basic-markdown-syntax/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/common-utilities-for-linux-terminal/</loc><lastmod>2017-09-08T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/emoji-support/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/essential-softwares/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/static-web-engines/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/shell-cheat-sheet/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/git-cheat-sheet/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/git-flows-overview/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/docker-in-development-and-deployment/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/kubernetes-tips/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/kubernetes-cheat-sheet/</loc><lastmod>2020-04-13T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/virtualization-vs-containerization/</loc><lastmod>2020-04-13T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/conemu-git-bash-on-windows/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/markdown/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/creating-a-new-theme/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/migrate-from-jekyll/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/categories/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -30,11 +30,10 @@
             <loc>https://example.com/categories/git/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/tags/git/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/categories/deployment/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/tags/deployment/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/tags/docker/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/tags/kubernetes/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/tags/microk8s/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/tags/conemu/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/tags/deployment/</loc><lastmod>2020-04-13T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/tags/docker/</loc><lastmod>2020-04-13T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/tags/kubernetes/</loc><lastmod>2020-04-13T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/tags/microk8s/</loc><lastmod>2020-04-13T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/tags/terminal/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/tags/windows/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/categories/windows/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -49,15 +48,18 @@
             <loc>https://example.com/tags/html/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/categories/markdown/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/tags/emoji/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/clean-code-a-handbook-of-agile-software-craftmanship/</loc><lastmod>2017-11-08T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/tags/development/</loc><lastmod>2017-11-08T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/test-driven-development/</loc><lastmod>2017-10-08T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/categories/linux/</loc><lastmod>2017-09-08T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/shortcode-tests/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/goisforlovers/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/tags/development/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/hugo-is-for-lovers/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/categories/go/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/tags/go/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/tags/golang/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/tags/hugo/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/goisforlovers.fr/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/tags/templates/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://example.com/tags/themes/</loc><lastmod>2020-05-23T14:35:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/hugo-template-primer/</loc><lastmod>2014-04-02T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/getting-started-with-hugo/</loc><lastmod>2014-04-02T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/categories/go/</loc><lastmod>2014-04-02T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/tags/go/</loc><lastmod>2014-04-02T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/tags/golang/</loc><lastmod>2014-04-02T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/tags/hugo/</loc><lastmod>2014-04-02T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/introduction-aux-modeles-hugo/</loc><lastmod>2014-04-02T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/tags/templates/</loc><lastmod>2014-04-02T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/tags/themes/</loc><lastmod>2014-04-02T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/categories/documentation/</loc><lastmod>2020-05-23T12:21:22&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

@@ -5,11 +5,11 @@
         <description>docker - Tag - LoveIt</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>th3ho@yahoo.com (Thai Ho)</managingEditor>
             <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 13 Apr 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://example.com/tags/docker/" rel="self" type="application/rss+xml" /><item>
-    <title>Docker in development and deployment</title>
-    <link>https://example.com/docker-in-development-and-deployment/</link>
+    <title>Virtualization vs Containerization</title>
+    <link>https://example.com/virtualization-vs-containerization/</link>
     <pubDate>Mon, 13 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://example.com/docker-in-development-and-deployment/</guid>
+    <guid>https://example.com/virtualization-vs-containerization/</guid>
     <description><![CDATA[Semantic versioning The versioning of docker images, as per Docker Hub, does not respect the rules of semantic versioning. A single image can share different tags as demonstrated in the photo. The tags feature a Major release, a Major.minor release, and a Major.minor.patch release.]]></description>
 </item></channel>
 </rss>

@@ -52,6 +52,13 @@
                 <img src="/images/basic-markdown-syntax/featured-image.png" referrerpolicy="no-referrer">
             </div><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
 </item><item>
+    <title>Common Utilities for Linux Terminal</title>
+    <link>https://example.com/common-utilities-for-linux-terminal/</link>
+    <pubDate>Fri, 08 Sep 2017 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/common-utilities-for-linux-terminal/</guid>
+    <description><![CDATA[Navigation Autojump Navigation in terminals using command cd is a real hassle when we have to switch back and forth between multiple directories. Autojump is a convenient tool to jump to a visited directory. While cd is handy to jump to a near relative location, i.e. a children or the parent, autojump complements cd when users jumps to farly different locations. It is not necessarily meant to be a complete replacement of cd.]]></description>
+</item><item>
     <title>Emoji Support</title>
     <link>https://example.com/emoji-support/</link>
     <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
@@ -78,7 +85,7 @@ Common Coding Visual Studio Code: general-purpose IDE for Linux or Windows:
     <guid>https://example.com/static-web-engines/</guid>
     <description><![CDATA[For personal blogs  Hugo Jekyll  For documentations  Docusaurus: open-sourced, good support by Facebook, good UI for navigation Readthedocs: ideal for books, like this Python book Gitbook: appropriate for team documentations Bookstack: idem, open-sourced and self-hosting Docsify: lightweight team documentation Sphinx: API docs with simplified themes, i.e. Alabaster  For APIs  Swagger [Doxygen]: for example, DBus [Redoc]: for example, Docker Postman  ]]></description>
 </item><item>
-    <title>Bash Cheat Sheets, Tips and Tricks</title>
+    <title>Shell Cheat Sheets</title>
     <link>https://example.com/shell-cheat-sheet/</link>
     <pubDate>Tue, 05 May 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
@@ -86,15 +93,5 @@ Common Coding Visual Studio Code: general-purpose IDE for Linux or Windows:
     <description><![CDATA[References  Bash reference manual Cheat sheet Google style convention  Shell scripting Exit when any commands return a non-zero exit code:
 1 2  # exit when any command fails set -e   Further advanced exit strategies are available here
 Troubleshooting Return values in functions Bash can&rsquo;t pass around data structures as return values in functions. A return value must be a numeric exit status between 0-255. It&rsquo;s not recommended to return structured data like below:]]></description>
-</item><item>
-    <title>Git Cheat Sheets</title>
-    <link>https://example.com/git-cheat-sheet/</link>
-    <pubDate>Fri, 01 May 2020 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://example.com/git-cheat-sheet/</guid>
-    <description><![CDATA[GitLab Gitlab CI-CD Reference Pay attention that the correct file for gitlab ci-cd pipeline .gitlab-ci.yml ends with .yml, not .yaml.
-Choose which executor for gitlab runner? Increase concurrent jobs Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.
-The limit of concurrent jobs are tunable in config.toml.
-Job image vs docker executor In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks.]]></description>
 </item></channel>
 </rss>

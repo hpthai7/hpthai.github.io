@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Clean Code - A Handbook of Agile Software Craftsmanship - LoveIt</title><meta name="Description" content="About LoveIt Theme"><meta property="og:title" content="Clean Code - A Handbook of Agile Software Craftsmanship" />
+<meta property="og:description" content="During an internship, I inherited a big project in insurance, featuring the processing and visualization of natural-phenomenon-related risk data and decision making of insurance contracts. The big words of contracts, forewriting,
+Quotes:
+&ldquo;If I don’t do what my manager says, I’ll be fired.&rdquo; Probably not. Most managers want the truth, even when they don’t act like it. Most managers want good code, even when they are obsessing about the schedule. They may defend the schedule and requirements with passion; but that’s their job." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/clean-code-a-handbook-of-agile-software-craftmanship/" />
+<meta property="og:image" content="https://example.com/logo.png"/>
+<meta property="article:published_time" content="2017-11-08T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-11-08T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://example.com/logo.png"/>
+
+<meta name="twitter:title" content="Clean Code - A Handbook of Agile Software Craftsmanship"/>
+<meta name="twitter:description" content="During an internship, I inherited a big project in insurance, featuring the processing and visualization of natural-phenomenon-related risk data and decision making of insurance contracts. The big words of contracts, forewriting,
+Quotes:
+&ldquo;If I don’t do what my manager says, I’ll be fired.&rdquo; Probably not. Most managers want the truth, even when they don’t act like it. Most managers want good code, even when they are obsessing about the schedule. They may defend the schedule and requirements with passion; but that’s their job."/>
+<meta name="application-name" content="LoveIt">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://example.com/clean-code-a-handbook-of-agile-software-craftmanship/" /><link rel="prev" href="https://example.com/test-driven-development/" /><link rel="next" href="https://example.com/migrate-from-jekyll/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Clean Code - A Handbook of Agile Software Craftsmanship",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/example.com\/clean-code-a-handbook-of-agile-software-craftmanship\/"
+        },"image": {
+                "@type": "ImageObject",
+                "url": "https:\/\/example.com\/cover.png",
+                "width":  800 ,
+                "height":  600 
+            },"genre": "posts","keywords": "development","wordcount":  930 ,
+        "url": "https:\/\/example.com\/clean-code-a-handbook-of-agile-software-craftmanship\/","datePublished": "2017-11-08T00:00:00+00:00","dateModified": "2017-11-08T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                "@type": "Organization",
+                "name": "xxxx",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/example.com\/logo.png",
+                "width":  127 ,
+                "height":  40 
+                }
+            },"author": {
+                "@type": "Person",
+                "name": "Thai Ho"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="LoveIt">Thai</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/hpthai7" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="LoveIt">Thai</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/hpthai7" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Clean Code - A Handbook of Agile Software Craftsmanship</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-category">Included in <a href="/categories/development/"><i class="far fa-folder fa-fw"></i>development</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2017-11-08">2017-11-08</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;930 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;5 minutes&nbsp;<span id="/clean-code-a-handbook-of-agile-software-craftmanship/" class="leancloud_visitors" data-flag-title="Clean Code - A Handbook of Agile Software Craftsmanship">
+                        <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
+                    </span>&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><div class="content" id="content"><p>During an internship, I inherited a big project in insurance, featuring the processing and visualization of natural-phenomenon-related risk data and decision making of insurance contracts. The big words of contracts, forewriting,</p>
+<p>Quotes:</p>
+<p>&ldquo;If I don’t do what my manager says, I’ll be fired.&rdquo; Probably not. Most managers want the truth, even when they don’t act like it. Most managers want good code, even when they are obsessing about the schedule. They may defend the schedule and requirements with passion; but that’s their job. It’s your job to defend the code with equal passion.
+You will not make the deadline by making the mess. Indeed, the mess will slow you down instantly, and will force you to miss the deadline. The only way to make the deadline - the only way to go fast - is to keep the code as clean as possible at all times.</p>
+<p>The Boy Scouts of America have a simple rule that we can apply to our profession: Leave the campground cleaner than you found it. If we all checked-in our code a little cleaner than when we checked it out, the code simply could not rot.</p>
+<p>Variables: You should name a variable using the same care with which you name a first-born child.</p>
+<p>Naming conventions: Some interesting ones:</p>
+<p>Use pronounceable names.</p>
+<p>The length of a name should correspond to the size of its scope (for search-friendliness).</p>
+<p>Instead of overloading constructors, use static factory methods with names that describe the arguments.
+Pick one word for one abstract concept and stick with it. For instance, it’s confusing to have fetch, retrieve, and get as equivalent methods of different classes.</p>
+<ol>
+<li>
+<p>Functions: They should be short and only do one thing. So, another way to know that a function is doing more than “one thing” is if you can extract another function from it with a name that is not merely a restatement of its implementation. Try to keep the number of arguments as low as possible. 3 or more is a bad smell. Prefer Exception to returning error codes (often simplifies the code path).</p>
+</li>
+<li>
+<p>Comments: Limit use of comments, which may wrongly express the code&rsquo;s behavior. Except legal comments, information, explanation of intent, clarification, warnings, TODO, JSDoc, public
+APIs</p>
+</li>
+<li>
+<p>Objects vs Data Structures: Fundamental Dichotomy between objects and data structures:</p>
+</li>
+</ol>
+<p>Procedural code (code using data structures) makes it easy to add new functions without
+changing the existing data structures. OO code, on the other hand, makes it easy to add
+new classes without changing existing functions.</p>
+<p>The complement is also true:
+Procedural code makes it hard to add new data structures because all the functions must
+change. OO code makes it hard to add new functions because all the classes must change.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Square</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="n">Point</span> <span class="n">topLeft</span><span class="o">;</span>
+    <span class="kd">public</span> <span class="kt">double</span> <span class="n">side</span><span class="o">;</span>
+<span class="o">}</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Circle</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="n">Point</span> <span class="n">center</span><span class="o">;</span>
+    <span class="kd">public</span> <span class="kt">double</span> <span class="n">radius</span><span class="o">;</span>
+<span class="o">}</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Geometry</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">final</span> <span class="kt">double</span> <span class="n">PI</span> <span class="o">=</span> <span class="n">3</span><span class="o">.</span><span class="na">141592653589793</span><span class="o">;</span>
+    <span class="kd">public</span> <span class="kt">double</span> <span class="nf">area</span><span class="o">(</span><span class="n">Object</span> <span class="n">shape</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">NoSuchShapeException</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">shape</span> <span class="k">instanceof</span> <span class="n">Square</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">Square</span> <span class="n">s</span> <span class="o">=</span> <span class="o">(</span><span class="n">Square</span><span class="o">)</span><span class="n">shape</span><span class="o">;</span>
+            <span class="k">return</span> <span class="n">s</span><span class="o">.</span><span class="na">side</span> <span class="o">*</span> <span class="n">s</span><span class="o">.</span><span class="na">side</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="k">else</span> <span class="k">if</span> <span class="o">(</span><span class="n">shape</span> <span class="k">instanceof</span> <span class="n">Circle</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">Circle</span> <span class="n">c</span> <span class="o">=</span> <span class="o">(</span><span class="n">Circle</span><span class="o">)</span><span class="n">shape</span><span class="o">;</span>
+            <span class="k">return</span> <span class="n">PI</span> <span class="o">*</span> <span class="n">c</span><span class="o">.</span><span class="na">radius</span> <span class="o">*</span> <span class="n">c</span><span class="o">.</span><span class="na">radius</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="k">throw</span> <span class="k">new</span> <span class="n">NoSuchShapeException</span><span class="o">();</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>in comparison with</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Square</span> <span class="kd">implements</span> <span class="n">Shape</span> <span class="o">{</span>
+    <span class="kd">private</span> <span class="n">Point</span> <span class="n">topLeft</span><span class="o">;</span>
+    <span class="kd">private</span> <span class="kt">double</span> <span class="n">side</span><span class="o">;</span>
+    <span class="kd">public</span> <span class="kt">double</span> <span class="nf">area</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="n">side</span><span class="o">*</span><span class="n">side</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Circle</span> <span class="kd">implements</span> <span class="n">Shape</span> <span class="o">{</span>
+    <span class="kd">private</span> <span class="n">Point</span> <span class="n">center</span><span class="o">;</span>
+    <span class="kd">private</span> <span class="kt">double</span> <span class="n">radius</span><span class="o">;</span>
+    <span class="kd">public</span> <span class="kd">final</span> <span class="kt">double</span> <span class="n">PI</span> <span class="o">=</span> <span class="n">3</span><span class="o">.</span><span class="na">141592653589793</span><span class="o">;</span>
+    <span class="kd">public</span> <span class="kt">double</span> <span class="nf">area</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="n">PI</span> <span class="o">*</span> <span class="n">radius</span> <span class="o">*</span> <span class="n">radius</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>The Law of Demeter: only talk to tour immediate friend, i.e. do not invoke a function of an object retrieved from another function.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java"><span class="n">x</span> <span class="o">=</span> <span class="n">shapePool</span><span class="o">.</span><span class="na">getCircle</span><span class="o">().</span><span class="na">getCenter</span><span class="o">().</span><span class="na">getX</span><span class="o">()</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Classes: The Single Responsibility Principle (SRP) states that a class or module should have one, and only one, reason to change.</p>
+<p>Procedural code (code using data structures) makes it easy to add new functions without changing the existing data structures.
+OO code, on the other hand, makes it easy to add new classes without changing existing functions. (by overwriting a base class)
+Procedural code makes it hard to add new data structures because all the functions must change.
+OO code makes it hard to add new functions because all the classes must change.</p>
+<p>Third party libraries: Sometimes useful to wrap third party libraries, so if they change only your wrapper implementation needs to change
+Error handling is important, but if it obscures logic, it’s wrong. Throwing errors makes code cleaner than checking for status values throughout the code.</p>
+<p>Tests: It is unit tests that keep our code flexible, maintainable, and reusable. The reason is simple. If you have tests, you do not fear making changes to the code! Test code should be treated like production code. Talks about learning an external API by writing tests for it (learning tests).</p>
+<p>Concurrency is a decoupling strategy. It helps us decouple what gets done from when it gets done. Concurrency is hard. Concurrency can sometimes improve performance, but only when there is a lot of wait time that can be shared between multiple threads or multiple processors.</p>
+<p>Nothing has a more profound and long-term degrading effect upon a development project than bad code. Bad schedules can be redone, bad requirements can be redefined. Bad team dynamics can be repaired. But bad code rots and ferments, becoming an inexorable weight that drags the team down.</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2017-11-08</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/clean-code-a-handbook-of-agile-software-craftmanship/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://example.com/clean-code-a-handbook-of-agile-software-craftmanship/" data-title="Clean Code - A Handbook of Agile Software Craftsmanship" data-via="hpthai7" data-hashtags="development"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://example.com/clean-code-a-handbook-of-agile-software-craftmanship/" data-hashtag="development"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://example.com/clean-code-a-handbook-of-agile-software-craftmanship/" data-title="Clean Code - A Handbook of Agile Software Craftsmanship" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://example.com/clean-code-a-handbook-of-agile-software-craftmanship/" data-title="Clean Code - A Handbook of Agile Software Craftsmanship"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.12.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://example.com/clean-code-a-handbook-of-agile-software-craftmanship/" data-title="Clean Code - A Handbook of Agile Software Craftsmanship"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Share on Myspace" data-sharer="myspace" data-url="https://example.com/clean-code-a-handbook-of-agile-software-craftmanship/" data-title="Clean Code - A Handbook of Agile Software Craftsmanship" data-description=""><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.12.0/icons/myspace.svg"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://example.com/clean-code-a-handbook-of-agile-software-craftmanship/" data-title="Clean Code - A Handbook of Agile Software Craftsmanship" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Share on Evernote" data-sharer="evernote" data-url="https://example.com/clean-code-a-handbook-of-agile-software-craftmanship/" data-title="Clean Code - A Handbook of Agile Software Craftsmanship"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/development/">development</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/test-driven-development/" class="prev" rel="prev" title="Test-Driven Development By Example"><i class="fas fa-angle-left fa-fw"></i>Test-Driven Development By Example</a>
+            <a href="/migrate-from-jekyll/" class="next" rel="next" title="Migrate to Hugo from Jekyll">Migrate to Hugo from Jekyll<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="mailto:th3ho@yahoo.com" target="_blank">Thai Ho</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.0/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@5.0.1/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"en","pageSize":10,"placeholder":"Your comment ...","recordIP":true,"serverURLs":"https://leancloud.hugoloveit.com","visitor":true}},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
