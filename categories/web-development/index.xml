@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Web Development - Category - LoveIt</title>
-        <link>https://example.com/categories/web-development/</link>
+        <link>https://hpthai7.github.io/categories/web-development/</link>
         <description>Web Development - Category - LoveIt</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>th3ho@yahoo.com (Thai Ho)</managingEditor>
-            <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 09 May 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://example.com/categories/web-development/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 09 May 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://hpthai7.github.io/categories/web-development/" rel="self" type="application/rss+xml" /><item>
     <title>Static Web Engines</title>
-    <link>https://example.com/static-web-engines/</link>
+    <link>https://hpthai7.github.io/static-web-engines/</link>
     <pubDate>Sat, 09 May 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://example.com/static-web-engines/</guid>
+    <guid>https://hpthai7.github.io/static-web-engines/</guid>
     <description><![CDATA[For personal blogs  Hugo Jekyll  For documentations  Docusaurus: open-sourced, good support by Facebook, good UI for navigation Readthedocs: ideal for books, like this Python book Gitbook: appropriate for team documentations Bookstack: idem, open-sourced and self-hosting Docsify: lightweight team documentation Sphinx: API docs with simplified themes, i.e. Alabaster  For APIs  Swagger [Doxygen]: for example, DBus [Redoc]: for example, Docker Postman  ]]></description>
 </item></channel>
 </rss>

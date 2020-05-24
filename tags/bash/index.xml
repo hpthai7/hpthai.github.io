@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>bash - Tag - LoveIt</title>
-        <link>https://example.com/tags/bash/</link>
+        <link>https://hpthai7.github.io/tags/bash/</link>
         <description>bash - Tag - LoveIt</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>th3ho@yahoo.com (Thai Ho)</managingEditor>
-            <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 05 May 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://example.com/tags/bash/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 05 May 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://hpthai7.github.io/tags/bash/" rel="self" type="application/rss+xml" /><item>
     <title>Shell Cheat Sheets</title>
-    <link>https://example.com/shell-cheat-sheet/</link>
+    <link>https://hpthai7.github.io/shell-cheat-sheet/</link>
     <pubDate>Tue, 05 May 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://example.com/shell-cheat-sheet/</guid>
+    <guid>https://hpthai7.github.io/shell-cheat-sheet/</guid>
     <description><![CDATA[References  Bash reference manual Cheat sheet Google style convention  Shell scripting Exit when any commands return a non-zero exit code:
 1 2  # exit when any command fails set -e   Further advanced exit strategies are available here
 Troubleshooting Return values in functions Bash can&rsquo;t pass around data structures as return values in functions. A return value must be a numeric exit status between 0-255. It&rsquo;s not recommended to return structured data like below:]]></description>

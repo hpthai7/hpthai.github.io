@@ -1,22 +1,22 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>terminal - Tag - LoveIt</title>
-        <link>https://example.com/tags/terminal/</link>
+        <link>https://hpthai7.github.io/tags/terminal/</link>
         <description>terminal - Tag - LoveIt</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>th3ho@yahoo.com (Thai Ho)</managingEditor>
-            <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 11 Apr 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://example.com/tags/terminal/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 11 Apr 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://hpthai7.github.io/tags/terminal/" rel="self" type="application/rss+xml" /><item>
     <title>Common Utilities for Linux Terminal</title>
-    <link>https://example.com/common-utilities-for-linux-terminal/</link>
+    <link>https://hpthai7.github.io/common-utilities-for-linux-terminal/</link>
     <pubDate>Fri, 08 Sep 2017 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://example.com/common-utilities-for-linux-terminal/</guid>
+    <guid>https://hpthai7.github.io/common-utilities-for-linux-terminal/</guid>
     <description><![CDATA[Navigation Autojump Navigation in terminals using command cd is a real hassle when we have to switch back and forth between multiple directories. Autojump is a convenient tool to jump to a visited directory. While cd is handy to jump to a near relative location, i.e. a children or the parent, autojump complements cd when users jumps to farly different locations. It is not necessarily meant to be a complete replacement of cd.]]></description>
 </item><item>
     <title>Multi-windows Linux-like terminal on Windows</title>
-    <link>https://example.com/conemu-git-bash-on-windows/</link>
+    <link>https://hpthai7.github.io/conemu-git-bash-on-windows/</link>
     <pubDate>Sat, 11 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://example.com/conemu-git-bash-on-windows/</guid>
+    <guid>https://hpthai7.github.io/conemu-git-bash-on-windows/</guid>
     <description><![CDATA[The frustration of having a Linux-like terminal with bash environment for development purpose has been lingering for a while. There are currently many terminal softwares such as HyperTerminal, ConEmu, Cmder, Cygwin and console application such as git bash, WSL, msys, powershell.
 As a fan of terminator, bash, and oh-my-zsh stack in Linux, I had problems switching to Windows. For Windows, WSL provide a real Linux bash environment, however, its integration with oh-my-zsh library has some font and background problems.]]></description>
 </item></channel>
