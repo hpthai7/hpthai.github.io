@@ -7,6 +7,52 @@
 - [Cheat sheet](https://gist.github.com/LeCoupa/122b12050f5fb267e75f)
 - [Google style convention](https://google.github.io/styleguide/shellguide.html)
 
+## Bourne shell
+
+Bourne shell is sensitive to round brackets `()`. For example:
+
+```bash
+# /bin/sh
+(echo "1.2.3" | grep -Eq ^[0-9]+\.[0-9]+\.[0-9]+$ && VAL=0) || VAL=1;
+echo $VAL; # ''
+echo "1.2.3" | grep -Eq ^[0-9]+\.[0-9]+\.[0-9]+$ && VAL=0 || VAL=1;
+echo $VAL; # 0
+
+# /bin/bash
+(echo "1.2.3" | grep -Eq ^[0-9]+\.[0-9]+\.[0-9]+$ && VAL="OK") || VAL="NOK"
+echo $VAL # OK
+```
+
+Double quotes in Bourne shell make strings un-loopable:
+
+```bash
+#!/bin/bash
+# Read a string with spaces using for loop
+for value in I like programming
+do
+    echo $value;
+done
+
+val="I like programming";
+for value in $val
+do
+    echo $value;
+done
+
+# I
+# like
+# programming
+
+for value in "$val"
+do
+    echo $value;
+done
+
+# I like programming
+```
+
+Attention, `IFS` can change the default behavior, for example, `IFS=""` will not split strings by space. The output value will be `I like programming`.
+
 ## Shell scripting
 
 Exit when any commands return a non-zero exit code:
@@ -61,3 +107,6 @@ give_gifts() {
 }
 ```
 
+### gitlab-ci.yml
+
+YAML files used in GitLab CI does not support colon (:) in commands, i.e. `curl -H "access-token: test"`. Use with care.

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-	<meta name="generator" content="Hugo 0.69.0" />
+	<meta name="generator" content="Hugo 0.69.2" />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
@@ -135,16 +135,15 @@ Flashcards Anki: powerful, intelligent flash cards available for Windows, Linux,
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/shell-cheat-sheet/">Shell Cheat Sheets</a>
     </h1><div class="post-meta">
-        <span class="post-publish">Published on <time datetime="2020-05-05">2020-05-05</time></span><span class="post-category">Included in <a href="/categories/development/"><i class="far fa-folder fa-fw"></i>development</a></span></div><div class="content">References  Bash reference manual Cheat sheet Google style convention  Shell scripting Exit when any commands return a non-zero exit code:
-1 2  # exit when any command fails set -e   Further advanced exit strategies are available here
-Troubleshooting Return values in functions Bash can&rsquo;t pass around data structures as return values in functions. A return value must be a numeric exit status between 0-255. It&rsquo;s not recommended to return structured data like below:</div><div class="post-footer">
+        <span class="post-publish">Published on <time datetime="2020-05-05">2020-05-05</time></span><span class="post-category">Included in <a href="/categories/development/"><i class="far fa-folder fa-fw"></i>development</a></span></div><div class="content">References  Bash reference manual Cheat sheet Google style convention  Bourne shell Bourne shell is sensitive to round brackets (). For example:
+1 2 3 4 5 6 7 8 9  # /bin/sh (echo &#34;1.2.3&#34; | grep -Eq ^[0-9]+\.[0-9]+\.[0-9]+$ &amp;&amp; VAL=0) || VAL=1; echo $VAL; # &#39;&#39; echo &#34;1.2.3&#34; | grep -Eq ^[0-9]+\.[0-9]+\.[0-9]+$ &amp;&amp; VAL=0 || VAL=1; echo $VAL; # 0 # /bin/bash (echo &#34;1.2.3&#34; | grep -Eq ^[0-9]+\.</div><div class="post-footer">
         <a href="/shell-cheat-sheet/">Read More</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/bash/">bash</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/git-cheat-sheet/">Git Cheat Sheets</a>
     </h1><div class="post-meta">
         <span class="post-publish">Published on <time datetime="2020-05-01">2020-05-01</time></span><span class="post-category">Included in <a href="/categories/development/"><i class="far fa-folder fa-fw"></i>development</a>&nbsp;<a href="/categories/git/"><i class="far fa-folder fa-fw"></i>Git</a></span></div><div class="content">GitLab Gitlab CI-CD Reference Pay attention that the correct file for gitlab ci-cd pipeline .gitlab-ci.yml ends with .yml, not .yaml.
-Choose which executor for gitlab runner? Increase concurrent jobs Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.
+Choose which executor for gitlab runner Increase concurrent jobs Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.
 The limit of concurrent jobs are tunable in config.toml.
 Job image vs docker executor In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks.</div><div class="post-footer">
         <a href="/git-cheat-sheet/">Read More</a><div class="post-tags">
@@ -183,5 +182,8 @@ Git Flow Github Flow Gitlab Flow Refence  Gitlab tutorial Stackoverflow Semantic
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.0/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.0/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'UA-163400420-1');
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-163400420-1" async></script></body>
 </html>

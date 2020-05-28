@@ -9,7 +9,7 @@
 
 Pay attention that the correct file for gitlab ci-cd pipeline `.gitlab-ci.yml` ends with `.yml`, not `.yaml`.
 
-### Choose which executor for gitlab runner?
+### Choose which executor for gitlab runner
 
 ### Increase concurrent jobs
 
@@ -76,4 +76,43 @@ job-sample:
     - echo $PROJECT_NAME # Do. Output result: git-cheat-sheet-and-tricks
 
 ```
+
+### Mirroring using deploy keys
+
+Git service providers have a mirroring functionality, allowing a repository either to push to or pull from a mirror.
+
+However, in case mirroring is impossible due to software version or a network policy, a cron job or a CI pipeline with runners like Jenkins can be useful.
+
+In order to register deploy keys in the target mirror, several steps are to follow:
+
+- Firstly generate your SSH keys locally:
+
+  ```bash
+  ssh-keygen -t rsa -C "your.email@address.com" -b 4096
+  ```
+
+- Assign public key `id_rsa.pub` (from ssh-rsa to end of your email) to the target git project, option Create a new deploy key in Project Settings. Ensure  write permission is selected.
+
+  ```bash
+  # Downloads and installs xclip. If you don't have `apt-get`, you might need to use another installer (like `yum`)
+  sudo apt-get install clip
+  # Copies the contents of the id_rsa.pub file to your clipboard
+  xclip -sel clip < ~/.ssh/id_rsa.pub
+  ```
+
+- Add the private `SSH_KEY` to the environment variable of your repository setting and let the CI/CD pipeline or your cron job does its work :).
+
+  ```bash
+  apt update && apt-get install -y openssh
+  mkdir ~/.ssh
+  eval `ssh-agent -s` # start ssh-agent before adding key
+  cat $SSH_KEY | ssh-add - # adding ssh key without using sensitive round brackets
+  echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config # no strict key checking
+  git config --global user.name "Your Name"
+  git config --global user.email "your.email@address.com"
+  git checkout master
+  git pull --unshallow origin master # pull old tree deeply to ensure we have all new changes
+  git remote add remote git@github.com:new/repo.git || true
+  git push -u remote master
+  ```
 

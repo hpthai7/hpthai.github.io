@@ -11,7 +11,7 @@
     <author>Author</author>
     <guid>https://hpthai7.github.io/git-cheat-sheet/</guid>
     <description><![CDATA[GitLab Gitlab CI-CD Reference Pay attention that the correct file for gitlab ci-cd pipeline .gitlab-ci.yml ends with .yml, not .yaml.
-Choose which executor for gitlab runner? Increase concurrent jobs Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.
+Choose which executor for gitlab runner Increase concurrent jobs Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.
 The limit of concurrent jobs are tunable in config.toml.
 Job image vs docker executor In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks.]]></description>
 </item></channel>

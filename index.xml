@@ -92,8 +92,7 @@ Flashcards Anki: powerful, intelligent flash cards available for Windows, Linux,
     <pubDate>Tue, 05 May 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://hpthai7.github.io/shell-cheat-sheet/</guid>
-    <description><![CDATA[References  Bash reference manual Cheat sheet Google style convention  Shell scripting Exit when any commands return a non-zero exit code:
-1 2  # exit when any command fails set -e   Further advanced exit strategies are available here
-Troubleshooting Return values in functions Bash can&rsquo;t pass around data structures as return values in functions. A return value must be a numeric exit status between 0-255. It&rsquo;s not recommended to return structured data like below:]]></description>
+    <description><![CDATA[References  Bash reference manual Cheat sheet Google style convention  Bourne shell Bourne shell is sensitive to round brackets (). For example:
+1 2 3 4 5 6 7 8 9  # /bin/sh (echo &#34;1.2.3&#34; | grep -Eq ^[0-9]+\.[0-9]+\.[0-9]+$ &amp;&amp; VAL=0) || VAL=1; echo $VAL; # &#39;&#39; echo &#34;1.2.3&#34; | grep -Eq ^[0-9]+\.[0-9]+\.[0-9]+$ &amp;&amp; VAL=0 || VAL=1; echo $VAL; # 0 # /bin/bash (echo &#34;1.2.3&#34; | grep -Eq ^[0-9]+\.]]></description>
 </item></channel>
 </rss>

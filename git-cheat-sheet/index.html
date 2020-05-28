@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
         <title>Git Cheat Sheets - Welcome to Thai&#39;s Home</title><meta name="Description" content="About LoveIt Theme"><meta property="og:title" content="Git Cheat Sheets" />
 <meta property="og:description" content="GitLab Gitlab CI-CD Reference Pay attention that the correct file for gitlab ci-cd pipeline .gitlab-ci.yml ends with .yml, not .yaml.
-Choose which executor for gitlab runner? Increase concurrent jobs Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.
+Choose which executor for gitlab runner Increase concurrent jobs Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.
 The limit of concurrent jobs are tunable in config.toml.
 Job image vs docker executor In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks." />
 <meta property="og:type" content="article" />
@@ -20,7 +20,7 @@ Job image vs docker executor In the definition of jobs, the image keyword is the
 
 <meta name="twitter:title" content="Git Cheat Sheets"/>
 <meta name="twitter:description" content="GitLab Gitlab CI-CD Reference Pay attention that the correct file for gitlab ci-cd pipeline .gitlab-ci.yml ends with .yml, not .yaml.
-Choose which executor for gitlab runner? Increase concurrent jobs Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.
+Choose which executor for gitlab runner Increase concurrent jobs Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.
 The limit of concurrent jobs are tunable in config.toml.
 Job image vs docker executor In the definition of jobs, the image keyword is the name of the Docker image the Docker executor will run to perform the CI tasks."/>
 <meta name="application-name" content="LoveIt">
@@ -40,7 +40,7 @@ Job image vs docker executor In the definition of jobs, the image keyword is the
                 "url": "https:\/\/hpthai7.github.io\/cover.png",
                 "width":  800 ,
                 "height":  600 
-            },"genre": "posts","keywords": "git","wordcount":  388 ,
+            },"genre": "posts","keywords": "git","wordcount":  664 ,
         "url": "https:\/\/hpthai7.github.io\/git-cheat-sheet\/","datePublished": "2020-05-01T00:00:00+00:00","dateModified": "2020-05-23T12:21:22+02:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
                 "@type": "Organization",
                 "name": "xxxx",
@@ -125,8 +125,8 @@ Job image vs docker executor In the definition of jobs, the image keyword is the
         </div><article class="page single"><h1 class="single-title animated flipInX">Git Cheat Sheets</h1><div class="post-meta">
             <div class="post-meta-line">
                 <span class="post-category">Included in <a href="/categories/development/"><i class="far fa-folder fa-fw"></i>development</a>&nbsp;<a href="/categories/git/"><i class="far fa-folder fa-fw"></i>Git</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-05-01">2020-05-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;388 words&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;2 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-05-01">2020-05-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;664 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;4 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -138,13 +138,14 @@ Job image vs docker executor In the definition of jobs, the image keyword is the
       <ul>
         <li><a href="#gitlab-ci-cd">Gitlab CI-CD</a></li>
         <li><a href="#reference">Reference</a></li>
-        <li><a href="#choose-which-executor-for-gitlab-runner">Choose which executor for gitlab runner?</a></li>
+        <li><a href="#choose-which-executor-for-gitlab-runner">Choose which executor for gitlab runner</a></li>
         <li><a href="#increase-concurrent-jobs">Increase concurrent jobs</a></li>
         <li><a href="#job-image-vs-docker-executor">Job image vs docker executor</a></li>
         <li><a href="#services-in-jobs">Services in jobs</a></li>
         <li><a href="#semantic-versioning">Semantic versioning</a></li>
         <li><a href="#debugging-in-gitlab-runners">Debugging in gitlab runners</a></li>
         <li><a href="#troubleshooting">Troubleshooting</a></li>
+        <li><a href="#mirroring-using-deploy-keys">Mirroring using deploy keys</a></li>
       </ul>
     </li>
   </ul>
@@ -153,7 +154,7 @@ Job image vs docker executor In the definition of jobs, the image keyword is the
 <h3 id="gitlab-ci-cd">Gitlab CI-CD</h3>
 <h3 id="reference">Reference</h3>
 <p>Pay attention that the correct file for gitlab ci-cd pipeline <code>.gitlab-ci.yml</code> ends with <code>.yml</code>, not <code>.yaml</code>.</p>
-<h3 id="choose-which-executor-for-gitlab-runner">Choose which executor for gitlab runner?</h3>
+<h3 id="choose-which-executor-for-gitlab-runner">Choose which executor for gitlab runner</h3>
 <h3 id="increase-concurrent-jobs">Increase concurrent jobs</h3>
 <p>Jobs are executed by Runners. Multiple jobs in the same stage are executed in parallel, if there are enough concurrent runners.</p>
 <p>The limit of concurrent jobs are tunable in <a href="https://docs.gitlab.com/runner/configuration/advanced-configuration.html" target="_blank" rel="noopener noreffer">config.toml</a>.</p>
@@ -243,7 +244,72 @@ job-sample:
 
 </code></pre></td></tr></table>
 </div>
-</div></div><div class="post-footer" id="post-footer">
+</div><h3 id="mirroring-using-deploy-keys">Mirroring using deploy keys</h3>
+<p>Git service providers have a mirroring functionality, allowing a repository either to push to or pull from a mirror.</p>
+<p>However, in case mirroring is impossible due to software version or a network policy, a cron job or a CI pipeline with runners like Jenkins can be useful.</p>
+<p>In order to register deploy keys in the target mirror, several steps are to follow:</p>
+<ul>
+<li>
+<p>Firstly generate your SSH keys locally:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">ssh-keygen -t rsa -C <span class="s2">&#34;your.email@address.com&#34;</span> -b <span class="m">4096</span>
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>Assign public key <code>id_rsa.pub</code> (from ssh-rsa to end of your email) to the target git project, option Create a new deploy key in Project Settings. Ensure  write permission is selected.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Downloads and installs xclip. If you don&#39;t have `apt-get`, you might need to use another installer (like `yum`)</span>
+sudo apt-get install clip
+<span class="c1"># Copies the contents of the id_rsa.pub file to your clipboard</span>
+xclip -sel clip &lt; ~/.ssh/id_rsa.pub
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>Add the private <code>SSH_KEY</code> to the environment variable of your repository setting and let the CI/CD pipeline or your cron job does its work :).</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">apt update <span class="o">&amp;&amp;</span> apt-get install -y openssh
+mkdir ~/.ssh
+<span class="nb">eval</span> <span class="sb">`</span>ssh-agent -s<span class="sb">`</span> <span class="c1"># start ssh-agent before adding key</span>
+cat <span class="nv">$SSH_KEY</span> <span class="p">|</span> ssh-add - <span class="c1"># adding ssh key without using sensitive round brackets</span>
+<span class="nb">echo</span> -e <span class="s2">&#34;Host *\n\tStrictHostKeyChecking no\n\n&#34;</span> &gt; ~/.ssh/config <span class="c1"># no strict key checking</span>
+git config --global user.name <span class="s2">&#34;Your Name&#34;</span>
+git config --global user.email <span class="s2">&#34;your.email@address.com&#34;</span>
+git checkout master
+git pull --unshallow origin master <span class="c1"># pull old tree deeply to ensure we have all new changes</span>
+git remote add remote git@github.com:new/repo.git <span class="o">||</span> <span class="nb">true</span>
+git push -u remote master
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+</div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -285,5 +351,8 @@ job-sample:
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><script type="text/javascript" src="https://hpthai7.disqus.com/embed.js" defer></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.0/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><script type="text/javascript" src="https://hpthai7.disqus.com/embed.js" defer></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.0/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'UA-163400420-1');
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-163400420-1" async></script></body>
 </html>
