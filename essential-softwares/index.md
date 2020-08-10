@@ -45,6 +45,10 @@ choco install -y vscode
 
 [**Faststone**](https://www.faststone.org/download.htm): powerful, not-free, lightweight, available for [Windows](https://www.faststone.org/download.htm)
 
+### Download Manager
+
+[**Xtreme Download Manager**](https://subhra74.github.io/xdm/): IDM-like downloader, available for [Windows, Linux and MacOS](https://subhra74.github.io/xdm/)
+
 ## Windows 10
 
 ### General tools
