@@ -23,7 +23,7 @@ choco install -y vscode
 
 [**Lingoes**](http://www.lingoes.net/): a dictionary reader available for [Windows](http://www.lingoes.net/en/translator/download.htm) only.
 
-[**GoldenDict**](http://goldendict.org/): another dictionary reader available for [Windows](https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Windows), [Linux](https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Linux-Portable) or [MacOS](https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Mac-OS-X).
+[**GoldenDict**](http://goldendict.org/): another dictionary reader available for [Windows](https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Windows), [Linux](https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Linux-Portable) or [MacOS](https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Mac-OS-X). It provide manually configured [dark theme](https://github.com/goldendict/goldendict/wiki/GoldenDict-Dark-Theme).
 
 #### Flashcards
 
@@ -44,6 +44,8 @@ choco install -y vscode
 [**Greenshot**](https://getgreenshot.org/): free and open-source for [Windows](https://getgreenshot.org/downloads/) and 1.99$ for [MacOS](https://getgreenshot.org/downloads/)
 
 [**Faststone**](https://www.faststone.org/download.htm): powerful, not-free, lightweight, available for [Windows](https://www.faststone.org/download.htm)
+
+**Paint 3D**: for fast text addition
 
 ### Download Manager
 
