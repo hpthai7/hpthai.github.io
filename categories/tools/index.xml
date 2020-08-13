@@ -14,6 +14,6 @@
 Common Coding Visual Studio Code: general-purpose IDE for Linux, Windows and MacOS:
 1  choco install -y vscode   Languages Learning BBC Learning English: beautiful English tutorials at beginner and intermediate level available for Web, iOS, Android.
 Dictionaries Lingoes: a dictionary reader available for Windows only.
-GoldenDict: another dictionary reader available for Windows, Linux or MacOS. It provide manually configured dark theme.]]></description>
+GoldenDict: another dictionary reader available for Windows, Linux or MacOS. It provide a manually configured dark theme by ilius (remember to download the zipped gist to get both CSS files).]]></description>
 </item></channel>
 </rss>

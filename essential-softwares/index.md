@@ -23,7 +23,7 @@ choco install -y vscode
 
 [**Lingoes**](http://www.lingoes.net/): a dictionary reader available for [Windows](http://www.lingoes.net/en/translator/download.htm) only.
 
-[**GoldenDict**](http://goldendict.org/): another dictionary reader available for [Windows](https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Windows), [Linux](https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Linux-Portable) or [MacOS](https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Mac-OS-X). It provide manually configured [dark theme](https://github.com/goldendict/goldendict/wiki/GoldenDict-Dark-Theme).
+[**GoldenDict**](http://goldendict.org/): another dictionary reader available for [Windows](https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Windows), [Linux](https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Linux-Portable) or [MacOS](https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Mac-OS-X). It provide a manually configured [dark theme](https://github.com/goldendict/goldendict/wiki/GoldenDict-Dark-Theme) by [ilius](https://gist.github.com/ilius/5a2f35c79775267fbdb249493c041453/) (remember to download the zipped gist to get both CSS files).
 
 #### Flashcards
 
