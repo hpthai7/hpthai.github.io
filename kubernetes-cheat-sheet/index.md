@@ -32,3 +32,5 @@ It allows us to debug the deployment in a visual manner. We can easily locate wh
 possibilities.
 
 {{< pdf-viewer url="https://learnk8s.io/a/troubleshooting-kubernetes.pdf" >}}
+
+Another good resource to learn more about ingress, service and deployment is available [here](https://morioh.com/p/9e55a1de8097).
