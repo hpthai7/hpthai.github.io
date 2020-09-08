@@ -116,3 +116,11 @@ In order to register deploy keys in the target mirror, several steps are to foll
   git push -u remote master
   ```
 
+### Registration/unregistration of GitLab runners
+
+```bash
+gitlab-runner list
+gitlab-runner unregister --url http://gitlab.example.com/ --token t0k3n
+gitlab-runner unregister --name test-runner
+gitlab-runner unregister --all-runners
+```

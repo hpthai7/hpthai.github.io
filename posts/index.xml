@@ -4,7 +4,7 @@
         <link>https://hpthai7.github.io/posts/</link>
         <description>All Posts | Welcome to Thai&#39;s Home</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>th3ho@yahoo.com (Thai Ho)</managingEditor>
-            <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 07 Jun 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://hpthai7.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>th3ho@yahoo.com (Thai Ho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 31 Aug 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://hpthai7.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Theme Documentation - Basics</title>
     <link>https://hpthai7.github.io/theme-documentation-basics/</link>
     <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
@@ -65,6 +65,14 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/emoji-support/featured-image.jpg" referrerpolicy="no-referrer">
             </div><p>Emoji can be enabled in a Hugo project in a number of ways.</p>]]></description>
+</item><item>
+    <title>Chuyển tiền về Việt Nam</title>
+    <link>https://hpthai7.github.io/chuyen-tien-ve-viet-nam/</link>
+    <pubDate>Mon, 31 Aug 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://hpthai7.github.io/chuyen-tien-ve-viet-nam/</guid>
+    <description><![CDATA[Remitly Hôm qua mình thử chuyển tiền qua REMITLY, trước đó mình đã chuyển rất nhiều lần qua Transferwise rồi, nhưng hôm qua mình thực sự bất ngờ trước tỉ giá của REMITLY. Nó có nhiều điểm lợi hơn Transferwise là :
+ Không cần phải scan hay photo identite ( hộ chiếu, CMT…) Miễn phí hoàn toàn lần chuyển đầu tiên chứ k phải miễn phí chỉ 500 € như Transferwise.]]></description>
 </item><item>
     <title>Notre Nouveau Soleil</title>
     <link>https://hpthai7.github.io/notre-nouveau-soleil/</link>
@@ -214,5 +222,16 @@ In Windows The handy way favors chocolatey. For the theme KeepIt, it&rsquo;s rec
     <guid>https://hpthai7.github.io/introduction-aux-modeles-hugo/</guid>
     <description><![CDATA[Hugo utilise l&rsquo;excellente librairie go html/template pour son moteur de modèles. c&rsquo;est un moteur extrêmement léger qui offre un très petit nombre de fonctions logiques. À notre expérience, c&rsquo;est juste ce qu&rsquo;il faut pour créer un bon site web statique. Si vous avez déjà utilisé d&rsquo;autre moteurs de modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de similitudes avec les modèles go.
 Ce document est une introduction sur l&rsquo;utilisation de Go templates.]]></description>
+</item><item>
+    <title></title>
+    <link>https://hpthai7.github.io/nginx-cheat-sheet/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://hpthai7.github.io/nginx-cheat-sheet/</guid>
+    <description><![CDATA[Study the impact of trailing slash in nginx/ingress configuration
+Imagine a hello-world service that provides a static website with / returns the homepage, and the homepage references to different children pages by using href=https://hpthai7.github.io/hello-world.html.
+1  Hello World. Reference to &lt;a href=&#34;https://hpthai7.github.io/hello-world.html&#34;&gt;an URL&lt;/a&gt;   This page is stored in an nginx container. The basic micro-service should return results for the following requests:
+https://www.sample-page.com/ https://www.sample-page.com/index.html
+The ingress configuration that distributes requests to the microservice via the path /hello-world:]]></description>
 </item></channel>
 </rss>

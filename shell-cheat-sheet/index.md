@@ -19,8 +19,8 @@ echo "1.2.3" | grep -Eq ^[0-9]+\.[0-9]+\.[0-9]+$ && VAL=0 || VAL=1;
 echo $VAL; # 0
 
 # /bin/bash
-(echo "1.2.3" | grep -Eq ^[0-9]+\.[0-9]+\.[0-9]+$ && VAL="OK") || VAL="NOK"
-echo $VAL # OK
+(echo "1.2.3" | grep -Eq ^[0-9]+\.[0-9]+\.[0-9]+$ && VAL="OK") || VAL="NOK";
+echo $VAL; # OK
 ```
 
 Double quotes in Bourne shell make strings un-loopable:
@@ -28,13 +28,13 @@ Double quotes in Bourne shell make strings un-loopable:
 ```bash
 #!/bin/bash
 # Read a string with spaces using for loop
-for value in I like programming
+for value in I like programming;
 do
     echo $value;
 done
 
 val="I like programming";
-for value in $val
+for value in $val;
 do
     echo $value;
 done
@@ -43,7 +43,7 @@ done
 # like
 # programming
 
-for value in "$val"
+for value in "$val";
 do
     echo $value;
 done

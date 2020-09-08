@@ -169,8 +169,8 @@
 <span class="nb">echo</span> <span class="nv">$VAL</span><span class="p">;</span> <span class="c1"># 0</span>
 
 <span class="c1"># /bin/bash</span>
-<span class="o">(</span><span class="nb">echo</span> <span class="s2">&#34;1.2.3&#34;</span> <span class="p">|</span> grep -Eq ^<span class="o">[</span>0-9<span class="o">]</span>+<span class="se">\.</span><span class="o">[</span>0-9<span class="o">]</span>+<span class="se">\.</span><span class="o">[</span>0-9<span class="o">]</span>+$ <span class="o">&amp;&amp;</span> <span class="nv">VAL</span><span class="o">=</span><span class="s2">&#34;OK&#34;</span><span class="o">)</span> <span class="o">||</span> <span class="nv">VAL</span><span class="o">=</span><span class="s2">&#34;NOK&#34;</span>
-<span class="nb">echo</span> <span class="nv">$VAL</span> <span class="c1"># OK</span>
+<span class="o">(</span><span class="nb">echo</span> <span class="s2">&#34;1.2.3&#34;</span> <span class="p">|</span> grep -Eq ^<span class="o">[</span>0-9<span class="o">]</span>+<span class="se">\.</span><span class="o">[</span>0-9<span class="o">]</span>+<span class="se">\.</span><span class="o">[</span>0-9<span class="o">]</span>+$ <span class="o">&amp;&amp;</span> <span class="nv">VAL</span><span class="o">=</span><span class="s2">&#34;OK&#34;</span><span class="o">)</span> <span class="o">||</span> <span class="nv">VAL</span><span class="o">=</span><span class="s2">&#34;NOK&#34;</span><span class="p">;</span>
+<span class="nb">echo</span> <span class="nv">$VAL</span><span class="p">;</span> <span class="c1"># OK</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Double quotes in Bourne shell make strings un-loopable:</p>
@@ -203,13 +203,13 @@
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/bin/bash
 </span><span class="cp"></span><span class="c1"># Read a string with spaces using for loop</span>
-<span class="k">for</span> value in I like programming
+<span class="k">for</span> value in I like programming<span class="p">;</span>
 <span class="k">do</span>
     <span class="nb">echo</span> <span class="nv">$value</span><span class="p">;</span>
 <span class="k">done</span>
 
 <span class="nv">val</span><span class="o">=</span><span class="s2">&#34;I like programming&#34;</span><span class="p">;</span>
-<span class="k">for</span> value in <span class="nv">$val</span>
+<span class="k">for</span> value in <span class="nv">$val</span><span class="p">;</span>
 <span class="k">do</span>
     <span class="nb">echo</span> <span class="nv">$value</span><span class="p">;</span>
 <span class="k">done</span>
@@ -218,7 +218,7 @@
 <span class="c1"># like</span>
 <span class="c1"># programming</span>
 
-<span class="k">for</span> value in <span class="s2">&#34;</span><span class="nv">$val</span><span class="s2">&#34;</span>
+<span class="k">for</span> value in <span class="s2">&#34;</span><span class="nv">$val</span><span class="s2">&#34;</span><span class="p">;</span>
 <span class="k">do</span>
     <span class="nb">echo</span> <span class="nv">$value</span><span class="p">;</span>
 <span class="k">done</span>

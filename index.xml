@@ -68,6 +68,14 @@
                 <img src="/images/emoji-support/featured-image.jpg" referrerpolicy="no-referrer">
             </div><p>Emoji can be enabled in a Hugo project in a number of ways.</p>]]></description>
 </item><item>
+    <title>Chuyển tiền về Việt Nam</title>
+    <link>https://hpthai7.github.io/chuyen-tien-ve-viet-nam/</link>
+    <pubDate>Mon, 31 Aug 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://hpthai7.github.io/chuyen-tien-ve-viet-nam/</guid>
+    <description><![CDATA[Remitly Hôm qua mình thử chuyển tiền qua REMITLY, trước đó mình đã chuyển rất nhiều lần qua Transferwise rồi, nhưng hôm qua mình thực sự bất ngờ trước tỉ giá của REMITLY. Nó có nhiều điểm lợi hơn Transferwise là :
+ Không cần phải scan hay photo identite ( hộ chiếu, CMT…) Miễn phí hoàn toàn lần chuyển đầu tiên chứ k phải miễn phí chỉ 500 € như Transferwise.]]></description>
+</item><item>
     <title>Notre Nouveau Soleil</title>
     <link>https://hpthai7.github.io/notre-nouveau-soleil/</link>
     <pubDate>Sun, 07 Jun 2020 00:00:00 &#43;0000</pubDate>
@@ -88,12 +96,5 @@ Common Coding Visual Studio Code: general-purpose IDE for Linux, Windows and Mac
 1  choco install -y vscode   Languages Learning BBC Learning English: beautiful English tutorials at beginner and intermediate level available for Web, iOS, Android.
 Dictionaries Lingoes: a dictionary reader available for Windows only.
 GoldenDict: another dictionary reader available for Windows, Linux or MacOS. It provide a manually configured dark theme by ilius (remember to download the zipped gist to get both CSS files).]]></description>
-</item><item>
-    <title>Static Web Engines</title>
-    <link>https://hpthai7.github.io/static-web-engines/</link>
-    <pubDate>Sat, 09 May 2020 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://hpthai7.github.io/static-web-engines/</guid>
-    <description><![CDATA[For personal blogs  Hugo Jekyll  For documentations  Docusaurus: open-sourced, good support by Facebook, good UI for navigation Readthedocs: ideal for books, like this Python book Gitbook: appropriate for team documentations Bookstack: idem, open-sourced and self-hosting Docsify: lightweight team documentation Sphinx: API docs with simplified themes, i.e. Alabaster  For APIs  Swagger [Doxygen]: for example, DBus [Redoc]: for example, Docker Postman  ]]></description>
 </item></channel>
 </rss>
