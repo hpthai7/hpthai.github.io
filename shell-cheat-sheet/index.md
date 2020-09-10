@@ -64,6 +64,17 @@ set -e
 
 Further advanced exit strategies are available [here](https://intoli.com/blog/exit-on-errors-in-bash-scripts/)
 
+## Loop
+
+### Loop through directories
+
+```shell
+for d in */ ;
+do
+    echo "$d"
+done
+```
+
 ## Troubleshooting
 
 ### Return values in functions

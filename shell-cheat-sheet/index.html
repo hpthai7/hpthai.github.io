@@ -12,7 +12,7 @@
 <meta property="og:url" content="https://hpthai7.github.io/shell-cheat-sheet/" />
 <meta property="og:image" content="https://hpthai7.github.io/logo.png"/>
 <meta property="article:published_time" content="2020-05-05T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-05-28T23:36:29+02:00" />
+<meta property="article:modified_time" content="2020-09-08T12:54:16+02:00" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://hpthai7.github.io/logo.png"/>
 
@@ -36,8 +36,8 @@
                 "url": "https:\/\/hpthai7.github.io\/cover.png",
                 "width":  800 ,
                 "height":  600 
-            },"genre": "posts","keywords": "bash","wordcount":  370 ,
-        "url": "https:\/\/hpthai7.github.io\/shell-cheat-sheet\/","datePublished": "2020-05-05T00:00:00+00:00","dateModified": "2020-05-28T23:36:29+02:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            },"genre": "posts","keywords": "bash","wordcount":  387 ,
+        "url": "https:\/\/hpthai7.github.io\/shell-cheat-sheet\/","datePublished": "2020-05-05T00:00:00+00:00","dateModified": "2020-09-08T12:54:16+02:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
                 "@type": "Organization",
                 "name": "xxxx",
                 "logo": {
@@ -121,7 +121,7 @@
         </div><article class="page single"><h1 class="single-title animated flipInX">Shell Cheat Sheets</h1><div class="post-meta">
             <div class="post-meta-line">
                 <span class="post-category">Included in <a href="/categories/development/"><i class="far fa-folder fa-fw"></i>development</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-05-05">2020-05-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;370 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-05-05">2020-05-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;387 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -133,6 +133,11 @@
     <li><a href="#references">References</a></li>
     <li><a href="#bourne-shell">Bourne shell</a></li>
     <li><a href="#shell-scripting">Shell scripting</a></li>
+    <li><a href="#loop">Loop</a>
+      <ul>
+        <li><a href="#loop-through-directories">Loop through directories</a></li>
+      </ul>
+    </li>
     <li><a href="#troubleshooting">Troubleshooting</a>
       <ul>
         <li><a href="#return-values-in-functions">Return values in functions</a></li>
@@ -240,7 +245,23 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>Further advanced exit strategies are available <a href="https://intoli.com/blog/exit-on-errors-in-bash-scripts/" target="_blank" rel="noopener noreffer">here</a></p>
-<h2 id="troubleshooting">Troubleshooting</h2>
+<h2 id="loop">Loop</h2>
+<h3 id="loop-through-directories">Loop through directories</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="k">for</span> d in */ <span class="p">;</span>
+<span class="k">do</span>
+    <span class="nb">echo</span> <span class="s2">&#34;</span><span class="nv">$d</span><span class="s2">&#34;</span>
+<span class="k">done</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="troubleshooting">Troubleshooting</h2>
 <h3 id="return-values-in-functions">Return values in functions</h3>
 <p>Bash can&rsquo;t pass around data structures as return values in functions. A return value must be a numeric exit status between 0-255. It&rsquo;s not recommended to return structured data like below:</p>
 <div class="highlight"><div class="chroma">
@@ -320,8 +341,8 @@ give_gifts<span class="o">()</span> <span class="o">{</span>
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2020-05-28&nbsp;<a class="git-hash" href="https://github.com/dillonzq/LoveIt/commit/fa9a5572c934894fcdcddcd1653d17ba4b2301ed" target="_blank" title="commit by Phu Thai HO(hophuthai@gmail.com) fa9a5572c934894fcdcddcd1653d17ba4b2301ed: feat: update google analytics">
-                                    <i class="fas fa-hashtag fa-fw"></i>fa9a557</a></span>
+                <span>Updated on 2020-09-08&nbsp;<a class="git-hash" href="https://github.com/dillonzq/LoveIt/commit/5e8c4c5da4f93ec722a77bf806a26434be79f070" target="_blank" title="commit by Phu Thai HO(hophuthai@gmail.com) 5e8c4c5da4f93ec722a77bf806a26434be79f070: fix: add semicolon to bourne shell scripts">
+                                    <i class="fas fa-hashtag fa-fw"></i>5e8c4c5</a></span>
             </div>
             <div class="post-info-license"></div>
         </div>
